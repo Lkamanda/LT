@@ -1,26 +1,34 @@
+"""
+链接小米6真机
+"""
+
 import os, time, unittest
 from appium import webdriver
-from LT.utils.public_element import *
+# from LT.utils.public_element import *
 
-PE = Public_element()
-print(PE.get_user_avatar())
+# PE = Public_element()
+# print(PE.get_user_avatar())
 
 
 class LT(unittest.TestCase):
 
-    driver = None
+    # driver = None
 
     @classmethod
     def setUp(cls):
         # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
         desired_caps = {'platformName': 'Android',
-                        'platformVersion': '6.0',
-                        'deviceName': 'Q8JNNNGUOF8L4PON',
-                        'app': r'D:\apk\boobuz.apk',
+                        'platformVersion': '8.0.0',
+                        'deviceName': 'a82ccd1d',
+                        # 'app': r'D:\apk\boobuz.apk',
+                        'appPackage': 'com.erlinyou.worldlist',
+                        'appActivity': 'com.erlinyou.map.Erlinyou',
                         'unicodKeyboard': 'True',
                         'resetKeyboard': 'True',
-                        'noReset': 'True'}
+                        'noReset': 'True',
+                        # 'autoGrantPermissions': 'True'
+                        }
         # 手机类型
         # 被测试手机，版本
         # baa822b7   a82ccd1d Q8JNNNGUOF8L4PON   127.0.0.1:62001 ，
@@ -32,7 +40,9 @@ class LT(unittest.TestCase):
         # appium 传输中使用自己的输入法，可以传输中文
         # 程序结束时重置原来的输入法
         # desired_caps['autoGrantPermissions'] = 'True'
+        print('start')
         cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+        print('test1')
         time.sleep(10)
 
     @classmethod
@@ -43,7 +53,9 @@ class LT(unittest.TestCase):
     def test_1(self):
         print('test1')
         # self.driver.find_element_by_id().click()
-        # self.driver.find_element_by_id('user_avatar_img').click()
+        time.sleep(4)
+        self.driver.find_element_by_id('user_avatar_img').click()
+        time.sleep(4)
         self.driver.find_element_by_id("user_name_tv").click()
         self.driver.find_element_by_id("iv_other_login").click()
         self.driver.implicitly_wait(10)
