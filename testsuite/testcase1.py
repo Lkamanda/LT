@@ -1,6 +1,6 @@
 import os, time, unittest
 from appium import webdriver
-from LT.utils.public_element import *
+from utils.public_element import *
 
 PE = Public_element()
 print(PE.get_user_avatar())

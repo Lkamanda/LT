@@ -1,4 +1,4 @@
-from LT.utils.public_method import *
+from .public_method import *
 
 
 class Public_element:
