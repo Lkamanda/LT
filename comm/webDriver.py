@@ -10,10 +10,10 @@ class webDriver:
     def setUpClass(cls):
         # print('进入整个测试类')
 
-        PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
+        # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
         desired_caps = {'platformName': 'Android',    # 手机类型
-                        'platformVersion': '8.0.0',   # 被测试手机，版本
+                        'platformVersion': '8.0.0',   # 被测试手机，
                         'deviceName': 'a82ccd1d',     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   127.0.0.1:62001 设备名称， adb devices
                         'appPackage': 'com.erlinyou.worldlist',
                         'appActivity': 'com.erlinyou.map.Erlinyou',

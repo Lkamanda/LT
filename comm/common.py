@@ -7,13 +7,26 @@ import os
 # C:\Users\zhoujialin\PycharmProjects\aut_LT\LT\report\img_result
 def screenShot(driver, test_name):
     # imPath = filePath + '/result/image/' + rq + '.png'
-    rq = time.strftime('%Y-%m-%d_%H_%M_%S', time.localtime(time.time()))
+    rq = str_nowTime()
     print(rq)
     p = "/report/img_result/"
     imPath = (os.path.dirname(os.path.dirname(__file__)) + p + rq + '%s.png') % test_name
-    print(imPath)
+    # print(imPath)
     driver.get_screenshot_as_file(imPath)
-#
+
+
+def str_nowTime():
+    """返回当前时间以字符串形式返回"""
+    print(time.strftime('%Y-%m-%d %H-%M-%S'))
+    return time.strftime('%Y-%m-%d %H-%M-%S')
+
+
+if __name__ == '__main__':
+    str_nowTime()
+
+
+
+
 #
 # # def take_screenShot(self, name="takeShot"):
 # #     '''

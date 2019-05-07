@@ -1,6 +1,6 @@
-# 点击首页用户头像
-def userAvatar(driver):
-    driver.find_element_by_id('user_avatar_img').click()
+"""
+登录页面
+"""
 
 
 # 点击个人中心 登录/注册 button

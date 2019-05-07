@@ -1,0 +1,29 @@
+1.cannot import name 'InvalidArgumentException' from 'selenium.common.exceptions'
+在selenium.common.exceptions.py中直接定义了InvalidArgumentException，代码如下
+
+class InvalidArgumentException(WebDriverException):
+    """
+    """
+    pass
+
+2、# 使用装饰器设置测试用例预期失败
+    @unittest.expectedFailure
+    @unittest.skip(reason)
+
+直接跳过被装饰的测试，reason是描述跳过的原因。
+
+@unittest.skipIf(condition, reason)
+
+如果if的条件成立则跳过测试。
+
+@unittest.skipUnless(condition, reason)
+
+除非条件为真，否则跳过测试。
+
+@unittest.expectedFailure
+
+标记测试为失败，如果在运行时失败，则不会在结果中统计。
+
+exception unittest.SkipTest(reason)
+
+跳过测试抛出的异常。
