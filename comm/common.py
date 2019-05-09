@@ -1,14 +1,14 @@
+"""
+提供一些公共的方法
+"""
 import time
 import os
 
 
-# PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
-# print(PATH)
-# C:\Users\zhoujialin\PycharmProjects\aut_LT\LT\report\img_result
 def screenShot(driver, test_name):
+    """对当前页面进行截屏，并存储"""
     # imPath = filePath + '/result/image/' + rq + '.png'
     rq = str_nowTime()
-    print(rq)
     p = "/report/img_result/"
     imPath = (os.path.dirname(os.path.dirname(__file__)) + p + rq + '%s.png') % test_name
     # print(imPath)
@@ -17,35 +17,51 @@ def screenShot(driver, test_name):
 
 def str_nowTime():
     """返回当前时间以字符串形式返回"""
-    print(time.strftime('%Y-%m-%d %H-%M-%S'))
     return time.strftime('%Y-%m-%d %H-%M-%S')
 
 
-if __name__ == '__main__':
-    str_nowTime()
+def get_mobile_size(driver):
+    """获取手机屏幕尺寸"""
+    x = driver.get_window_size()['width']
+    y = driver.get_window_size()['height']
+    return x, y
 
 
+def swipeUp(driver, t):
+    """
+    屏幕向上滑动
+    :param driver: self.driver
+    :param t: 实现滑动的时间
+    """
+    x, y = get_mobile_size(driver)
+    x1 = int(x * 0.5)    #x坐标
+    y1 = int(y * 0.75)   #起始y坐标
+    y2 = int(x * 0.25)   #终点y坐标
+    driver.swipe(x1, y1, x1, y2, t)
 
 
-#
-# # def take_screenShot(self, name="takeShot"):
-# #     '''
-# #     method explain:获取当前屏幕的截图
-# #     parameter explain：【name】 截图的名称
-# #     Usage:
-# #         device.take_screenShot(u"个人主页")   #实际截图保存的结果为：2018-01-13_17_10_58_个人主页.png
-# #     '''
-# #     day = time.strftime("%Y-%m-%d", time.localtime(time.time()))
-# #     fq = "..\\screenShots\\" + day
-# #     # fq =os.getcwd()[:-4] +'screenShots\\'+day    根据获取的路径，然后截取路径保存到自己想存放的目录下
-# #     tm = time.strftime("%Y-%m-%d_%H_%M_%S", time.localtime(time.time()))
-# #     type = '.png'
-# #     filename = ""
-# #     if os.path.exists(fq):
-# #         filename = fq + "\\" + tm + "_" + name + type
-# #     else:
-# #         os.makedirs(fq)
-# #         filename = fq + "\\" + tm + "_" + name + type
-# #     # c = os.getcwd()
-# #     # r"\\".join(c.split("\\"))     #此2行注销实现的功能为将路径中的\替换为\\
-# #     self.driver.get_screenshot_as_file(filename)
+def swipeDown(driver, t):
+    """屏幕向下滑动"""
+    x, y = get_mobile_size(driver)
+    x1 = int(x * 0.5)
+    y1 = int(y * 0.25)
+    y2 = int(y * 0.75)
+    driver.swipe(x1, y1, x1, y2, t)
+
+
+def swipeLeft(driver, t):
+    """屏幕向左滑动"""
+    x, y = get_mobile_size(driver)
+    x1 = int(x * 0.75)
+    y1 = int(y * 0.5)
+    x2 = int(x * 0.05)
+    driver.swipe(x1, y1, x2, y1, t)
+
+
+def swipeRight(driver, t):
+    """#屏幕向右滑动"""
+    x, y = get_mobile_size(driver)
+    x1 = int(x * 0.05)
+    y1 = int(y * 0.5)
+    x2 = int(x* 0.75)
+    driver.swipe(x1, y1, x2, y1, t)

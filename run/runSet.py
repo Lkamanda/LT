@@ -1,7 +1,7 @@
 from HTMLTestRunner import HTMLTestRunner
 import os, time
 import unittest
-from LT.comm.common import *
+from comm.common import *
 
 
 def getSuite():
@@ -10,7 +10,7 @@ def getSuite():
     print(start_dir)
     suite = unittest.TestLoader().discover(
         start_dir=start_dir,
-        pattern='test_*.py',
+        pattern='test*.py',
         top_level_dir=None
     )
     # print(1)

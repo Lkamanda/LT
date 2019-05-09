@@ -5,11 +5,10 @@ import os
 
 class webDriver:
     # 整个类开始和结束执行
-
+    # driver = None
     @classmethod
     def setUpClass(cls):
         # print('进入整个测试类')
-
         # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
         desired_caps = {'platformName': 'Android',    # 手机类型
@@ -21,10 +20,9 @@ class webDriver:
                         'resetKeyboard': 'True',      # 程序结束时重置原来的输入法
                         'noReset': 'True',     # 如果app存在则不重新安装
                         # 'autoGrantPermissions': 'True'
-                        # 'app': PATH('./apps/HelloFreeMusic.apk')
+                        # 'app': r"C:\Users\zhoujialin\PycharmProjects\aut_LT\LT\apps\boobuz.apk"
                         # desired_caps['autoGrantPermissions'] = 'True'
                         }
-        # C:\Users\zhoujialin\PycharmProjects\aut_LT\LT\apps\boobuz.apk
         time.sleep(3)
         try:
             cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
@@ -37,7 +35,8 @@ class webDriver:
     def tearDownClass(cls):
         print('整个测试类结束')
         time.sleep(2)
-        cls.driver.quit()
+        # cls.driver.quit()
+        print('driver quit')
 
     # 每条测试用例开始都执行
     @staticmethod

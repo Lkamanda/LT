@@ -1,0 +1,15 @@
+2019-05-09 17:07:20,952 - Logger - INFO - 进入我的页面
+2019-05-09 17:07:22,592 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-05-09 17:07:23,731 - Logger - INFO - 点击微信图标进行登录
+2019-05-09 17:07:26,065 - Logger - INFO - True
+2019-05-09 17:07:26,065 - Logger - INFO - 微信登录成功
+2019-05-09 17:07:26,808 - Logger - INFO - return my page success
+2019-05-09 17:07:27,816 - Logger - INFO - return home page success
+2019-05-09 17:07:28,739 - Logger - INFO - get into mine home page
+2019-05-09 17:07:29,264 - Logger - INFO - 向上滑动屏幕
+2019-05-09 17:07:31,609 - Logger - INFO - 触发退出登录按钮
+2019-05-09 17:07:32,760 - Logger - INFO - 确认退出登录退出
+2019-05-09 17:07:33,620 - Logger - INFO - 返回我的页面
+2019-05-09 17:07:34,348 - Logger - INFO - 获取访客数成功
+2019-05-09 17:07:34,349 - Logger - INFO - True
+2019-05-09 17:07:34,349 - Logger - INFO - 登录退出成功
