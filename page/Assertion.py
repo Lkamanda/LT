@@ -43,6 +43,7 @@ def check_mobile_login(driver, test_name):
         driver.implicitly_wait(5)
         driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
         mylogger.info("进入消息界面成功")
+        time.sleep(1)
         return True
     except Exception as e:
         mylogger.debug(e)

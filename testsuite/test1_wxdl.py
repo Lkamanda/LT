@@ -8,11 +8,12 @@ from page_element.login_page_element import *
 from page_element.mine_leavemap_allmap_element import *
 from page_element.mine_page_element import *
 from page.Assertion import *
-from comm.logging import *
+from comm.logging import Logger
 from comm.common import *
 
 
 class WX(webDriver, unittest.TestCase):
+
     # @unittest.skip('not need')
     def test_1(self):
         """微信登录"""

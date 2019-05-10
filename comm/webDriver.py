@@ -1,6 +1,7 @@
 from appium import webdriver
 import time
 import os
+from comm.logging import *
 
 
 class webDriver:
