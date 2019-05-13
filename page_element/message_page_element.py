@@ -2,7 +2,12 @@
 消息页面元素事件
 """
 from comm.config import MyConfig
+from comm.logging import *
 
+
+def message_back_element(driver):
+    """消息页面返回home_page按钮"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/imageview_search").click()
 
 # 聊天title
 def chatTitle_element(driver):
@@ -23,8 +28,9 @@ def notice_element(driver):
 def first_chat_element(driver):
     # driver.find_element_by_xpath("//android.widget.ListView/android.widget.RelativeLayout[1]").click()
     # driver.find_element_by_android_uiautomator('new UiSelector().text("WE")').click()
-    driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
-
+    # driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
+    driver.implicitly_wait(10)
+    driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
 
 # img_more  加号button
 def chat_img_more_element(driver):
@@ -48,8 +54,12 @@ def chat_sendkeys_element(driver):
 
 
 # 发送消息button 点击
-def chat_send_all_elment(driver):
-    driver.find_element_by_id("com.erlinyou.worldlist:id/btnSend").click()
+def chat_send_all_element(driver):
+    try:
+        driver.find_element_by_id("com.erlinyou.worldlist:id/btnSend").click()
+    except:
+        mylogger.debug("发送button定位失败")
+
 
 
 # 调用相册
@@ -81,3 +91,4 @@ def chat_add_photo_preview(driver):
 def chat_add_photo_preview_send(driver):
     """相册预览后的发送按钮"""
     driver.find_element_by_id("com.erlinyou.worldlist:id/btn_send").click()
+

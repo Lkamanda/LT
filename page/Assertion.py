@@ -20,10 +20,13 @@ def check_wx_login(driver, test_name):
 # 判断微信是否退出成功
 def check_wx_logout(driver, test_name):
     try:
-        driver.implicitly_wait(5)
-        visitor_element = driver.find_element_by_xpath("//android.widget.LinearLayout[5]/android.widget.TextView[1]")
-        count_visitor = int(visitor_element.get_attribute("text"))
-        mylogger.info('获取访客数成功')
+        print('1')
+        driver.implicitly_wait(10)
+        count_visitor = driver.find_element_by_xpath("//android.widget.LinearLayout[5]/android.widget.TextView[1]").text
+        # count_visitor = driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[5]/android.widget.TextView[1]").get_attribute("name")
+        print(count_visitor)
+        count_visitor = int(count_visitor)
+        mylogger.info('获取访客数成功%s' % count_visitor)
         if count_visitor == 0:
             mylogger.info("True")
             return True
@@ -32,7 +35,7 @@ def check_wx_logout(driver, test_name):
             return False
 
     except Exception as e:
-        mylogger(e)
+        mylogger.debug(e)
         screenShot(driver, test_name)
         return False
 

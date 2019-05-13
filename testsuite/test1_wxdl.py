@@ -8,7 +8,7 @@ from page_element.login_page_element import *
 from page_element.mine_leavemap_allmap_element import *
 from page_element.mine_page_element import *
 from page.Assertion import *
-from comm.logging import Logger
+from comm.logging import *
 from comm.common import *
 
 
@@ -50,12 +50,13 @@ class WX(webDriver, unittest.TestCase):
         """当前用户退出"""
         # 测试账号被访问数必须不为0
         test_name = "当前用户退出"
-        self.driver.implicitly_wait(3)
+        self.driver.implicitly_wait(5)
         userAvatar_element(self.driver)
         mylogger.info("get into mine home page")
-        swipeUp(driver=self.driver, t=1000)
+        self.driver.implicitly_wait(10)
+        swipeUp(driver=self.driver, t=10000)
         mylogger.info("向上滑动屏幕")
-        self.driver.implicitly_wait(4)
+        self.driver.implicitly_wait(10)
         mine_setting(self.driver)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/btn_logout").click()
         mylogger.info("触发退出登录按钮")
@@ -64,7 +65,10 @@ class WX(webDriver, unittest.TestCase):
         mylogger.info("确认退出登录退出")
         allmap_back_element(self.driver)
         mylogger.info("返回我的页面")
-        self.assertEqual(True, check_wx_logout(driver=self.driver, test_name=test_name))
+        self.driver.implicitly_wait(20)
+        x = check_wx_logout(driver=self.driver, test_name=test_name)
+        print(x)
+        self.assertEqual(True, x)
         mylogger.info("登录退出成功")
 
 

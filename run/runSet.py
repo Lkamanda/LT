@@ -1,8 +1,7 @@
 from HTMLTestRunner import HTMLTestRunner
-import os, time
 import unittest
 from comm.common import *
-
+# from comm.logging import *
 
 def getSuite():
     """获取执行测试套件"""
@@ -13,7 +12,6 @@ def getSuite():
         pattern='test*.py',
         top_level_dir=None
     )
-    # print(1)
     return suite
 
 

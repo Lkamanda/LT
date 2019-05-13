@@ -35,7 +35,6 @@ class webDriver:
     @classmethod
     def tearDownClass(cls):
         print('整个测试类结束')
-        time.sleep(2)
         # cls.driver.quit()
         print('driver quit')
 
