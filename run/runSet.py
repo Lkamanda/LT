@@ -1,7 +1,8 @@
 from HTMLTestRunner import HTMLTestRunner
 import unittest
 from comm.common import *
-# from comm.logging import *
+
+
 
 def getSuite():
     """获取执行测试套件"""

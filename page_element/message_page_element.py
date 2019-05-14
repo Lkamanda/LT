@@ -2,12 +2,13 @@
 消息页面元素事件
 """
 from comm.config import MyConfig
-from comm.logging import *
+from comm.mylog import *
 
 
 def message_back_element(driver):
     """消息页面返回home_page按钮"""
     driver.find_element_by_id("com.erlinyou.worldlist:id/imageview_search").click()
+
 
 # 聊天title
 def chatTitle_element(driver):
@@ -29,8 +30,8 @@ def first_chat_element(driver):
     # driver.find_element_by_xpath("//android.widget.ListView/android.widget.RelativeLayout[1]").click()
     # driver.find_element_by_android_uiautomator('new UiSelector().text("WE")').click()
     # driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
-    driver.implicitly_wait(10)
     driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
+
 
 # img_more  加号button
 def chat_img_more_element(driver):
@@ -59,7 +60,6 @@ def chat_send_all_element(driver):
         driver.find_element_by_id("com.erlinyou.worldlist:id/btnSend").click()
     except:
         mylogger.debug("发送button定位失败")
-
 
 
 # 调用相册
@@ -91,4 +91,59 @@ def chat_add_photo_preview(driver):
 def chat_add_photo_preview_send(driver):
     """相册预览后的发送按钮"""
     driver.find_element_by_id("com.erlinyou.worldlist:id/btn_send").click()
+
+
+def chat_add_all(driver, n):
+    """
+    对加号下的各个接口调用
+    :param driver:
+    :param n:
+    n = 1 :相册
+    n = 2 : 拍摄
+    n = 3 : 语音聊天
+    n = 4 : 视频聊天
+    n = 5 : 位置分享
+    n = 6 : 联系人
+    n = 7 : 地点
+    n = 8 : 分享软件
+    """
+    driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout[%s]/android.widget.ImageView" % n).click()
+
+
+def chat_add_sendfile(driver):
+    """发送文件按钮触发"""
+    # 进入加号下调用左滑
+    driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout/android.widget.ImageView").click()
+
+
+def chat_take_picture_getback(driver):
+    """拍照下返回"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/focusImageView").click()
+
+def chat_take_picture_start(driver):
+    """拍照启动"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/btn_shutter_camera").click()
+
+
+def chat_take_picture_album(driver):
+    """从相册中选择"""
+    # driver.find_element_by_xpath("//android.widget.FrameLayout/android.widget.ImageView").click()
+    driver.find_element_by_id("com.erlinyou.worldlist:id/btn_thumbnail").click()
+
+
+def chat_take_picture_videotape(driver):
+    """照片切换视频按钮"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/btn_switch_mode").click()
+
+
+def chat_take_piucture_sure(driver, n):
+    """
+    拍照的取消和确定button
+    :param driver:
+    :param n:
+    n : 1 取消
+    n : 2 确定
+    """
+    driver.find_element_by_xpath("//android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView[%s]" % n).click()
+
 

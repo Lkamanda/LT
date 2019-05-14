@@ -1,17 +1,13 @@
 import unittest
 from comm.webDriver import *
-from comm.common import *
-from page_element.home_page_element import *
-from page_element.login_page_element import *
-from page_element.message_page_element import *
-from page_element.mine_page_element import *
-from page_element.mine_leavemap_allmap_element import *
-from comm.logging import *
-from page.Assertion import *
+from comm.usuallymodule import *
 
 
 class ZH_message(webDriver, unittest.TestCase):
-    # @unittest.skip('not need')  跳过该跳测试用例
+    #    @unittest.skip('not need')
+    #
+    # 跳过该跳测试用例
+
     def test1_dl_mobile_number(self):
         """登录手机账号密码"""
         print(self._testMethodName)  # 返回测试用例名称
@@ -112,47 +108,46 @@ class ZH_message(webDriver, unittest.TestCase):
         self.driver.implicitly_wait(10)
         message_back_element(self.driver)
 
-    def test5_exite(self):
-        """当前用户退出"""
-        # 测试账号被访问数必须不为0
-        # test_name = "当前用户退出"
-        # self.driver.implicitly_wait(3)
-        # userAvatar_element(self.driver)
-        # mylogger.info("get into mine home page")
-        # swipeUp(driver=self.driver, t=1000)
-        # mylogger.info("向上滑动屏幕")
-        # self.driver.implicitly_wait(10)
-        # mine_setting(self.driver)
-        # self.driver.find_element_by_id("com.erlinyou.worldlist:id/btn_logout").click()
-        # mylogger.info("触发退出登录按钮")
-        # self.driver.implicitly_wait(5)
-        # self.driver.find_element_by_id("android:id/button1").click()
-        # mylogger.info("确认退出登录退出")
-        # self.driver.implicitly_wait(5)
-        # allmap_back_element(self.driver)
-        # mylogger.info("返回我的页面")
-        # self.driver.implicitly_wait(10)
-        # self.assertEqual(True, check_wx_logout(driver=self.driver, test_name=test_name))
-        # mylogger.info("登录退出成功")
-        test_name = "mobile quit"
-        self.driver.implicitly_wait(5)
-        userAvatar_element(self.driver)
-        mylogger.info("get into mine home page")
-        swipeUp(driver=self.driver, t=1000)
-        mylogger.info("向上滑动屏幕")
-        self.driver.implicitly_wait(10)
-        mine_setting(self.driver)
-        self.driver.find_element_by_id("com.erlinyou.worldlist:id/btn_logout").click()
-        mylogger.info("触发退出登录按钮")
-        self.driver.implicitly_wait(5)
-        self.driver.find_element_by_id("android:id/button1").click()
-        mylogger.info("确认退出登录退出")
-        allmap_back_element(self.driver)
-        mylogger.info("返回我的页面")
+    def test_take_picture_1(self):
+        """拍照后勾选所拍照片发送"""
+        test_name = "拍照后勾选所拍照片发送"
         self.driver.implicitly_wait(20)
-        y = check_wx_logout(driver=self.driver, test_name=test_name)
-        self.assertEqual(True, y)
-        mylogger.info("登录退出成功")
+        self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
+        self.driver.implicitly_wait(20)
+        first_chat_element(driver=self.driver)
+        mylogger.info("进入与第一个联系人交互界面")
+        self.driver.implicitly_wait(20)
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").click()
+        mylogger.info("触发聊天成功")
+        self.driver.implicitly_wait(20)
+        chat_img_more_element(self.driver)
+        self.driver.implicitly_wait(10)
+        chat_add_all(driver=self.driver, n=2)
+        mylogger.info("进入拍摄page")
+        time.sleep(2)
+        self.driver.implicitly_wait(10)
+        chat_take_picture_start(self.driver)
+        mylogger.info("触发拍摄按钮")
+        self.driver.implicitly_wait(5)
+        chat_take_piucture_sure(driver=self.driver, n=2)
+        self.driver.implicitly_wait(20)
+        # chat_take_picture_album(self.driver)
+        # mylogger.info("进入相册选择界面")
+        # self.driver.implicitly_wait(10)
+        # chat_add_photo_send(self.driver)
+        # mylogger.info("触发发送")
+        chat_take_picture_getback(self.driver)
+        screenShot(driver=self.driver, test_name=test_name)
+    # def test_take_picture_2(self):
+    #     """拍照后发送"""
+    # def test_take_picture_3(self):
+    #     """拍摄视频后发送"""
+    # def test_take_picture_4(self):
+    #     """拍摄照片后再拍摄视频发送"""
+
+    # def test5_exit(self):
+    #     """当前用户退出"""
+    #     logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

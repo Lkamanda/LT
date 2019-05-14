@@ -1,6 +1,6 @@
 from comm.common import *
 from page_element.mine_page_element import download_map
-from comm.logging import *
+from comm.mylog import *
 
 
 # 判断微信是否登录成功
