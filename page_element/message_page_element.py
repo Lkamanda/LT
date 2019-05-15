@@ -116,9 +116,12 @@ def chat_add_sendfile(driver):
     driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout/android.widget.ImageView").click()
 
 
-def chat_take_picture_getback(driver):
-    """拍照下返回"""
-    driver.find_element_by_id("com.erlinyou.worldlist:id/focusImageView").click()
+# def chat_take_picture_getback(driver):
+#     """拍照下返回"""
+#     #driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.ImageView").click()
+#     driver.find_element_by_id("com.erlinyou.worldlist:id/focusImageView").click()
+
+    # driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack").click()
 
 def chat_take_picture_start(driver):
     """拍照启动"""
@@ -146,4 +149,18 @@ def chat_take_piucture_sure(driver, n):
     """
     driver.find_element_by_xpath("//android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView[%s]" % n).click()
 
+
+def chat_location_share_get_back(driver):
+    """位置分享 返回聊天按钮"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/chat").click()
+
+
+def chat_location_share_stop(driver):
+    """位置分享 结束"""
+    driver.find_element_by_id("stop").click()
+
+
+def chat_contact_share_search(driver, n):
+    """联系人分享 查询button"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/edit_search").send_keys(n)
 

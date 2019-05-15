@@ -1,10 +1,10 @@
-from comm.logs import myLog
 from page_element.home_page_element import *
-from page_element.message_page_element import *
-from comm.common import *
 from page_element.mine_leavemap_allmap_element import *
 from page_element.mine_page_element import *
 from page.Assertion import *
+from page_element.message_page_element import *
+from comm.common import *
+from comm.logs import myLog
 from page_element.login_page_element import *
 
 
@@ -30,4 +30,10 @@ def logout(self, driver):
     y = check_wx_logout(driver=self.driver, test_name=test_name)
     self.assertEqual(True, y)
     mylogger.info("登录退出成功")
+
+
+def element_error(driver, e):
+    mylogger.error(e)
+    test_name = ""
+    screenShot(driver, test_name)
 

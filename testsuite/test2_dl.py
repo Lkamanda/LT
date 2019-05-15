@@ -38,7 +38,7 @@ class ZH_message(webDriver, unittest.TestCase):
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)
-        self.driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").click()
+        self.driver.find_element_by_id("et_msg").click()   # com.erlinyou.worldlist:id/
         print(str_nowTime())
         self.driver.implicitly_wait(10)
         # self.driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").send_keys("123")
@@ -75,9 +75,6 @@ class ZH_message(webDriver, unittest.TestCase):
         swipeLeft(self.driver, 1000)
         self.driver.implicitly_wait(5)
         chat_add_photo_preview_send(self.driver)
-        # print(str_nowTime())
-        # time.sleep(30)
-        # print(str_nowTime())
         self.driver.implicitly_wait(30)
         mylogger.info("照片上传成功")
 
@@ -85,7 +82,7 @@ class ZH_message(webDriver, unittest.TestCase):
         """直接发送照片"""
         print("进入test4")
         self.driver.implicitly_wait(30)
-        self.driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").click()
+        self.driver.find_element_by_id("et_msg").click()      # com.erlinyou.worldlist:id/
         chat_img_more_element(self.driver)
         mylogger.info("点击+号")
         self.driver.implicitly_wait(15)
@@ -108,7 +105,7 @@ class ZH_message(webDriver, unittest.TestCase):
         self.driver.implicitly_wait(10)
         message_back_element(self.driver)
 
-    def test_take_picture_1(self):
+    def test5_take_picture(self):
         """拍照后勾选所拍照片发送"""
         test_name = "拍照后勾选所拍照片发送"
         self.driver.implicitly_wait(20)
@@ -118,8 +115,9 @@ class ZH_message(webDriver, unittest.TestCase):
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(20)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").click()
+        time.sleep(2)
         mylogger.info("触发聊天成功")
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(10)
         chat_img_more_element(self.driver)
         self.driver.implicitly_wait(10)
         chat_add_all(driver=self.driver, n=2)
@@ -136,14 +134,49 @@ class ZH_message(webDriver, unittest.TestCase):
         # self.driver.implicitly_wait(10)
         # chat_add_photo_send(self.driver)
         # mylogger.info("触发发送")
-        chat_take_picture_getback(self.driver)
+        self.driver.press_keycode(4)
         screenShot(driver=self.driver, test_name=test_name)
+
     # def test_take_picture_2(self):
     #     """拍照后发送"""
     # def test_take_picture_3(self):
     #     """拍摄视频后发送"""
     # def test_take_picture_4(self):
     #     """拍摄照片后再拍摄视频发送"""
+
+    def test6_location_share_1(self):
+        """共享位置直接停止"""
+        test_name = "共享位置直接停止"
+        self.driver.find_element_by_id("et_msg").click()
+        chat_img_more_element(self.driver)
+        chat_add_all(self.driver, n=5)
+        self.driver.implicitly_wait(10)
+        chat_location_share_stop(self.driver)
+        self.assertEqual(True, check_share_location_stop(driver=self.driver, test_name=test_name))
+        self.driver.implicitly_wait(10)
+        self.driver.find_element_by_id('chat_img').click()
+        self.driver.implicitly_wait(20)
+        first_chat_element(driver=self.driver)
+        mylogger.info("进入与第一个联系人交互界面")
+
+    def test6_location_share_2(self):
+        """共享位置返回聊天停止"""
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_id("et_msg").click()
+        chat_img_more_element(self.driver)
+        chat_add_all(self.driver, n=5)
+        self.driver.implicitly_wait(5)
+        chat_location_share_get_back(self.driver)
+        self.driver.find_element_by_id("et_msg").click()
+        self.driver.implicitly_wait(10)
+        self.driver.find_element_by_id("et_msg").send_keys("123")
+        mylogger.info("输入成功")
+        chat_send_all_element(self.driver).click()
+        chat_location_share_stop(self.driver)
+
+
+
+
 
     # def test5_exit(self):
     #     """当前用户退出"""

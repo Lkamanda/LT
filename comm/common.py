@@ -5,6 +5,7 @@ import time
 import os
 
 
+
 def screenShot(driver, test_name):
     """对当前页面进行截屏，并存储"""
     # imPath = filePath + '/result/image/' + rq + '.png'
@@ -34,9 +35,9 @@ def swipeUp(driver, t):
     :param t: 实现滑动的时间
     """
     x, y = get_mobile_size(driver)
-    x1 = int(x * 0.5)    #x坐标
-    y1 = int(y * 0.75)   #起始y坐标
-    y2 = int(x * 0.25)   #终点y坐标
+    x1 = int(x * 0.5)    # x坐标
+    y1 = int(y * 0.75)   # 起始y坐标
+    y2 = int(x * 0.25)   # 终点y坐标
     driver.swipe(x1, y1, x1, y2, t)
 
 
@@ -59,9 +60,10 @@ def swipeLeft(driver, t):
 
 
 def swipeRight(driver, t):
-    """#屏幕向右滑动"""
+    """屏幕向右滑动"""
     x, y = get_mobile_size(driver)
     x1 = int(x * 0.05)
     y1 = int(y * 0.5)
-    x2 = int(x* 0.75)
+    x2 = int(x * 0.75)
     driver.swipe(x1, y1, x2, y1, t)
+

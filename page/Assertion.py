@@ -46,10 +46,22 @@ def check_mobile_login(driver, test_name):
         driver.implicitly_wait(5)
         driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
         mylogger.info("进入消息界面成功")
-        time.sleep(1)
         return True
     except Exception as e:
         mylogger.debug(e)
         screenShot(driver, test_name)
         return False
 
+
+# 验证共享位置结束成功
+def check_share_location_stop(driver, test_name):
+    try:
+        ele = driver.find_element_by_id("stop").text
+        if ele == "停止":
+            return False
+        else:
+            return True
+    except:
+        screenShot(driver, test_name)
+        print(True)
+        return True

@@ -1,6 +1,10 @@
 """
 登录页面 相关
 """
+from comm.config import MyConfig
+
+
+myconfig = MyConfig()
 
 
 # 点击个人中心 登录/注册 button
@@ -37,14 +41,20 @@ def mobile_tile_element(driver):
 
 # 账号密码登录：输入手机号登陆   mobile_number = "18612463553"
 def mobile_user_element(driver):
-    driver.find_element_by_id("com.erlinyou.worldlist:id/et_username").send_keys("18612463553")
+    driver.find_element_by_id("com.erlinyou.worldlist:id/et_username").send_keys(myconfig.get_mobile_number())
 
 
 # 账号密码登录 ：输入密码
 def mobile_password_element(driver):
-    driver.find_element_by_id("com.erlinyou.worldlist:id/et_pwd").send_keys("5211314")
+    driver.find_element_by_id("com.erlinyou.worldlist:id/et_pwd").send_keys(myconfig.get_mobile_password())
 
 
 #  账号密码登录，立即登录
 def mobile_login_element(driver):
     driver.find_element_by_id("com.erlinyou.worldlist:id/submit").click()
+
+
+if __name__ == '__main__':
+
+    print(myconfig.get_mobile_number())
+    print(type(myconfig.get_mobile_number()))

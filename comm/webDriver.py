@@ -11,8 +11,8 @@ class webDriver:
         # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
         desired_caps = {'platformName': 'Android',    # 手机类型
-                        'platformVersion': '9',   # 被测试手机，  a82ccd1d
-                        'deviceName': 'baa822b7',     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   127.0.0.1:62001 设备名称， adb devices
+                        'platformVersion': '8.0.0',   # 被测试手机，   baa822b7
+                        'deviceName': 'a82ccd1d ',     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   127.0.0.1:62001 设备名称， adb devices
                         'appPackage': 'com.erlinyou.worldlist',
                         'appActivity': 'com.erlinyou.map.Erlinyou',
                         'unicodKeyboard': 'True',     # appium 传输中使用自己的输入法，可以传输中文
@@ -22,7 +22,6 @@ class webDriver:
                         # 'app': r"C:\Users\zhoujialin\PycharmProjects\aut_LT\LT\apps\boobuz.apk"
                         # desired_caps['autoGrantPermissions'] = 'True'
                         }
-        print(1)
         time.sleep(3)
         try:
             cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)

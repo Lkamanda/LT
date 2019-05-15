@@ -5,7 +5,8 @@ def userAvatar_element(driver):
 
 # 主页消息入口 main_chat  id
 def mainChat_element(driver):
-    driver.find_element_by_id("com.erlinyou.worldlist:id/chat_img").click()
+    # com.erlinyou.worldlist:id/
+    driver.find_element_by_id("chat_img").click()
 
 
 # 点击主页漫游页面
