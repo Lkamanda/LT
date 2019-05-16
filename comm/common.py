@@ -5,7 +5,6 @@ import time
 import os
 
 
-
 def screenShot(driver, test_name):
     """对当前页面进行截屏，并存储"""
     # imPath = filePath + '/result/image/' + rq + '.png'
@@ -19,6 +18,11 @@ def screenShot(driver, test_name):
 def str_nowTime():
     """返回当前时间以字符串形式返回"""
     return time.strftime('%Y-%m-%d %H-%M-%S')
+
+
+# def case_time():
+#     """返回测试日志使用的时间"""
+#     return time.strftime('%Y-%M-%d %H')
 
 
 def get_mobile_size(driver):
@@ -38,6 +42,7 @@ def swipeUp(driver, t):
     x1 = int(x * 0.5)    # x坐标
     y1 = int(y * 0.75)   # 起始y坐标
     y2 = int(x * 0.25)   # 终点y坐标
+    driver.implicitly_wait(5)
     driver.swipe(x1, y1, x1, y2, t)
 
 

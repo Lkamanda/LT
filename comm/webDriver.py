@@ -3,10 +3,17 @@ import time
 
 
 class webDriver:
+    # 整个测试类结束执行
+    @classmethod
+    def tearDownClass(cls):
+        print('整个测试类结束')
+        cls.driver.quit()
+        print('driver quit')
+
     # 整个类开始和结束执行
-    # driver = None
     @classmethod
     def setUpClass(cls):
+        global driver
         # print('进入整个测试类')
         # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
@@ -29,12 +36,6 @@ class webDriver:
         except Exception as e:
             # myLog.logger().info('driver加载失败 %s', e)
             print(e)
-    # 整个测试类结束执行
-    @classmethod
-    def tearDownClass(cls):
-        print('整个测试类结束')
-        # cls.driver.quit()
-        print('driver quit')
 
     # 每条测试用例开始都执行
     @staticmethod

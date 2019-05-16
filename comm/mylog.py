@@ -21,11 +21,12 @@ class Logger(object):
         # 创建一个handler，用于写入日志文件
         # rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
         rq = str_nowTime()
+        # print("this is log %s" % testCase_id)
         log_name = os.path.dirname(os.getcwd()) + '/report/logs/' + rq + 'logs.text'
         # log_name = log_path + rq + '.log'  # 文件名
         # print(log_name)
         # 将日志写入磁盘
-        fh = logging.FileHandler(log_name)
+        fh = logging.FileHandler(log_name, encoding="utf-8")
         fh.setLevel(logging.INFO)
 
         # 创建一个handler，用于输出到控制台
@@ -46,3 +47,5 @@ class Logger(object):
 
 
 mylogger = Logger(logger="Logger").get_log()
+
+

@@ -4,7 +4,6 @@ from page_element.mine_page_element import *
 from page.Assertion import *
 from page_element.message_page_element import *
 from comm.common import *
-from comm.logs import myLog
 from page_element.login_page_element import *
 
 
@@ -13,8 +12,7 @@ def logout(self, driver):
     driver.implicitly_wait(5)
     userAvatar_element(driver)
     mylogger.info("get into mine home page")
-    driver.implicitly_wait(5)
-    swipeUp(driver=driver, t=5000)
+    swipeUp(driver=driver, t=4000)
     mylogger.info("向上滑动屏幕")
     driver.implicitly_wait(10)
     mine_setting(driver)

@@ -7,12 +7,14 @@ from comm.usuallymodule import *
 
 
 class WX(webDriver, unittest.TestCase):
+
     # @unittest.skip('not need')
     def test_1(self):
         """微信登录"""
+        print("test_1")
         # 返回测试用例名称
         test_name = self._testMethodName
-        mylogger.debug(test_name)
+        print(self._testMethodName)
         self.driver.implicitly_wait(5)
         userAvatar_element(self.driver)
         mylogger.info("进入我的页面")
@@ -34,6 +36,7 @@ class WX(webDriver, unittest.TestCase):
         self.assertEqual(True, check_wx_login(self.driver, test_name))
         mylogger.info('微信登录成功')
         # self.driver.keyevent('BACK')
+
         allmap_back_element(self.driver)
         mylogger.info("return my page success")
         allmap_back_element(self.driver)
@@ -41,8 +44,7 @@ class WX(webDriver, unittest.TestCase):
 
     def test_2(self):
         """当前用户退出"""
-        test_name = "当前用户退出"
-        mylogger.debug(test_name)
+        print("test_2")
         logout(self=self, driver=self.driver)
 
 

@@ -2,7 +2,7 @@
 消息页面元素事件
 """
 from comm.config import MyConfig
-from comm.mylog import *
+# from comm.mylog import *
 
 
 def message_back_element(driver):

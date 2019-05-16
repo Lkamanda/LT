@@ -5,13 +5,12 @@ from comm.usuallymodule import *
 
 class ZH_message(webDriver, unittest.TestCase):
     #    @unittest.skip('not need')
-    #
     # 跳过该跳测试用例
 
     def test1_dl_mobile_number(self):
         """登录手机账号密码"""
-        print(self._testMethodName)  # 返回测试用例名称
         test_name = self._testMethodName
+        mylogger.debug(test_name)   # 返回测试用例名称
         self.driver.implicitly_wait(5)
         mainChat_element(self.driver)
         mylogger.info("进入登录页面成功")
@@ -32,6 +31,7 @@ class ZH_message(webDriver, unittest.TestCase):
     def test2_message(self):
         """与聊天page下第一个联系人发起回话"""
         test_name = self._testMethodName
+        mylogger.debug(test_name)
         # self.driver.implicitly_wait(10)
         # self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
         self.driver.implicitly_wait(20)
@@ -52,6 +52,8 @@ class ZH_message(webDriver, unittest.TestCase):
 
     def test3_preview_send_photo(self):
         """第一个联系人发送照片和视频，预览"""
+        test_name = self._testMethodName
+        mylogger.debug(test_name)
         self.driver.implicitly_wait(5)
         chat_img_more_element(self.driver)
         mylogger.info("点击+号")
@@ -80,7 +82,8 @@ class ZH_message(webDriver, unittest.TestCase):
 
     def test4_send_photo(self):
         """直接发送照片"""
-        print("进入test4")
+        test_name = self._testMethodName
+        mylogger.debug(test_name)
         self.driver.implicitly_wait(30)
         self.driver.find_element_by_id("et_msg").click()      # com.erlinyou.worldlist:id/
         chat_img_more_element(self.driver)
@@ -108,6 +111,7 @@ class ZH_message(webDriver, unittest.TestCase):
     def test5_take_picture(self):
         """拍照后勾选所拍照片发送"""
         test_name = "拍照后勾选所拍照片发送"
+        mylogger.debug(test_name)
         self.driver.implicitly_wait(20)
         self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
         self.driver.implicitly_wait(20)
@@ -147,6 +151,7 @@ class ZH_message(webDriver, unittest.TestCase):
     def test6_location_share_1(self):
         """共享位置直接停止"""
         test_name = "共享位置直接停止"
+        mylogger.debug(test_name)
         self.driver.find_element_by_id("et_msg").click()
         chat_img_more_element(self.driver)
         chat_add_all(self.driver, n=5)
@@ -161,6 +166,8 @@ class ZH_message(webDriver, unittest.TestCase):
 
     def test6_location_share_2(self):
         """共享位置返回聊天停止"""
+        test_name = "共享位置返回聊天停止"
+        mylogger.debug(test_name)
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("et_msg").click()
         chat_img_more_element(self.driver)
@@ -173,14 +180,13 @@ class ZH_message(webDriver, unittest.TestCase):
         mylogger.info("输入成功")
         chat_send_all_element(self.driver).click()
         chat_location_share_stop(self.driver)
+        mylogger.info("聊天终止")
 
-
-
-
-
-    # def test5_exit(self):
-    #     """当前用户退出"""
-    #     logout(self=self, driver=self.driver)
+    def testn_exit(self):
+        """当前用户退出"""
+        test_name = "当前用户退出"
+        mylogger.debug(test_name)
+        logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

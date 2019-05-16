@@ -14,11 +14,5 @@ class MyConfig:
         return self.mobile_password
 
 
-# if __name__ == '__main__':
-#     myconfig = MyConfig()
-#     send_str=myconfig.get_send_str()
-#     print(send_str)
-
-
 
 
