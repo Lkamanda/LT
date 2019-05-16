@@ -12,6 +12,7 @@ def logout(self, driver):
     driver.implicitly_wait(5)
     userAvatar_element(driver)
     mylogger.info("get into mine home page")
+    time.sleep(2)
     swipeUp(driver=driver, t=4000)
     mylogger.info("向上滑动屏幕")
     driver.implicitly_wait(10)
@@ -32,6 +33,6 @@ def logout(self, driver):
 
 def element_error(driver, e):
     mylogger.error(e)
-    test_name = ""
+    test_name = "定位失败"
     screenShot(driver, test_name)
 

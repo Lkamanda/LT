@@ -3,6 +3,7 @@ message 下chat 位置页面 element api
 """
 from comm.usuallymodule import element_error
 
+
 def chat_place_search_place(driver, place):
     """
     place page search

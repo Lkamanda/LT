@@ -42,7 +42,7 @@ def swipeUp(driver, t):
     x1 = int(x * 0.5)    # x坐标
     y1 = int(y * 0.75)   # 起始y坐标
     y2 = int(x * 0.25)   # 终点y坐标
-    driver.implicitly_wait(5)
+    time.sleep(3)
     driver.swipe(x1, y1, x1, y2, t)
 
 

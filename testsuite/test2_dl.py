@@ -139,6 +139,7 @@ class ZH_message(webDriver, unittest.TestCase):
         # chat_add_photo_send(self.driver)
         # mylogger.info("触发发送")
         self.driver.press_keycode(4)
+        time.sleep(3)
         screenShot(driver=self.driver, test_name=test_name)
 
     # def test_take_picture_2(self):
@@ -174,19 +175,65 @@ class ZH_message(webDriver, unittest.TestCase):
         chat_add_all(self.driver, n=5)
         self.driver.implicitly_wait(5)
         chat_location_share_get_back(self.driver)
-        self.driver.find_element_by_id("et_msg").click()
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("et_msg").send_keys("123")
-        mylogger.info("输入成功")
-        chat_send_all_element(self.driver).click()
+        # self.driver.find_element_by_id("et_msg").click()
+        # self.driver.implicitly_wait(10)
+        # self.driver.find_element_by_id("et_msg").send_keys("123")
+        # mylogger.info("输入成功")
+        chat_send_all_element(self.driver)
         chat_location_share_stop(self.driver)
         mylogger.info("聊天终止")
 
-    def testn_exit(self):
-        """当前用户退出"""
-        test_name = "当前用户退出"
+    def test7_contacts_share_1(self):
+        """分享联系人"""
+        test_name = "分享联系人"
         mylogger.debug(test_name)
-        logout(self=self, driver=self.driver)
+        chat_img_more_element(self.driver)
+        mylogger.info("add")
+        self.driver.implicitly_wait(5)
+        chat_add_all(self.driver, n=6)
+        mylogger.info("进入contacts page")
+        time.sleep(1)
+        chat_contacts_share(self.driver, n=1)
+        mylogger.info("选择第一张contacts发送")
+        time.sleep(2)
+        chat_img_more_element(self.driver)
+        mylogger.info("add")
+        self.driver.implicitly_wait(5)
+        chat_add_all(self.driver, n=6)
+        mylogger.info("进入contacts page")
+        time.sleep(1)
+        chat_contacts_share(self.driver, n=2)
+        mylogger.info("选择第一张contacts发送")
+        time.sleep(3)
+        screenShot(driver=self.driver, test_name=test_name)
+
+    def test7_contacts_share_2(self):
+        """查询到指定联系人并分享查询的第一个"""
+        test_name = "查询到指定联系人并分享查询的第一个"
+        mylogger.debug(test_name)
+        chat_img_more_element(self.driver)
+        mylogger.info("add")
+        self.driver.implicitly_wait(5)
+        chat_add_all(self.driver, n=6)
+        mylogger.info("进入contacts page")
+        self.driver.implicitly_wait(5)
+        chat_location_contact_share_search(driver=self.driver, n="zhoujialin")
+        chat_contacts_share(driver=self.driver, n=1)
+        mylogger.info("选择查询到的第一张contacts发送")
+        time.sleep(3)
+        screenShot(driver=self.driver, test_name=test_name)
+        time.sleep(2)
+        allmap_back_element(self.driver)
+        self.driver.find_element_by_id("imageview_search").click()
+        time.sleep(2)
+
+
+    # 应返回home page 页面在执行
+    # def testn_exit(self):
+    #     """当前用户退出"""
+    #     test_name = "当前用户退出"
+    #     mylogger.debug(test_name)
+    #     logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

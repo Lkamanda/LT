@@ -84,3 +84,5 @@ https://blog.csdn.net/wkl106422/article/details/82112448
 7.获取页面元素属性值
 ele.text
 ele.get_attribute("text")
+
+https://www.cnblogs.com/meitian/p/6103391.html

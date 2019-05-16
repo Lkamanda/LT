@@ -2,7 +2,7 @@
 消息页面元素事件
 """
 from comm.config import MyConfig
-# from comm.mylog import *
+from comm.usuallymodule import mylogger
 
 
 def message_back_element(driver):
@@ -160,7 +160,19 @@ def chat_location_share_stop(driver):
     driver.find_element_by_id("stop").click()
 
 
-def chat_contact_share_search(driver, n):
+def chat_location_contact_share_search(driver, n):
     """联系人分享 查询button"""
     driver.find_element_by_id("com.erlinyou.worldlist:id/edit_search").send_keys(n)
+
+
+def chat_contacts_share(driver, n):
+    """
+    联系人分享 发送名片 button
+    :param driver:
+    :param n: 选择名片列表下第几个
+    """
+    driver.find_element_by_xpath("//android.widget.LinearLayout[%s]/android.widget.LinearLayout"
+                                 "/android.widget.LinearLayout/android.widget.TextView" % n).click()
+
+
 

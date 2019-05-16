@@ -33,10 +33,8 @@ class runner:
     def main(self):
         n = 0
         z = 0
-        for i in range(1, 3):
+        for i in range(1, 2):
             print("运行第%s次" % i)
-            testCase_id = i
-            print(testCase_id)
             try:
                 z = z + 1
                 self.run()

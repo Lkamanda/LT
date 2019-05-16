@@ -116,48 +116,52 @@ class ZH_message(webDriver, unittest.TestCase):
         self.driver.implicitly_wait(20)
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
-        self.driver.implicitly_wait(20)
+        time.sleep(4)
         # self.driver.find_element_by_xpath("//android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.EditText").click()
-        self.driver.find_element_by_id("et_msg").click()
-        time.sleep(2)
-        mylogger.info("触发聊天成功")
-        self.driver.implicitly_wait(10)
-        chat_img_more_element(self.driver)
-        # self.driver.implicitly_wait(10)
-        # chat_add_all(driver=self.driver, n=2)
-        # mylogger.info("进入拍摄page")
-        #
+        # self.driver.find_element_by_id("et_msg").click()
         # time.sleep(2)
-        # self.driver.implicitly_wait(10)
-        # chat_take_picture_start(self.driver)
-        # mylogger.info("触发拍摄按钮")
-        # self.driver.implicitly_wait(5)
-        # chat_take_piucture_sure(driver=self.driver, n=2)
-        #
-        # self.driver.implicitly_wait(10)
-        # # chat_take_picture_album(self.driver)
-        # # mylogger.info("进入相册选择界面")
-        # # self.driver.implicitly_wait(10)
-        # # chat_add_photo_send(self.driver)
-        # # mylogger.info("触发发送")
-        # self.driver.press_keycode(4)
-        # # chat_take_picture_getback(self.driver)
-        # screenShot(driver=self.driver, test_name=test_name)
+        chat_img_more_element(self.driver)
+        mylogger.info("add")
+        self.driver.implicitly_wait(5)
+        chat_add_all(self.driver, n=6)
+        mylogger.info("进入contacts page")
+        time.sleep(1)
+        chat_contacts_share(self.driver, n=1)
+        mylogger.info("选择第一张contacts发送")
+        chat_img_more_element(self.driver)
+        mylogger.info("add")
+        self.driver.implicitly_wait(5)
+        chat_add_all(self.driver, n=6)
+        mylogger.info("进入contacts page")
+        time.sleep(1)
+        chat_contacts_share(self.driver, n=2)
+        mylogger.info("选择第一张contacts发送")
+        time.sleep(3)
+        screenShot(driver=self.driver, test_name=test_name)
 
-    # def test_take_picture_2(self):
-    #     """拍照后发送"""
-    # def test_take_picture_3(self):
-    #     """拍摄视频后发送"""
-    # def test_take_picture_4(self):
-    #     """拍摄照片后再拍摄视频发送"""
+    def test7_contacts_share_2(self):
+        """查询到指定联系人并分享查询的第一个"""
+        test_name = "查询到指定联系人并分享查询的第一个"
+        mylogger.debug(test_name)
+        chat_img_more_element(self.driver)
+        mylogger.info("add")
+        self.driver.implicitly_wait(5)
+        chat_add_all(self.driver, n=6)
+        mylogger.info("进入contacts page")
+        self.driver.implicitly_wait(5)
+        chat_location_contact_share_search(driver=self.driver, n="zhoujialin")
+        chat_contacts_share(driver=self.driver, n=1)
+        mylogger.info("选择查询到的第一张contacts发送")
+        time.sleep(3)
+        screenShot(driver=self.driver, test_name=test_name)
+        time.sleep(2)
+        allmap_back_element(self.driver)
+        self.driver.find_element_by_id("imageview_search").click()
+        time.sleep(2)
 
-
-
-
-
-    # def test5_exit(self):
-    #     """当前用户退出"""
-    #     logout(self=self, driver=self.driver)
+    def test8_exit(self):
+        """当前用户退出"""
+        logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':
