@@ -1,14 +1,14 @@
 class MyConfig:
     def __init__(self):
-        self.send_str = "d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
+        self.chat_str = u"d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
         self.mobile_number = "13231533164"
         self.mobile_password = "5211314"
         self.place_share_place = "北京西站"
         self.place_share_street = "上地五街"
         self.place_share_city = "beijing"
 
-    def get_send_str(self):
-        return self.send_str
+    # def get_send_str(self):
+    #     return self.send_str
 
     def get_mobile_number(self):
         return self.mobile_number
@@ -36,6 +36,9 @@ class MyConfig:
         elif n == 3:
             return self.place_share_city
 
+    def get_chat_str(self, n):
+        if n == 1:
+            return self.chat_str
 
 
 

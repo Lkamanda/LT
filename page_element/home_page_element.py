@@ -5,7 +5,6 @@ def userAvatar_element(driver):
 
 # 主页消息入口 main_chat  id
 def mainChat_element(driver):
-    # com.erlinyou.worldlist:id/
     driver.find_element_by_id("chat_img").click()
 
 

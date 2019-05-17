@@ -1,8 +1,9 @@
 """
 消息页面元素事件
 """
-from comm.config import MyConfig
+
 from comm.usuallymodule import mylogger
+
 
 
 def message_back_element(driver):
@@ -27,10 +28,8 @@ def notice_element(driver):
 
 # 聊天下第一个窗口
 def first_chat_element(driver):
-    # driver.find_element_by_xpath("//android.widget.ListView/android.widget.RelativeLayout[1]").click()
-    # driver.find_element_by_android_uiautomator('new UiSelector().text("WE")').click()
-    # driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
-    driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
+    driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView"
+                                 "/android.widget.RelativeLayout[1]").click()
 
 
 # img_more  加号button
@@ -43,15 +42,14 @@ def chat_expression_element(driver):
     driver.find_element_by_id("com.erlinyou.worldlist:id/img_exp").click()
 
 
-# 聊天输入框 输入
-def chat_sendkeys_element(driver):
-    send_str = MyConfig().get_send_str()
-    # print(send_str)
-    driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").click()
-    print(1)
-    driver.implicitly_wait(1)
-    # driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]").send_keys("1235435345")
-    print('pass')
+def chat_send_keys_element(driver, n):
+    """
+    聊天输入框 输入
+    :param driver: self.driver
+    :param chat_str: 输入的字符
+    :return:
+    """
+    driver.find_element_by_id("et_msg").send_keys(myconfig.get_chat_str(n))
 
 
 # 发送消息button 点击
@@ -139,7 +137,7 @@ def chat_take_picture_videotape(driver):
     driver.find_element_by_id("com.erlinyou.worldlist:id/btn_switch_mode").click()
 
 
-def chat_take_piucture_sure(driver, n):
+def chat_take_picture_sure(driver, n):
     """
     拍照的取消和确定button
     :param driver:
