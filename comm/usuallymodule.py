@@ -38,7 +38,7 @@ def logout(self, driver):
     userAvatar_element(driver)
     mylogger.info("get into mine home page")
     time.sleep(3)
-    swipeUp(driver=driver, t=4000)
+    swipeUp(driver=driver, t=6000)
     mylogger.info("向上滑动屏幕")
     driver.implicitly_wait(10)
     mine_setting(driver)

@@ -21,6 +21,7 @@ def check_wx_login(driver, test_name):
 def check_wx_logout(driver, test_name):
     try:
         mylogger.info("进入退出验证")
+        time.sleep(2)
         driver.implicitly_wait(20)
         count_visitor = driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView[2]"
                                                      "/android.widget.LinearLayout[5]/android.widget.TextView[1]").text
