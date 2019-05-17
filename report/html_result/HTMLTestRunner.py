@@ -631,7 +631,6 @@ class HTMLTestRunner(Template_mixin):
         print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime - self.startTime))
         return result
 
-
     def sortResult(self, result_list):
         # unittest does not seems to run in any particular order.
         # Here at least we want to group them together by class.
@@ -655,7 +654,7 @@ class HTMLTestRunner(Template_mixin):
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
         status = []
-        if result.success_count: status.append('Pass %s' % result.success_count)
+        if result.success_count: status.append('Pass %s'    % result.success_count)
         if result.failure_count: status.append('Failure %s' % result.failure_count)
         if result.error_count:   status.append('Error %s'   % result.error_count  )
         if status:

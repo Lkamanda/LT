@@ -150,14 +150,17 @@ class ZH_message(webDriver, unittest.TestCase):
         mylogger.info("进入contacts page")
         self.driver.implicitly_wait(5)
         chat_location_contact_share_search(driver=self.driver, n="zhoujialin")
+        time.sleep(3)
         chat_contacts_share(driver=self.driver, n=1)
         mylogger.info("选择查询到的第一张contacts发送")
         time.sleep(3)
         screenShot(driver=self.driver, test_name=test_name)
         time.sleep(2)
         allmap_back_element(self.driver)
-        self.driver.find_element_by_id("imageview_search").click()
         time.sleep(2)
+        message_back_element(driver=self.driver)
+        time.sleep(2)
+
 
     def test8_exit(self):
         """当前用户退出"""

@@ -1,32 +1,19 @@
+"""
+模拟mobile账号登录后对message下功能进行测试
+"""
+
 import unittest
 from comm.webDriver import *
 from comm.usuallymodule import *
 
 
-class ZH_message(webDriver, unittest.TestCase):
+class Message_zh(webDriver, unittest.TestCase):
     #    @unittest.skip('not need')
     # 跳过该跳测试用例
 
     def test1_dl_mobile_number(self):
         """登录手机账号密码"""
-        test_name = self._testMethodName
-        mylogger.debug(test_name)   # 返回测试用例名称
-        self.driver.implicitly_wait(5)
-        mainChat_element(self.driver)
-        mylogger.info("进入登录页面成功")
-        self.driver.implicitly_wait(5)
-        mobile_tile_element(self.driver)
-        mylogger.info("切换成账号密码登录")
-        self.driver.implicitly_wait(5)
-        mobile_user_element(self.driver)
-        mylogger.info("输入账号成功")
-        mobile_password_element(self.driver)
-        mylogger.info("输如密码成功")
-        self.driver.implicitly_wait(5)
-        mobile_login_element(self.driver)
-        mylogger.info("触发登录")
-        self.assertEqual(True, check_mobile_login(self.driver, test_name))
-        mylogger.info("登录成功")
+        zh_login(self=self, driver=self.driver)
 
     def test2_message(self):
         """与聊天page下第一个联系人发起回话"""
@@ -48,6 +35,7 @@ class ZH_message(webDriver, unittest.TestCase):
         # self.driver.implicitly_wait(5)
         # chat_send_all_element(self.driver)
         mylogger.info("消息已发送")
+        time.sleep(3)
         screenShot(self.driver, test_name)
 
     def test3_preview_send_photo(self):
@@ -195,8 +183,8 @@ class ZH_message(webDriver, unittest.TestCase):
         time.sleep(1)
         chat_contacts_share(self.driver, n=1)
         mylogger.info("选择第一张contacts发送")
-        time.sleep(2)
-        chat_img_more_element(self.driver)
+        self.driver.implicitly_wait(10)
+        chat_img_more_element(driver=self.driver)
         mylogger.info("add")
         self.driver.implicitly_wait(5)
         chat_add_all(self.driver, n=6)
@@ -218,22 +206,20 @@ class ZH_message(webDriver, unittest.TestCase):
         mylogger.info("进入contacts page")
         self.driver.implicitly_wait(5)
         chat_location_contact_share_search(driver=self.driver, n="zhoujialin")
+        time.sleep(3)
         chat_contacts_share(driver=self.driver, n=1)
         mylogger.info("选择查询到的第一张contacts发送")
         time.sleep(3)
         screenShot(driver=self.driver, test_name=test_name)
-        time.sleep(2)
-        allmap_back_element(self.driver)
-        self.driver.find_element_by_id("imageview_search").click()
-        time.sleep(2)
-
+        # 返回首页
+        place_environment_reset(driver=self.driver)
 
     # 应返回home page 页面在执行
-    # def testn_exit(self):
-    #     """当前用户退出"""
-    #     test_name = "当前用户退出"
-    #     mylogger.debug(test_name)
-    #     logout(self=self, driver=self.driver)
+    def test8_exit(self):
+        """当前用户退出"""
+        test_name = "当前用户退出"
+        mylogger.debug(test_name)
+        logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

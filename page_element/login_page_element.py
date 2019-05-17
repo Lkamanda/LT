@@ -2,10 +2,7 @@
 登录页面 相关
 """
 from comm.config import MyConfig
-
-
 myconfig = MyConfig()
-
 
 # 点击个人中心 登录/注册 button
 def dL_element(driver):
