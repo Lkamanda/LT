@@ -42,14 +42,14 @@ def chat_expression_element(driver):
     driver.find_element_by_id("com.erlinyou.worldlist:id/img_exp").click()
 
 
-def chat_send_keys_element(driver, n):
+def chat_send_keys_element(driver, chat_str):
     """
     聊天输入框 输入
     :param driver: self.driver
     :param chat_str: 输入的字符
     :return:
     """
-    driver.find_element_by_id("et_msg").send_keys(myconfig.get_chat_str(n))
+    driver.find_element_by_id("et_msg").send_keys(chat_str)
 
 
 # 发送消息button 点击

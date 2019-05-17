@@ -1,11 +1,12 @@
 class MyConfig:
     def __init__(self):
-        self.chat_str = u"d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
-        self.mobile_number = "13231533164"
-        self.mobile_password = "5211314"
-        self.place_share_place = "北京西站"
-        self.place_share_street = "上地五街"
-        self.place_share_city = "beijing"
+        self.chat_str_1 = u"d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
+        self.chat_str_2 = u"华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
+        self.mobile_number = u"13231533164"
+        self.mobile_password = u"5211314"
+        self.place_share_place = u"北京西站"
+        self.place_share_street = u"上地五街"
+        self.place_share_city = u"beijing"
 
     # def get_send_str(self):
     #     return self.send_str
@@ -38,7 +39,7 @@ class MyConfig:
 
     def get_chat_str(self, n):
         if n == 1:
-            return self.chat_str
+            return self.chat_str_2
 
 
 
