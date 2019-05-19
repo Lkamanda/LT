@@ -4,13 +4,16 @@ message 下chat 位置页面 element api
 
 from page.element_error import element_error
 
+from comm.config import MyConfig
 
-def chat_place_search_place(driver, place):
+def chat_place_search_place(driver, n):
     """
     place page search
     :param driver:
     :param place: where you want to go
     """
+    myconfig = MyConfig ()
+    place = myconfig.get_place_share_search(n)
     driver.find_element_by_id("com.erlinyou.worldlist:id/search_edit").send_keys(place)
 
 

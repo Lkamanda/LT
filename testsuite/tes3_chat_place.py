@@ -20,8 +20,9 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         self.driver.implicitly_wait(10)
         # 搜索地点
-        self.driver.find_element_by_id("com.erlinyou.worldlist:id/search_edit").send_keys(u"辅导费")
-        chat_place_search_place(driver=self.driver, place=myconfig.get_place_share_search(n=1))
+        # self.driver.find_element_by_id("com.erlinyou.worldlist:id/search_edit").send_keys(u"辅导费")
+        # chat_place_search_place(driver=self.driver, place=myconfig.get_place_share_search(n=1))
+        chat_place_search_place(driver =self.driver, n=1)
         mylogger.info("触发：输入框输入")
 
 

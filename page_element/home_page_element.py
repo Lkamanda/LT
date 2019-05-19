@@ -1,4 +1,5 @@
 # 点击首页用户头像
+
 def userAvatar_element(driver):
     driver.find_element_by_id('user_avatar_img').click()
 
