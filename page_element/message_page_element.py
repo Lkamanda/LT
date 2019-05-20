@@ -5,7 +5,6 @@
 from comm.usuallymodule import mylogger
 
 
-
 def message_back_element(driver):
     """消息页面返回home_page按钮"""
     driver.find_element_by_id("com.erlinyou.worldlist:id/imageview_search").click()

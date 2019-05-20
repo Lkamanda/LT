@@ -57,9 +57,6 @@ def logout(self, driver):
     mylogger.info("登录退出成功")
 
 
-
-
-
 def place_environment(driver):
     """进入message place environment"""
     driver.implicitly_wait(10)
@@ -74,10 +71,12 @@ def place_environment(driver):
 
 def place_environment_reset(driver):
     mylogger.info("start reset place environment")
-    time.sleep(2)
+    time.sleep(4)
     allmap_back_element(driver)
-    time.sleep(2)
+    print(1)
+    driver.implicitly_wait(10)
     message_back_element(driver)
+    print(2)
     mylogger.info("end reset place environment")
     time.sleep(2)
 

@@ -39,46 +39,97 @@ class ZH_message(webDriver, unittest.TestCase):
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)
-        chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
+        place_environment_reset(driver=self.driver)
         # chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
-        chat_send_all_element(self.driver)
-        time.sleep(5)
+        # # chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
+        # chat_send_all_element(self.driver)
+        # time.sleep(5)
 
-        # mylogger.info("消息已发送")
-        # time.sleep(3)
-        # screenShot(self.driver, test_name)
-
-    #
-    # def test3_preview_send_photo(self):
-    #     """第一个联系人发送照片和视频，预览"""
-    #     self.driver.implicitly_wait(5)
+    # def test7_contacts_share_1(self):
+    #     """分享联系人"""
+    #     test_name = "分享联系人"
+    #     mylogger.debug(test_name)
     #     chat_img_more_element(self.driver)
-    #     mylogger.info("点击+号")
+    #     mylogger.info("add")
     #     self.driver.implicitly_wait(5)
-    #     chat_add_photo_album(self.driver)
-    #     mylogger.info("点击进入相册界面")
+    #     chat_add_all(self.driver, n=6)
+    #     mylogger.info("进入contacts page")
+    #     time.sleep(1)
+    #     chat_contacts_share(self.driver, n=1)
+    #     mylogger.info("选择第一张contacts发送")
+    #     self.driver.implicitly_wait(10)
+    #     chat_img_more_element(driver=self.driver)
+    #     mylogger.info("add")
     #     self.driver.implicitly_wait(5)
-    #     chat_add_photo_album_n(self.driver, n=2)
-    #     mylogger.info("选择照片/视频成功")
+    #     chat_add_all(self.driver, n=6)
+    #     mylogger.info("进入contacts page")
+    #     time.sleep(1)
+    #     chat_contacts_share(self.driver, n=2)
+    #     mylogger.info("选择第一张contacts发送")
+    #     time.sleep(3)
+    #     screenShot(driver=self.driver, test_name=test_name)
+    #
+    # def test7_contacts_share_2(self):
+    #     """查询到指定联系人并分享查询的第一个"""
+    #     test_name = "查询到指定联系人并分享查询的第一个"
+    #     mylogger.debug(test_name)
+    #     chat_img_more_element(self.driver)
+    #     mylogger.info("add")
     #     self.driver.implicitly_wait(5)
-    #     chat_add_photo_album_n(self.driver, n=7)
-    #     mylogger.info("选择照片/视频成功")
+    #     chat_add_all(self.driver, n=6)
+    #     mylogger.info("进入contacts page")
     #     self.driver.implicitly_wait(5)
-    #     chat_add_photo_album_n(self.driver, n=12)
-    #     mylogger.info("选择照片/视频成功")
-    #     self.driver.implicitly_wait(5)
-    #     chat_add_photo_preview(self.driver)
-    #     mylogger.info("进入发送预览")
-    #     swipeLeft(self.driver, 1000)
-    #     self.driver.implicitly_wait(5)
-    #     swipeLeft(self.driver, 1000)
-    #     self.driver.implicitly_wait(5)
-    #     chat_add_photo_preview_send(self.driver)
-    #     # print(str_nowTime())
-    #     # time.sleep(30)
-    #     # print(str_nowTime())
-    #     self.driver.implicitly_wait(30)
-    #     mylogger.info("照片上传成功")
+    #     chat_location_contact_share_search(driver=self.driver, n=u"zhoujialin")
+    #     time.sleep(3)
+    #     chat_contacts_share(driver=self.driver, n=1)
+    #     mylogger.info("选择查询到的第一张contacts发送")
+    #     time.sleep(3)
+    #     screenShot(driver=self.driver, test_name=test_name)
+    #     # 返回首页
+    #
+    #
+    # def test8_exit(self):
+    #     """当前用户退出"""
+    #     test_name = "当前用户退出"
+    #     mylogger.debug(test_name)
+    #     logout(self=self, driver=self.driver)
+    #
+    #
+    #     # mylogger.info("消息已发送")
+    #     # time.sleep(3)
+    #     # screenShot(self.driver, test_name)
+    #
+    # #
+    # # def test3_preview_send_photo(self):
+    # #     """第一个联系人发送照片和视频，预览"""
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_img_more_element(self.driver)
+    # #     mylogger.info("点击+号")
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_add_photo_album(self.driver)
+    # #     mylogger.info("点击进入相册界面")
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_add_photo_album_n(self.driver, n=2)
+    # #     mylogger.info("选择照片/视频成功")
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_add_photo_album_n(self.driver, n=7)
+    # #     mylogger.info("选择照片/视频成功")
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_add_photo_album_n(self.driver, n=12)
+    # #     mylogger.info("选择照片/视频成功")
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_add_photo_preview(self.driver)
+    # #     mylogger.info("进入发送预览")
+    # #     swipeLeft(self.driver, 1000)
+    # #     self.driver.implicitly_wait(5)
+    # #     swipeLeft(self.driver, 1000)
+    # #     self.driver.implicitly_wait(5)
+    # #     chat_add_photo_preview_send(self.driver)
+    # #     # print(str_nowTime())
+    # #     # time.sleep(30)
+    # #     # print(str_nowTime())
+    # #     self.driver.implicitly_wait(30)
+    # #     mylogger.info("照片上传成功")
     #
     # def test4_send_photo(self):
     #     """直接发送照片"""
