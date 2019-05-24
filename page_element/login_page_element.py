@@ -4,6 +4,7 @@
 from comm.config import MyConfig
 myconfig = MyConfig()
 
+
 # 点击个人中心 登录/注册 button
 def dL_element(driver):
     driver.find_element_by_id("user_name_tv").click()

@@ -1,0 +1,8 @@
+2019-05-24 14:42:50,188 - Logger - DEBUG - 发送语音时长为10s start
+2019-05-24 14:42:55,592 - Logger - INFO - 进入与第一个联系人交互界面
+2019-05-24 14:43:10,823 - Logger - INFO - start reset place environment
+2019-05-24 14:43:15,303 - Logger - INFO - 0
+2019-05-24 14:43:16,704 - Logger - INFO - 0
+2019-05-24 14:43:16,705 - Logger - INFO - end reset place environment
+2019-05-24 14:43:18,706 - Logger - DEBUG - 发送语音时长为180s start
+2019-05-24 14:43:20,715 - Logger - INFO - 进入与第一个联系人交互界面

@@ -4,6 +4,7 @@
 
 from comm.usuallymodule import mylogger
 from page.element_error import element_error
+from appium.webdriver.common.touch_action import TouchAction
 
 
 def message_back_element(driver):
@@ -65,7 +66,8 @@ def chat_send_all_element(driver):
 
 # 调用相册
 def chat_add_photo_album(driver):
-    driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout[1]/android.widget.ImageView").click()
+    driver.find_element_by_xpath(
+        "//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout[1]/android.widget.ImageView").click()
 
 
 # 任选相册位置
@@ -108,13 +110,15 @@ def chat_add_all(driver, n):
     n = 7 : 地点
     n = 8 : 分享软件
     """
-    driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout[%s]/android.widget.ImageView" % n).click()
+    driver.find_element_by_xpath(
+        "//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout[%s]/android.widget.ImageView" % n).click()
 
 
 def chat_add_sendfile(driver):
     """发送文件按钮触发"""
     # 进入加号下调用左滑
-    driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout/android.widget.ImageView").click()
+    driver.find_element_by_xpath(
+        "//android.support.v4.view.ViewPager/android.widget.GridView/android.widget.LinearLayout/android.widget.ImageView").click()
 
 
 # def chat_take_picture_getback(driver):
@@ -122,7 +126,7 @@ def chat_add_sendfile(driver):
 #     #driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.ImageView").click()
 #     driver.find_element_by_id("com.erlinyou.worldlist:id/focusImageView").click()
 
-    # driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack").click()
+# driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack").click()
 
 def chat_take_picture_start(driver):
     """拍照启动"""
@@ -148,7 +152,8 @@ def chat_take_picture_sure(driver, n):
     n : 1 取消
     n : 2 确定
     """
-    driver.find_element_by_xpath("//android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView[%s]" % n).click()
+    driver.find_element_by_xpath(
+        "//android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView[%s]" % n).click()
 
 
 def chat_location_share_get_back(driver):
@@ -212,3 +217,17 @@ def chat_send_file_choice_folder(driver, x, y, z):
     # 点击确定按钮
     driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.Button[1]").click()
     mylogger.info("确定发送")
+
+
+def chat_voice_element(driver):
+    """返回触发语音按钮"""
+    ele_voice = driver.find_element_by_id("img_voice_key")
+    return ele_voice
+
+
+def chat_send_voice_element(driver, t):
+    send_voice_ele = driver.find_element_by_id("recordbutton")
+    # 创建 TouchAction 实例
+    action1 = TouchAction(driver)
+    # duration 长按时间 1000 基数为 1s
+    action1.long_press(el=send_voice_ele, duration=t).wait(10000).perform()

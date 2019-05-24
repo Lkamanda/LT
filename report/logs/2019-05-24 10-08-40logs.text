@@ -1,0 +1,17 @@
+2019-05-24 10:08:56,953 - Logger - DEBUG - 发送文件 start
+2019-05-24 10:09:02,589 - Logger - INFO - 进入与第一个联系人交互界面
+2019-05-24 10:09:09,812 - Logger - INFO - 触发chat左滑
+2019-05-24 10:09:36,458 - Logger - INFO - 确定发送
+2019-05-24 10:09:36,458 - Logger - INFO - 发送文件第1
+2019-05-24 10:10:05,727 - Logger - INFO - 确定发送
+2019-05-24 10:10:05,727 - Logger - INFO - 发送文件第2
+2019-05-24 10:10:34,042 - Logger - INFO - 确定发送
+2019-05-24 10:10:34,042 - Logger - INFO - 发送文件第3
+2019-05-24 10:11:03,189 - Logger - INFO - 确定发送
+2019-05-24 10:11:03,190 - Logger - INFO - 发送文件第4
+2019-05-24 10:11:31,441 - Logger - INFO - 确定发送
+2019-05-24 10:11:31,442 - Logger - INFO - 发送文件第5
+2019-05-24 10:11:33,364 - Logger - INFO - start reset place environment
+2019-05-24 10:11:37,990 - Logger - INFO - 0
+2019-05-24 10:11:38,866 - Logger - INFO - 0
+2019-05-24 10:11:38,866 - Logger - INFO - end reset place environment

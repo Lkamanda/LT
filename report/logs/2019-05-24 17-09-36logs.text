@@ -1,0 +1,110 @@
+2019-05-24 17:09:56,480 - Logger - DEBUG - test_1
+2019-05-24 17:10:00,800 - Logger - INFO - 进入我的页面
+2019-05-24 17:10:02,186 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-05-24 17:10:03,009 - Logger - INFO - 点击微信图标进行登录
+2019-05-24 17:10:05,497 - Logger - INFO - True
+2019-05-24 17:10:05,498 - Logger - INFO - 微信登录成功
+2019-05-24 17:10:06,248 - Logger - INFO - return my page success
+2019-05-24 17:10:07,110 - Logger - INFO - return home page success
+2019-05-24 17:10:07,110 - Logger - DEBUG - 当前用户退出
+2019-05-24 17:10:08,139 - Logger - INFO - get into mine home page
+2019-05-24 17:10:18,346 - Logger - INFO - 向上滑动屏幕
+2019-05-24 17:10:19,972 - Logger - INFO - 触发退出登录按钮
+2019-05-24 17:10:21,636 - Logger - INFO - 确认退出登录退出
+2019-05-24 17:10:25,027 - Logger - INFO - 返回我的页面
+2019-05-24 17:10:27,027 - Logger - INFO - 进入退出验证
+2019-05-24 17:10:29,360 - Logger - INFO - 定位成功
+2019-05-24 17:10:29,360 - Logger - INFO - 获取访客数成功0
+2019-05-24 17:10:29,360 - Logger - INFO - True
+2019-05-24 17:10:29,360 - Logger - INFO - 登录退出成功
+2019-05-24 17:10:46,791 - Logger - DEBUG - mobile账号密码登录
+2019-05-24 17:10:50,977 - Logger - INFO - 进入登录页面成功
+2019-05-24 17:10:53,253 - Logger - INFO - 0
+2019-05-24 17:10:53,253 - Logger - INFO - 切换成账号密码登录
+2019-05-24 17:10:59,620 - Logger - INFO - 输入账号成功
+2019-05-24 17:11:05,825 - Logger - INFO - 输如密码成功
+2019-05-24 17:11:06,914 - Logger - INFO - 触发登录
+2019-05-24 17:11:08,647 - Logger - INFO - 进入消息界面成功
+2019-05-24 17:11:08,647 - Logger - INFO - mobile 登录成功
+2019-05-24 17:11:08,647 - Logger - DEBUG - test2_message
+2019-05-24 17:11:09,829 - Logger - INFO - 进入与第一个联系人交互界面
+2019-05-24 17:11:29,130 - Logger - INFO - 消息已发送
+2019-05-24 17:11:34,428 - Logger - DEBUG - test3_preview_send_photo
+2019-05-24 17:11:34,847 - Logger - INFO - 点击+号
+2019-05-24 17:11:55,928 - Logger - INFO - 点击进入相册界面
+2019-05-24 17:11:58,775 - Logger - INFO - 选择照片/视频成功
+2019-05-24 17:12:00,650 - Logger - INFO - 选择照片/视频成功
+2019-05-24 17:12:01,988 - Logger - INFO - 选择照片/视频成功
+2019-05-24 17:12:04,394 - Logger - INFO - 进入发送预览
+2019-05-24 17:12:07,781 - Logger - INFO - 照片上传成功
+2019-05-24 17:12:07,781 - Logger - DEBUG - test4_send_photo
+2019-05-24 17:12:12,705 - Logger - INFO - 点击+号
+2019-05-24 17:12:33,728 - Logger - INFO - 点击进入相册界面
+2019-05-24 17:12:36,026 - Logger - INFO - 选择照片/视频成功
+2019-05-24 17:12:37,211 - Logger - INFO - 选择照片/视频成功
+2019-05-24 17:12:38,230 - Logger - INFO - 选择照片/视频成功
+2019-05-24 17:12:45,850 - Logger - DEBUG - 拍照后勾选所拍照片发送
+2019-05-24 17:12:48,169 - Logger - INFO - 进入与第一个联系人交互界面
+2019-05-24 17:12:52,692 - Logger - INFO - 触发聊天成功
+2019-05-24 17:13:14,417 - Logger - INFO - 进入拍摄page
+2019-05-24 17:13:17,073 - Logger - INFO - 触发拍摄按钮
+2019-05-24 17:13:26,993 - Logger - DEBUG - 共享位置直接停止
+2019-05-24 17:14:06,791 - Logger - INFO - 进入与第一个联系人交互界面
+2019-05-24 17:14:06,791 - Logger - DEBUG - 共享位置返回聊天停止
+2019-05-24 17:14:39,549 - Logger - DEBUG - 发送button定位失败
+2019-05-24 17:14:40,077 - Logger - INFO - 聊天终止
+2019-05-24 17:14:40,077 - Logger - DEBUG - 分享联系人
+2019-05-24 17:14:41,796 - Logger - INFO - add
+2019-05-24 17:15:02,610 - Logger - INFO - 进入contacts page
+2019-05-24 17:15:04,098 - Logger - INFO - 选择第一张contacts发送
+2019-05-24 17:15:06,100 - Logger - INFO - add
+2019-05-24 17:15:26,919 - Logger - INFO - 进入contacts page
+2019-05-24 17:15:28,525 - Logger - INFO - 选择第一张contacts发送
+2019-05-24 17:15:33,737 - Logger - DEBUG - 查询到指定联系人并分享查询的第一个
+2019-05-24 17:15:34,197 - Logger - INFO - add
+2019-05-24 17:15:55,032 - Logger - INFO - 进入contacts page
+2019-05-24 17:16:05,448 - Logger - INFO - 选择查询到的第一张contacts发送
+2019-05-24 17:16:10,735 - Logger - INFO - start reset place environment
+2019-05-24 17:16:15,258 - Logger - INFO - 0
+2019-05-24 17:16:26,670 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-05-24 17:16:29,394 - Logger - INFO - 0
+2019-05-24 17:16:29,394 - Logger - INFO - end reset place environment
+2019-05-24 17:16:31,394 - Logger - DEBUG - 当前用户退出
+2019-05-24 17:16:31,768 - Logger - INFO - get into mine home page
+2019-05-24 17:16:41,093 - Logger - INFO - 向上滑动屏幕
+2019-05-24 17:16:42,595 - Logger - INFO - 触发退出登录按钮
+2019-05-24 17:16:44,584 - Logger - INFO - 确认退出登录退出
+2019-05-24 17:17:40,752 - Logger - DEBUG - mobile账号密码登录
+2019-05-24 17:17:44,962 - Logger - INFO - 进入登录页面成功
+2019-05-24 17:17:47,143 - Logger - INFO - 0
+2019-05-24 17:17:47,143 - Logger - INFO - 切换成账号密码登录
+2019-05-24 17:17:54,378 - Logger - INFO - 输入账号成功
+2019-05-24 17:18:01,477 - Logger - INFO - 输如密码成功
+2019-05-24 17:18:02,213 - Logger - INFO - 触发登录
+2019-05-24 17:18:03,527 - Logger - INFO - 进入消息界面成功
+2019-05-24 17:18:03,527 - Logger - INFO - mobile 登录成功
+2019-05-24 17:18:03,527 - Logger - INFO - 通过搜索分享地点 start
+2019-05-24 17:18:05,374 - Logger - INFO - 进入与第一个联系人交互界面
+2019-05-24 17:18:31,116 - Logger - INFO - 进入place 界面
+2019-05-24 17:18:40,315 - Logger - INFO - 触发：输入框输入
+2019-05-24 17:18:42,356 - Logger - INFO - 选择地点类型为地点
+2019-05-24 17:18:47,536 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-05-24 17:18:50,251 - Logger - INFO - 位置信息发送
+2019-05-24 17:18:52,996 - Logger - INFO - start reset place environment
+2019-05-24 17:18:58,435 - Logger - INFO - 0
+2019-05-24 17:19:09,291 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-05-24 17:19:11,789 - Logger - INFO - 0
+2019-05-24 17:19:11,789 - Logger - INFO - end reset place environment
+2019-05-24 17:19:13,789 - Logger - DEBUG - 通过搜索分享街道 start
+2019-05-24 17:19:21,639 - Logger - DEBUG - 通过搜索分享城市 start
+2019-05-24 17:19:28,415 - Logger - DEBUG - 住宿下分享 start
+2019-05-24 17:19:35,608 - Logger - DEBUG - 美食下分享 start
+2019-05-24 17:19:42,350 - Logger - DEBUG - 游玩出行下分享 start
+2019-05-24 17:19:47,646 - Logger - DEBUG - 出行下分享 start
+2019-05-24 17:19:54,392 - Logger - DEBUG - 出行下分享 start
+2019-05-24 17:20:00,103 - Logger - DEBUG - 出行下分享 start
+2019-05-24 17:20:53,422 - Logger - DEBUG - 出行下分享 start
+2019-05-24 17:22:53,432 - Logger - DEBUG - 地图上发送默认地点 start

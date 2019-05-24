@@ -21,7 +21,8 @@ class runner:
         # 获取当前时间戳
         now_time = str_nowTime()
         # 定义报告存放路径
-        report_file = str(os.path.dirname(os.path.dirname(__file__)) + '/report/html_result/%sTest Report.html') % now_time
+        report_file = str(
+            os.path.dirname(os.path.dirname(__file__)) + '/report/html_result/%sTest Report.html') % now_time
         fp = open(report_file, 'wb')
         # filename = 'F:/ ' + now + 'result.html'
         # 定义测试报告
@@ -38,9 +39,10 @@ class runner:
             try:
                 z = z + 1
                 self.run()
-            except:
+            except Exception as e:
+                print(e)
                 n = n + 1
-                if n ==2:
+                if n == 2:
                     break
                 else:
                     self.run()

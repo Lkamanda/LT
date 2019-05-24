@@ -86,3 +86,13 @@ ele.text
 ele.get_attribute("text")
 
 https://www.cnblogs.com/meitian/p/6103391.html
+
+8.接口测试和loadrunner 初步使用
+https://www.cnblogs.com/wbj432/p/8778109.html
+
+9.解决长按
+send_voice_ele = driver.find_element_by_id("recordbutton")
+    # 创建 TouchAction 实例
+    action1 = TouchAction(driver)
+    # duration 长按时间 1000 基数为 1s
+    action1.long_press(el=send_voice_ele, duration=t).wait(10000).perform()
