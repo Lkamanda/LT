@@ -32,7 +32,7 @@ def wxDl_element(driver):
 
 
 # 微信登录页面 账号密码登录title 点击
-def mobile_tile_element(driver):
+def mobile_title_element(driver):
     driver.find_element_by_id("com.erlinyou.worldlist:id/account_login").click()
 
 

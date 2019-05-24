@@ -72,3 +72,11 @@ def swipeRight(driver, t):
     x2 = int(x * 0.75)
     driver.swipe(x1, y1, x2, y1, t)
 
+
+def chat_swipeLeft(driver, t):
+    """屏幕向左滑动"""
+    x, y = get_mobile_size(driver)
+    x1 = int(x * 0.75)
+    y1 = int(y * 0.8)
+    x2 = int(x * 0.05)
+    driver.swipe(x1, y1, x2, y1, t)

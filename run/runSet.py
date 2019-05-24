@@ -33,14 +33,14 @@ class runner:
     def main(self):
         n = 0
         z = 0
-        for i in range(1, 10000000):
+        for i in range(1, 2):
             print("运行第%s次" % i)
             try:
                 z = z + 1
                 self.run()
             except:
                 n = n + 1
-                if n == 1000000000:
+                if n ==2:
                     break
                 else:
                     self.run()

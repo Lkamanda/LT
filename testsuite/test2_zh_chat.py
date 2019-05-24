@@ -1,5 +1,6 @@
 """
-模拟mobile账号登录后对message下功能进行测试
+模拟mobile账号登录后对message下功能进行测试:
+相册， 拍照， 分享位置， 联系人
 """
 
 import unittest
@@ -206,7 +207,7 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(3)
         screenShot(driver=self.driver, test_name=test_name)
         # 返回首页
-        place_environment_reset(driver=self.driver)
+        chat_environment_reset(driver=self.driver)
 
     # 应返回home page 页面在执行
     def test8_exit(self):

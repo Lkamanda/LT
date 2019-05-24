@@ -39,7 +39,7 @@ class ZH_message(webDriver, unittest.TestCase):
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)
-        place_environment_reset(driver=self.driver)
+        chat_environment_reset(driver=self.driver)
         # chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
         # # chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
         # chat_send_all_element(self.driver)

@@ -8,16 +8,16 @@ from comm.webDriver import *
 
 class Message_zh(webDriver, unittest.TestCase):
 
-    # def test_1(self):
-    #     """zh login """
-    #     zh_login(self=self, driver=self.driver)
+    def test1_login(self):
+        """zh login """
+        zh_login(self=self, driver=self.driver)
 
     def test2_search_place_1(self):
         """通过搜索分享地点"""
         test_name = "通过搜索分享地点"
         mylogger.info("%s start" % test_name)
         self.driver.implicitly_wait(5)
-        mainChat_element(self.driver)
+        # mainChat_element(self.driver)
         place_environment(driver=self.driver)
         time.sleep(2)
         self.driver.implicitly_wait(10)
@@ -31,7 +31,7 @@ class Message_zh(webDriver, unittest.TestCase):
         self.driver.implicitly_wait(5)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test2_search_place_2(self):
         """通过搜索分享街道"""
@@ -52,7 +52,7 @@ class Message_zh(webDriver, unittest.TestCase):
         self.driver.implicitly_wait(5)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test2_search_place_3(self):
         """通过搜索分享城市"""
@@ -68,12 +68,13 @@ class Message_zh(webDriver, unittest.TestCase):
         self.driver.implicitly_wait(5)
         chat_place_type(driver=self.driver, n=2)
         mylogger.info("选择地点类型为城市")
+        self.driver.implicitly_wait(5)
         chat_place_choice_City(driver=self.driver, n=1)
         mylogger.info("位置信息发送")
         self.driver.implicitly_wait(5)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test3_place_Sleep(self):
         """进入 place 住宿 并分享周边兴趣列表位置"""
@@ -90,7 +91,7 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test4_place_Food(self):
         """进入 place food 并分享周边兴趣列表位置"""
@@ -107,7 +108,7 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test5_place_Visit(self):
         """进入 place visit 并分享周边兴趣列表位置"""
@@ -124,7 +125,7 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test6_place_Move(self):
         """进入 place move 并分享周边兴趣列表位置"""
@@ -141,7 +142,7 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test7_place_Service(self):
         """进入 place service 并分享周边兴趣列表位置"""
@@ -158,7 +159,7 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
     def test8_place_Nearby(self):
         """进入 place Nearby 页面"""
@@ -177,9 +178,9 @@ class Message_zh(webDriver, unittest.TestCase):
         self.driver.press_keycode(4)
         time.sleep(2)
         self.driver.press_keycode(4)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
-    def test9_place_Favor(self):
+    def test9_0_place_Favor(self):
         """进入 place service 并分享周边兴趣列表位置"""
         test_name = "出行下分享"
         mylogger.debug("%s start" % test_name)
@@ -194,9 +195,44 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(2)
         screenShot(driver=self.driver, test_name=test_name)
         self.driver.implicitly_wait(5)
-        place_environment_reset(self.driver)
+        chat_environment_reset(self.driver)
 
+    def test9_1_place_On_map(self):
+        """进入place on_map 分享默认地点"""
+        test_name = "地图上发送默认地点"
+        mylogger.debug("%s start" % test_name)
+        self.driver.implicitly_wait(5)
+        mainChat_element(self.driver)
+        place_environment(driver=self.driver)
+        self.driver.implicitly_wait(5)
+        chat_place_on_map(self.driver)
+        mylogger.info("on map 触发位置共享")
+        self.driver.implicitly_wait(5)
+        chat_place_on_map_sure(self.driver)
+        screenShot(self.driver, test_name)
+        self.driver.implicitly_wait(5)
+        chat_environment_reset(self.driver)
 
+    def test9_2_place_GPS(self):
+        """ place GPS 分享当前GPS定位"""
+        test_name = "地图上发送默认地点"
+        mylogger.debug("%s start" % test_name)
+        self.driver.implicitly_wait(5)
+        mainChat_element(self.driver)
+        place_environment(driver=self.driver)
+        self.driver.implicitly_wait(5)
+        chat_place_on_map_GPS(self.driver)
+        mylogger.info("on map 触发位置共享")
+        time.sleep(3)
+        screenShot(self.driver, test_name)
+        self.driver.implicitly_wait(5)
+        chat_environment_reset(self.driver)
+
+    def test9_3_exit(self):
+        """当前用户退出"""
+        test_name = "当前用户退出"
+        mylogger.debug(test_name)
+        logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

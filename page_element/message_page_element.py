@@ -3,11 +3,15 @@
 """
 
 from comm.usuallymodule import mylogger
+from page.element_error import element_error
 
 
 def message_back_element(driver):
     """消息页面返回home_page按钮"""
-    driver.find_element_by_id("com.erlinyou.worldlist:id/imageview_search").click()
+    try:
+        driver.find_element_by_id("com.erlinyou.worldlist:id/imageview_search").click()
+    except Exception as e:
+        element_error(driver, e)
 
 
 # 聊天title
@@ -172,4 +176,39 @@ def chat_contacts_share(driver, n):
                                  "/android.widget.LinearLayout/android.widget.TextView" % n).click()
 
 
+def chat_send_file_type(driver, n):
+    """
+    message 发送文件选择类型
+    :param driver: self.driver
+    :param n:
+    n = 1 :本地视频
+    n = 2: 本地音乐
+    n = 3 : 文件管理
+    n = 4 : wps office
+    n = 5 : 相册
+    n = 6 : 进入录音机
+    n = 7 : 音乐
 
+
+    """
+    try:
+        driver.find_element_by_xpath("//android.widget.GridView/android.widget.LinearLayout[%s]" % n).click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_send_file_choice_folder(driver, x, y, z):
+    """
+    文件管理:下选择具体的文件夹 ， 仅支持首页
+    :param driver:
+    :param x: 第1层第几个文件夹
+    :param y: 第2层第几个文件夹
+    :param z: 第3层第几个文件
+    :return:
+    """
+    driver.find_element_by_xpath("//android.widget.ListView/android.widget.FrameLayout[%s]" % x).click()
+    driver.find_element_by_xpath("//android.widget.ListView/android.widget.FrameLayout[%s]" % y).click()
+    driver.find_element_by_xpath("//android.widget.ListView/android.widget.FrameLayout[%s]" % z).click()
+    # 点击确定按钮
+    driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.Button[1]").click()
+    mylogger.info("确定发送")

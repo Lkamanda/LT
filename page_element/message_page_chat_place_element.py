@@ -75,12 +75,29 @@ def chat_place_favorite(driver):
         element_error(driver, e)
 
 
-def chat_place_onmap(driver):
+def chat_place_on_map(driver):
     """place page on map choice """
     try:
         driver.find_element_by_id("com.erlinyou.worldlist:id/rl_select").click()
     except Exception as e:
         element_error(driver, e)
+
+
+def chat_place_on_map_sure(driver):
+    """place page on map 确定"""
+    try:
+        driver.find_element_by_id("detail_set_tv").click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_place_on_map_GPS(driver):
+    """place page GPS"""
+    try:
+        driver.find_element_by_id("rl_current").click()
+    except Exception as e:
+        element_error(driver, e)
+
 
 
 def chat_place_type(driver, n):
@@ -134,7 +151,7 @@ def chat_place_choice_City(driver, n):
     :return:
     """
     try:
-        driver.find_element_by_xpath("//android.widget.ListView/android.widget.LinearLayout[$s]" % n).click()
+        driver.find_element_by_xpath("//android.widget.ListView/android.widget.LinearLayout[%s]" % n).click()
     except Exception as e:
         element_error(driver, e)
 
@@ -151,3 +168,12 @@ def chat_place_surrounding_share(driver, n):
             .click()
     except Exception as e:
         element_error(driver, e)
+
+
+def chat_send_file_element(driver):
+    """message send file element"""
+    try:
+        driver.find_element_by_id("img_icon").click()
+    except Exception as e:
+        element_error(driver, e)
+
