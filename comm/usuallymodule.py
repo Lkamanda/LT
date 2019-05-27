@@ -6,8 +6,8 @@ from page_element.message_page_element import *
 from comm.common import *
 from page_element.login_page_element import *
 from page_element.message_page_chat_place_element import *
-from comm.config import MyConfig
-myconfig = MyConfig()
+# from comm.config import MyConfig
+# myconfig = MyConfig()
 
 
 def zh_login(self, driver):
