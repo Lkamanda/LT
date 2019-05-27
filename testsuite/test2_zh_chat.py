@@ -85,7 +85,7 @@ class Message_zh(webDriver, unittest.TestCase):
         mylogger.info("选择照片/视频成功")
         self.driver.implicitly_wait(5)
         chat_add_photo_send(self.driver)
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(60)
         allmap_back_element(self.driver)
         print('返回上一层')
         self.driver.implicitly_wait(10)
@@ -204,7 +204,6 @@ class Message_zh(webDriver, unittest.TestCase):
         time.sleep(3)
         chat_contacts_share(driver=self.driver, n=1)
         mylogger.info("选择查询到的第一张contacts发送")
-        time.sleep(3)
         screenShot(driver=self.driver, test_name=test_name)
         # 返回首页
         chat_environment_reset(driver=self.driver)

@@ -4,9 +4,7 @@ class MyConfig:
         self.chat_str_2 = u"华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
         self.mobile_number = u"13231533164"
         self.mobile_password = u"5211314"
-        self.place_share_place = u"北京西站"
-        self.place_share_street = u"上地五街"
-        self.place_share_city = u"beijing"
+        self.place_input = [u"北京西站",  u"上地五街", u"beijing"]
 
     # def get_send_str(self):
     #     return self.send_str
@@ -29,17 +27,16 @@ class MyConfig:
         """
 
         if n == 1:
-            return self.place_share_place
-
+            # return self.place_share_place
+            return self.place_input[0]
         elif n == 2:
-            return self.place_share_street
+            return self.place_input[1]
+            # return self.place_share_street
 
         elif n == 3:
-            return self.place_share_city
+            return self.place_input[2]
+            # return self.place_share_city
 
     def get_chat_str(self, n):
         if n == 1:
             return self.chat_str_2
-
-
-

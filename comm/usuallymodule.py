@@ -16,17 +16,9 @@ def zh_login(self, driver):
     driver.implicitly_wait(5)
     mainChat_element(driver)
     mylogger.info("进入登录页面成功")
-    time.sleep(2)
-    error_find = 0
-    try:
-        mobile_title_element(driver)
-    except:
-        error_find += 1
-        if error_find < 5:
-            mobile_title_element(driver)
-    mylogger.info(error_find)
+    mobile_title_element(driver)
     mylogger.info("切换成账号密码登录")
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
     mobile_user_element(driver)
     mylogger.info("输入账号成功")
     mobile_password_element(driver)
@@ -78,26 +70,11 @@ def place_environment(driver):
 
 def chat_environment_reset(driver):
     mylogger.info("start reset place environment")
-    time.sleep(4)
-    allmap_back_time = 0
-    try:
-        allmap_back_element(driver)
-    except:
-        allmap_back_time += 1
-        if allmap_back_time < 5:
-            allmap_back_element(driver)
-    mylogger.info(allmap_back_time)
-    print(1)
+    allmap_back_element(driver)
+    print(0)
     driver.implicitly_wait(10)
-    reset_time = 0
-    try:
-        message_back_element(driver)
-    except:
-        reset_time += 1
-        if reset_time < 6:
-            message_back_element(driver)
-    mylogger.info(reset_time)
-    print(2)
+    message_back_element(driver)
+    print(1)
     mylogger.info("end reset place environment")
     time.sleep(2)
 
