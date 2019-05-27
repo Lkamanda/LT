@@ -5,6 +5,7 @@ class MyConfig:
         self.mobile_number = u"13231533164"
         self.mobile_password = u"5211314"
         self.place_input = [u"北京西站",  u"上地五街", u"beijing"]
+        self.home_page_details_input = [u"龙泽苑西区"]
 
     # def get_send_str(self):
     #     return self.send_str
@@ -40,3 +41,12 @@ class MyConfig:
     def get_chat_str(self, n):
         if n == 1:
             return self.chat_str_2
+
+    def get_homepage_input(self, n):
+        """
+        主页详情页面的输入内容
+        :param n:
+        :return:
+        """
+        if n == 1:
+            return self.home_page_details_input[0]

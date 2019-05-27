@@ -1,6 +1,3 @@
-from comm.config import *
-
-
 def userAvatar_element(driver):
     """点击首页用户头像"""
     driver.find_element_by_id('user_avatar_img').click()
@@ -11,7 +8,4 @@ def mainChat_element(driver):
     driver.find_element_by_id("chat_img").click()
 
 
-def roam_element(driver):
-    """点击主页漫游页面"""
-    driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.LinearLayout"
-                                 "/android.widget.ImageView").click()
+
