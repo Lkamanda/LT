@@ -1,6 +1,7 @@
 from comm.common import *
 from page_element.mine_page_element import download_map
 from comm.mylog import *
+from page_element.all_home_page_element import homepage_details_go_home_add, homepage_details_go_home_cancel_element
 
 
 # 判断微信是否登录成功
@@ -25,7 +26,6 @@ def check_wx_logout(driver, test_name):
         driver.implicitly_wait(20)
         count_visitor = driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView[2]"
                                                      "/android.widget.LinearLayout[5]/android.widget.TextView[1]").text
-        # count_visitor = driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[5]/android.widget.TextView[1]").get_attribute("name")
         mylogger.info("定位成功")
         print(count_visitor)
         count_visitor = int(count_visitor)
@@ -64,7 +64,27 @@ def check_share_location_stop(driver, test_name):
             return False
         else:
             return True
-    except:
+    except Exception as e:
+        mylogger.info("%s" % e)
         screenShot(driver, test_name)
         print(True)
         return True
+
+
+def check_home_page_element(driver):
+    """
+    判断主页输入框详情页上 "回家" button状态是什么
+    :param driver:
+    :return: go_home_element , go_home_number
+    """
+    go_home_number = 0
+    try:
+        go_home_element = homepage_details_go_home_add(driver)
+        mylogger.info("当前账号并未添加回家地址")
+        go_home_number = go_home_number
+        return go_home_element, go_home_number
+    except:
+        go_home_element = homepage_details_go_home_cancel_element(driver)
+        mylogger.info("当前账号已经添加了回家地址")
+        go_home_number = go_home_number + 1
+        return go_home_element, go_home_number

@@ -3,6 +3,7 @@ import logging
 import os.path
 import time
 from comm.common import str_nowTime
+from comm.common import screenShot
 
 
 class Logger(object):

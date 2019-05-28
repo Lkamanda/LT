@@ -10,7 +10,8 @@ class Message_share(webDriver, unittest.TestCase):
     def test1(self):
         """zh login """
         zh_login(self=self, driver=self.driver)
-        message_back_element(self.driver)
+        # message_back_element(self.driver)
+        self.driver.press_keycode(4)
         mylogger.info("返回home page")
 
     def test2_share_software(self):
@@ -86,6 +87,12 @@ class Message_share(webDriver, unittest.TestCase):
         mylogger.info("发送语音时长为%s" % t)
         # time.sleep(5)
         chat_environment_reset(self.driver)
+
+    def test5_exit(self):
+        """当前用户退出"""
+        test_name = "当前用户退出"
+        mylogger.debug(test_name)
+        logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

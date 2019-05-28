@@ -10,7 +10,7 @@ from appium.webdriver.common.touch_action import TouchAction
 def message_back_element(driver):
     """消息页面返回home_page按钮"""
     try:
-        driver.find_element_by_id("com.erlinyou.worldlist:id/imageview_search").click()
+        driver.find_element_by_id("imageview_search").click()
     except Exception as e:
         element_error(driver, e)
 

@@ -5,6 +5,7 @@ from page.Assertion import *
 from page_element.message_page_element import *
 from comm.common import *
 from page_element.login_page_element import *
+from page_element.all_home_page_element import *
 from page_element.message_page_chat_place_element import *
 # from comm.config import MyConfig
 # myconfig = MyConfig()
@@ -28,6 +29,7 @@ def zh_login(self, driver):
     mylogger.info("触发登录")
     self.assertEqual(True, check_mobile_login(driver, test_name))
     mylogger.info("mobile 登录成功")
+    time.sleep(3)
 
 
 def logout(self, driver):

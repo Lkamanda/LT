@@ -3,8 +3,8 @@ class MyConfig:
         self.chat_str_1 = u"d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
         self.chat_str_2 = u"华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
         self.mobile_number = u"13231533164"
-        self.mobile_password = u"5211314"
-        self.place_input = [u"北京西站",  u"上地五街", u"beijing"]
+        self.mobile_password = str(u"5211314")
+        self.place_input = [u"北京西站",  u"上地五街", u"beijing", u"龙泽苑西区南门"]
         self.home_page_details_input = [u"龙泽苑西区"]
 
     # def get_send_str(self):
@@ -20,23 +20,23 @@ class MyConfig:
         """
         对place 页面返回搜索值
         :param
-        n = 1 ： 地点
-        n = 2 :  街道
-        n = 3 :  城市
-
+        n = 0 ： 地点
+        n = 1 :  街道
+        n = 2 :  城市
+        n = 3 :  家
         :return: place
         """
-
-        if n == 1:
-            # return self.place_share_place
-            return self.place_input[0]
-        elif n == 2:
-            return self.place_input[1]
-            # return self.place_share_street
-
-        elif n == 3:
-            return self.place_input[2]
-            # return self.place_share_city
+        return self.place_input[n]
+        # if n == :
+        #     # return self.place_share_place
+        #     return self.place_input[0]
+        # elif n == 2:
+        #     return self.place_input[1]
+        #     # return self.place_share_street
+        #
+        # elif n == 3:
+        #     return self.place_input[2]
+        #     # return self.place_share_city
 
     def get_chat_str(self, n):
         if n == 1:

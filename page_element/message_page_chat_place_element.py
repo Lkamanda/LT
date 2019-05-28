@@ -11,7 +11,7 @@ def chat_place_search_place(driver, n):
     """
     place page search
     :param driver:
-    :param n: where you want to go  类型 1,2,3
+    :param n: where you want to go  类型 0,1,2,3
     """
     myconfig = MyConfig()
     place = myconfig.get_place_share_search(n)
