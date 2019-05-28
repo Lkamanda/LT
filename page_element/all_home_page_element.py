@@ -30,7 +30,7 @@ def homepage_details_go_home_element(driver):
 def homepage_details_go_home_cancel_element(driver):
     """详情页取消回家按钮"""
     try:
-        driver.find_element_by_id("iv_home_delete").click()
+        driver.find_element_by_id("com.erlinyou.worldlist:id/iv_home_delete").click()
     except Exception as e:
         element_error(driver, e)
 

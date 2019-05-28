@@ -26,6 +26,7 @@ class Test5(webDriver, unittest.TestCase):
         except:
             homepage_details_go_home_cancel_element(self.driver)
             go_home_number = go_home_number + 1
+            print(2)
 
         if go_home_number == 0:
             mylogger.info("进入添加家的测试用例")
@@ -33,7 +34,8 @@ class Test5(webDriver, unittest.TestCase):
             chat_place_search_place(driver=self.driver, n=3)
             mylogger.info('触发输入家的地址成功')
             # 选择查询到的第一个搜索结果
-            self.driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.view.View").click()
+            self.driver.find_element_by_xpath(
+                "//android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.view.View").click()
             mylogger.info("选择搜索结果成功")
             homepage_details_go_home_element(self.driver)
             mylogger.info("进入导航页")
