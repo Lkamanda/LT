@@ -1,9 +1,0 @@
-2019-05-28 16:05:48,553 - Logger - INFO - 回家
-2019-05-28 16:05:57,584 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
-
-2019-05-28 16:06:00,305 - Logger - INFO - 进入添加家的测试用例
-2019-05-28 16:06:06,319 - Logger - INFO - 触发输入家的地址成功
-2019-05-28 16:06:08,709 - Logger - INFO - 选择搜索结果成功
-2019-05-28 16:06:18,979 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
-
-2019-05-28 16:06:20,896 - Logger - INFO - 进入导航页

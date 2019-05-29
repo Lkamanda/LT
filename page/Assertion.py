@@ -69,22 +69,33 @@ def check_share_location_stop(driver, test_name):
         screenShot(driver, test_name)
         print(True)
         return True
+# def check_home_page_element(driver):
+#     """
+#     判断主页输入框详情页上 "回家" button状态是什么
+#     :param driver:
+#     :return: go_home_element , go_home_number
+#     """
+#     go_home_number = 0
+#     try:
+#         go_home_element = homepage_details_go_home_add(driver)
+#         mylogger.info("当前账号并未添加回家地址")
+#         go_home_number = go_home_number
+#         return go_home_element, go_home_number
+#     except:
+#         go_home_element = homepage_details_go_home_cancel_element(driver)
+#         mylogger.info("当前账号已经添加了回家地址")
+#         go_home_number = go_home_number + 1
+#         return go_home_element, go_home_number
 
 
-def check_home_page_element(driver):
-    """
-    判断主页输入框详情页上 "回家" button状态是什么
-    :param driver:
-    :return: go_home_element , go_home_number
-    """
-    go_home_number = 0
+def check_direct_go_home(driver, test_name):
     try:
-        go_home_element = homepage_details_go_home_add(driver)
-        mylogger.info("当前账号并未添加回家地址")
-        go_home_number = go_home_number
-        return go_home_element, go_home_number
-    except:
-        go_home_element = homepage_details_go_home_cancel_element(driver)
-        mylogger.info("当前账号已经添加了回家地址")
-        go_home_number = go_home_number + 1
-        return go_home_element, go_home_number
+        ele = driver.find_element_by_id("com.erlinyou.worldlist:id/top_map_mode_img").text
+        if ele == "到这去":
+            return True
+        else:
+            return False
+    except Exception as e:
+        mylogger.info("%s" % e)
+        screenShot(driver, test_name)
+        return False

@@ -21,24 +21,15 @@ def homepage_input_box_details(driver, n):
 
 def homepage_details_go_home_element(driver):
     """详情页回家"""
-    try:
-        driver.find_element_by_id("rl_home").click()
-    except Exception as e:
-        element_error(driver, e)
+    driver.find_element_by_id("rl_home").click()
 
 
 def homepage_details_go_home_cancel_element(driver):
     """详情页取消回家按钮"""
-    try:
-        driver.find_element_by_id("com.erlinyou.worldlist:id/iv_home_delete").click()
-    except Exception as e:
-        element_error(driver, e)
+    driver.find_element_by_id("com.erlinyou.worldlist:id/iv_home_delete")
 
 
 def homepage_details_go_home_add(driver):
     """详情页未添加回家"""
-    try:
-        driver.find_element_by_id("com.erlinyou.worldlist:id/tv_home_set").click()
-    except Exception as e:
-        element_error(driver, e)
+    driver.find_element_by_id("com.erlinyou.worldlist:id/tv_home_set").click()
 
