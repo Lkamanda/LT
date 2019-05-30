@@ -21,7 +21,7 @@ def roam_page_goto_element(driver):
 def roam_page_choice_ldmark(driver, n):
     """选择当前页的第几个landmark"""
     try:
-        driver.find_element_by_xpath("/android.widget.RelativeLayout[%s]/android.widget.RelativeLayout/android.widget.ImageView" % n).click()
+        driver.find_element_by_xpath("//android.widget.RelativeLayout[%s]/android.widget.RelativeLayout/android.widget.ImageView" % n).click()
     except Exception as e:
         element_error(driver, e)
 

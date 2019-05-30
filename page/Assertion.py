@@ -89,9 +89,24 @@ def check_share_location_stop(driver, test_name):
 
 
 def check_direct_go_home(driver, test_name):
+    """设置回家是否成功"""
     try:
         ele = driver.find_element_by_id("com.erlinyou.worldlist:id/top_map_mode_img").text
         if ele == "到这去":
+            return True
+        else:
+            return False
+    except Exception as e:
+        mylogger.info("%s" % e)
+        screenShot(driver, test_name)
+        return False
+
+
+def check_cancel_go_home(driver, test_name):
+    """通过是否能找到住宿这个button来判断取消回家成功"""
+    try:
+        ele = driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack")
+        if ele == "住宿":
             return True
         else:
             return False

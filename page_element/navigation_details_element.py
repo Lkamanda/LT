@@ -46,6 +46,24 @@ def navigation_details_navigation_element(driver):
 def navigation_details_quit(driver):
     """导航页退出"""
     try:
-        driver.find_element_by_id("com.erlinyou.worldlist:id/quit").click()
+        driver.find_element_by_id("com.erlinyou.worldlist:id/ll_quit").click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def navigation_details_trip_mode(driver, mode):
+    """
+    出行方式的选择
+    :param driver: self.driver
+    :param mode:
+    mode = 2 : 汽车
+    mode = 3 ：公交
+    mode = 4 ：地铁
+    mode = 5 ：步行
+    mode = 6 : 自行车
+    :return:
+    """
+    try:
+        driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView/android.widget.LinearLayout[%s]/android.widget.ImageView" % mode).click()
     except Exception as e:
         element_error(driver, e)
