@@ -61,13 +61,12 @@ def check_share_location_stop(driver, test_name):
     try:
         ele = driver.find_element_by_id("stop").text
         if ele == "停止":
+            mylogger.info("停止按钮未从页面消失")
             return False
         else:
             return True
-    except Exception as e:
-        mylogger.info("%s" % e)
-        screenShot(driver, test_name)
-        print(True)
+    except:
+        mylogger.info("停止按钮从页面消失，断言结果为True")
         return True
 # def check_home_page_element(driver):
 #     """
@@ -105,7 +104,7 @@ def check_direct_go_home(driver, test_name):
 def check_cancel_go_home(driver, test_name):
     """通过是否能找到住宿这个button来判断取消回家成功"""
     try:
-        ele = driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack")
+        ele = driver.find_element_by_id("com.erlinyou.worldlist:id/tv_house").text
         if ele == "住宿":
             return True
         else:
@@ -113,4 +112,8 @@ def check_cancel_go_home(driver, test_name):
     except Exception as e:
         mylogger.info("%s" % e)
         screenShot(driver, test_name)
+        driver.press_keycode(4)
+        time.sleep(1)
+        driver.press_keycode(4)
+        mylogger.error("test2_a_1失败")
         return False

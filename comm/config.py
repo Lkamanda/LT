@@ -4,7 +4,7 @@ class MyConfig:
         self.chat_str_2 = u"华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
         self.mobile_number = u"13231533164"
         self.mobile_password = str(u"5211314")
-        self.   place_input = [u"北京西站",  u"上地五街", u"beijing", u"龙泽苑西区南门", u" 北京市昌平区回龙关西大街111号", u"搜狗"]
+        self.place_input = [u"北京西站",  u"上地五街", u"beijing", u"龙泽苑西区南门", u" 北京市昌平区回龙关西大街111号", u"搜狗", u"天安门"]
         self.home_page_details_input = [u"龙泽苑西区"]
 
     # def get_send_str(self):
@@ -26,6 +26,7 @@ class MyConfig:
         n = 3 :  家
         n = 4 :  门牌号
         n = 5 :  搜狗
+        n = 6 :  天安门
         :return: place
         """
         return self.place_input[n]

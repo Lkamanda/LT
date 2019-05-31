@@ -163,7 +163,7 @@ def chat_location_share_get_back(driver):
 
 def chat_location_share_stop(driver):
     """位置分享 结束"""
-    driver.find_element_by_id("stop").click()
+    driver.find_element_by_id("com.erlinyou.worldlist:id/stop").click()
 
 
 def chat_location_contact_share_search(driver, n):

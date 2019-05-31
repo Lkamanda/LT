@@ -136,14 +136,15 @@ class Message_zh(webDriver, unittest.TestCase):
         """共享位置直接停止"""
         test_name = "共享位置直接停止"
         mylogger.debug(test_name)
-        self.driver.find_element_by_id("et_msg").click()
+        # self.driver.find_element_by_id("et_msg").click()
+        self.driver.implicitly_wait(10)
         chat_img_more_element(self.driver)
         chat_add_all(self.driver, n=5)
         self.driver.implicitly_wait(10)
         chat_location_share_stop(self.driver)
         self.assertEqual(True, check_share_location_stop(driver=self.driver, test_name=test_name))
         self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id('chat_img').click()
+        self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
         self.driver.implicitly_wait(20)
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
@@ -162,9 +163,11 @@ class Message_zh(webDriver, unittest.TestCase):
         # self.driver.implicitly_wait(10)
         # self.driver.find_element_by_id("et_msg").send_keys("123")
         # mylogger.info("输入成功")
+        self.driver.implicitly_wait(5)
         chat_send_all_element(self.driver)
+        self.driver.implicitly_wait(5)
         chat_location_share_stop(self.driver)
-        mylogger.info("聊天终止")
+        mylogger.info("位置共享结束,聊天终止")
 
     def test7_contacts_share_1(self):
         """分享联系人"""
@@ -208,12 +211,12 @@ class Message_zh(webDriver, unittest.TestCase):
         # 返回首页
         chat_environment_reset(driver=self.driver)
 
-    # 应返回home page 页面在执行
-    def test8_exit(self):
-        """当前用户退出"""
-        test_name = "当前用户退出"
-        mylogger.debug(test_name)
-        logout(self=self, driver=self.driver)
+    # # 应返回home page 页面在执行
+    # def test8_exit(self):
+    #     """当前用户退出"""
+    #     test_name = "当前用户退出"
+    #     mylogger.debug(test_name)
+    #     logout(self=self, driver=self.driver)
 
 
 if __name__ == '__main__':

@@ -42,3 +42,6 @@ def homepage_details_go_home_add(driver):
 def homepage_details_go_home_add_1(driver):
     """详情页未添加回家"""
     driver.find_element_by_id("com.erlinyou.worldlist:id/tv_home_set")
+
+
+# 输入框在  chat_place_search_place(driver, n):
