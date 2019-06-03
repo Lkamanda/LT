@@ -32,8 +32,12 @@ def notice_element(driver):
 
 # 聊天下第一个窗口
 def first_chat_element(driver):
-    driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView"
-                                 "/android.widget.RelativeLayout[1]").click()
+    try:
+        # driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView"
+        #                              "/android.widget.RelativeLayout[1]").click()
+        driver.find_element_by_xpath("//android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[2]").click()
+    except Exception as e:
+        element_error(driver, e)
 
 
 # img_more  加号button

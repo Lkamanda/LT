@@ -25,7 +25,7 @@ def zh_login(self, driver):
     driver.implicitly_wait(10)
     mobile_user_element(driver)
     mylogger.info("输入账号成功")
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
     mobile_password_element(driver)
     mylogger.info("输如密码成功")
     driver.implicitly_wait(5)
@@ -33,7 +33,6 @@ def zh_login(self, driver):
     mylogger.info("触发登录")
     self.assertEqual(True, check_mobile_login(driver, test_name))
     mylogger.info("mobile 登录成功")
-    time.sleep(3)
 
 
 def logout(self, driver):

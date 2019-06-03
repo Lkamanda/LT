@@ -44,4 +44,16 @@ def homepage_details_go_home_add_1(driver):
     driver.find_element_by_id("com.erlinyou.worldlist:id/tv_home_set")
 
 
-# 输入框在  chat_place_search_place(driver, n):
+def homepage_details_go_company_element(driver):
+    """详情页回公司"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/rl_company").click()
+
+
+def homepage_details_go_company_add_element(driver):
+    """添加公司"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/tv_company_set").click()
+
+
+def homepage_details_go_company_cancel_element(driver):
+    """取消公司"""
+    driver.find_element_by_id("com.erlinyou.worldlist:id/iv_company_delete")

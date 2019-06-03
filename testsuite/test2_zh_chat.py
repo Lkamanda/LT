@@ -26,7 +26,7 @@ class Message_zh(webDriver, unittest.TestCase):
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)
-        chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
+        chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=2))
         time.sleep(3)
         chat_send_all_element(self.driver)
         mylogger.info("消息已发送")
@@ -217,7 +217,3 @@ class Message_zh(webDriver, unittest.TestCase):
     #     test_name = "当前用户退出"
     #     mylogger.debug(test_name)
     #     logout(self=self, driver=self.driver)
-
-
-if __name__ == '__main__':
-    unittest.main(verbosity=2)

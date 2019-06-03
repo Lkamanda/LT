@@ -96,3 +96,6 @@ send_voice_ele = driver.find_element_by_id("recordbutton")
     action1 = TouchAction(driver)
     # duration 长按时间 1000 基数为 1s
     action1.long_press(el=send_voice_ele, duration=t).wait(10000).perform()
+
+10.通过text 定位页面元素
+driver.find_element_by_android_uiautomator('new UiSelector().textContains("望京SOHO")').click()
