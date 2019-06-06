@@ -99,7 +99,6 @@ def chat_place_on_map_GPS(driver):
         element_error(driver, e)
 
 
-
 def chat_place_type(driver, n):
     """
     搜素框下地点类型
@@ -128,7 +127,7 @@ def chat_place_choice_Address(driver, n):
     """
     try:
         driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView"
-                                     "/android.widget.LinearLayout[%s]"% n).click()
+                                     "/android.widget.LinearLayout[%s]" % n).click()
     except Exception as e:
         element_error(driver, e)
 
@@ -177,3 +176,42 @@ def chat_send_file_element(driver):
     except Exception as e:
         element_error(driver, e)
 
+
+def chat_place_collection_rename(driver):
+    """收藏详情 重命名"""
+    try:
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("重命名")').click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_place_collection_delete(driver):
+    """收藏详情 删除"""
+    try:
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("删除")').click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_place_collection_delete_all(driver):
+    """收藏详情 删除所有"""
+    try:
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("删除全部")').click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_place_collection_cancel(driver):
+    """收藏详情 取消"""
+    try:
+        driver.find_element_by_android_uiautomator('ew UiSelector().textContains("取消")').click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_place_collection_rename_finish(driver):
+    """收藏详情 重命名 完成"""
+    try:
+        driver.find_element_by_id("com.erlinyou.worldlist:id/dialog_ok").click()
+    except Exception as e:
+        element_error(driver, e)

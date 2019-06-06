@@ -80,3 +80,28 @@ def chat_swipeLeft(driver, t):
     y1 = int(y * 0.8)
     x2 = int(x * 0.05)
     driver.swipe(x1, y1, x2, y1, t)
+
+
+def clean_text(driver, length):
+    """
+    清空输入框
+    :param driver: self.driver
+    :param length: 输入框内容长度
+    :return:
+    """
+    driver.keyevent(123)  # 123代表光标移动到末尾键
+    for i in range(0, length):
+        driver.keyevent(67)  # 67退格键
+
+
+def check_clean_text(length):
+    """
+    校验清空输入框是否成功
+    :param length:
+    :return:
+    """
+    if length == 0:
+        return True
+    else:
+        return False
+

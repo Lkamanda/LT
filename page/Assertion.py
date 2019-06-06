@@ -22,15 +22,15 @@ def check_wx_login(driver, test_name):
 def check_wx_logout(driver, test_name):
     try:
         mylogger.info("进入退出验证")
-        time.sleep(2)
-        driver.implicitly_wait(20)
-        count_visitor = driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView[2]"
-                                                     "/android.widget.LinearLayout[5]/android.widget.TextView[1]").text
-        mylogger.info("定位成功")
+        driver.implicitly_wait(2)
+        # count_visitor = driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView[2]"
+        #                                              "/android.widget.LinearLayout[5]/android.widget.TextView[1]").text
+        count_visitor = driver.find_element_by_id("com.erlinyou.worldlist:id/user_name_tv").text
+        # mylogger.info("定位成功")
         print(count_visitor)
-        count_visitor = int(count_visitor)
-        mylogger.info('获取访客数成功%s' % count_visitor)
-        if count_visitor == 0:
+        # count_visitor = int(count_visitor)
+        # mylogger.info('获取访客数成功%s' % count_visitor)
+        if count_visitor == "注册/登录":
             mylogger.info("True")
             return True
         else:
@@ -68,6 +68,8 @@ def check_share_location_stop(driver, test_name):
     except:
         mylogger.info("停止按钮从页面消失，断言结果为True")
         return True
+
+
 # def check_home_page_element(driver):
 #     """
 #     判断主页输入框详情页上 "回家" button状态是什么
@@ -119,7 +121,7 @@ def check_cancel_go_home(driver, test_name):
         return False
 
 
-def check_history_search(driver, test_name):
+def check_history_search(driver):
     """通过对搜索列表下第一条数据指定字段text的获取，校验生成历史数据成功"""
     try:
         ele = driver.find_element_by_xpath(
@@ -133,7 +135,30 @@ def check_history_search(driver, test_name):
         driver.press_keycode(4)
         return False
 
-# def check_favorite(driver):
-    # try:
-    #     # ele = driver.find_element_by_id("")
-    #     driver.find_element_by_android_uiautomator('new UiSelector().textContains("望京SOHO")')
+
+def check_collection(driver):
+    """校验地点收藏是否成功"""
+    ele_text = driver.find_element_by_id("com.erlinyou.worldlist:id/et").text
+    if ele_text == "望京SOHO":
+        return "True"
+    else:
+        return "False"
+
+
+def check_collection_delete(driver):
+    """校验删除收藏地点是否成功"""
+    try:
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("重命名收藏地点")')
+        return False
+    except:
+        return True
+
+
+def check_add_trip(driver):
+    """校验新建行程"""
+    try:
+        # a = "北京一日游"
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("北京一日游")').click()
+        return True
+    except:
+        return False

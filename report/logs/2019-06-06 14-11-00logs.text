@@ -1,0 +1,10 @@
+2019-06-06 14:11:15,020 - Logger - DEBUG - mobile账号密码登录
+2019-06-06 14:11:21,543 - Logger - INFO - 进入登录页面成功
+2019-06-06 14:13:21,586 - Logger - DEBUG - test2_message
+2019-06-06 14:13:21,600 - Logger - DEBUG - test3_preview_send_photo
+2019-06-06 14:13:21,609 - Logger - DEBUG - test4_send_photo
+2019-06-06 14:13:21,618 - Logger - DEBUG - 拍照后勾选所拍照片发送
+2019-06-06 14:13:21,623 - Logger - DEBUG - 共享位置直接停止
+2019-06-06 14:13:21,629 - Logger - DEBUG - 共享位置返回聊天停止
+2019-06-06 14:13:21,635 - Logger - DEBUG - 分享联系人
+2019-06-06 14:13:21,642 - Logger - DEBUG - 查询到指定联系人并分享查询的第一个

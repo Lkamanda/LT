@@ -9,6 +9,7 @@ from page_element.navigation_details_element import *
 from page_element.all_home_page_element import *
 from page_element.message_page_chat_place_element import *
 from page_element.roam_page_element import *
+from page_element.search_travel_page_element import *
 # from comm.config import MyConfig
 # myconfig = MyConfig()
 
@@ -22,7 +23,8 @@ def zh_login(self, driver):
     driver.implicitly_wait(5)
     mobile_title_element(driver)
     mylogger.info("切换成账号密码登录")
-    driver.implicitly_wait(10)
+    time.sleep(4)
+    # driver.implicitly_wait(10)
     mobile_user_element(driver)
     mylogger.info("输入账号成功")
     driver.implicitly_wait(10)
@@ -55,7 +57,7 @@ def logout(self, driver):
     allmap_back_element(driver)
     mylogger.info("返回我的页面")
     # self.driver.implicitly_wait(10)
-    time.sleep(2)
+    driver.implicitly_wait(5)
     y = check_wx_logout(driver=self.driver, test_name=test_name)
     self.assertEqual(True, y)
     mylogger.info("登录退出成功")

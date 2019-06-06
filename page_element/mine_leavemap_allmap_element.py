@@ -5,4 +5,4 @@
 
 # 全部地图页面返回我的页面
 def allmap_back_element(driver):
-    driver.find_element_by_id("btnBack").click()
+    driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack").click()

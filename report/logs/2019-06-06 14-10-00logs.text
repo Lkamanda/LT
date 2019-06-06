@@ -1,0 +1,17 @@
+2019-06-06 14:10:15,848 - Logger - DEBUG - test_1
+2019-06-06 14:10:19,341 - Logger - INFO - 进入我的页面
+2019-06-06 14:10:20,268 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-06-06 14:10:21,417 - Logger - INFO - 点击微信图标进行登录
+2019-06-06 14:10:24,174 - Logger - INFO - True
+2019-06-06 14:10:24,174 - Logger - INFO - 微信登录成功
+2019-06-06 14:10:24,915 - Logger - INFO - return my page success
+2019-06-06 14:10:25,776 - Logger - INFO - return home page success
+2019-06-06 14:10:25,777 - Logger - DEBUG - 当前用户退出
+2019-06-06 14:10:27,271 - Logger - INFO - get into mine home page
+2019-06-06 14:10:36,229 - Logger - INFO - 向上滑动屏幕
+2019-06-06 14:10:37,539 - Logger - INFO - 触发退出登录按钮
+2019-06-06 14:10:38,556 - Logger - INFO - 确认退出登录退出
+2019-06-06 14:10:42,035 - Logger - INFO - 返回我的页面
+2019-06-06 14:10:42,042 - Logger - INFO - 进入退出验证
+2019-06-06 14:10:42,593 - Logger - INFO - True
+2019-06-06 14:10:42,594 - Logger - INFO - 登录退出成功

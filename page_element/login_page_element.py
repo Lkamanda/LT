@@ -2,6 +2,7 @@
 登录页面 相关
 """
 from comm.config import MyConfig
+import os
 myconfig = MyConfig()
 
 
@@ -34,12 +35,19 @@ def wxDl_element(driver):
 
 # 微信登录页面 账号密码登录title 点击
 def mobile_title_element(driver):
-    driver.find_element_by_id("com.erlinyou.worldlist:id/account_login").click()
+    driver.find_element_by_android_uiautomator('new UiSelector().textContains("账号密码登录") ').click()
+    # driver.find_element_by_id("com.erlinyou.worldlist:id/account_login").click()
 
 
 # 账号密码登录：输入手机号登陆   mobile_number = "18612463553"
 def mobile_user_element(driver):
+    adb1 = 'adb shell ime set com.sohu.inputmethod.sogou.xiaomi/.SogouIME'
+    adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
+    os.system(adb1)
+    print(myconfig.get_mobile_number())
+    driver.implicitly_wait(5)
     driver.find_element_by_id("com.erlinyou.worldlist:id/et_username").send_keys(myconfig.get_mobile_number())
+    os.system(adb3)
 
 
 # 账号密码登录 ：输入密码

@@ -20,9 +20,9 @@ class Message_zh(webDriver, unittest.TestCase):
         """与聊天page下第一个联系人发起回话"""
         test_name = self._testMethodName
         mylogger.debug(test_name)
-        # self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(10)
         # self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
-        self.driver.implicitly_wait(20)
+        # self.driver.implicitly_wait(20)
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)

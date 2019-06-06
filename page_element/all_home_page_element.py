@@ -3,22 +3,6 @@ from page.element_error import element_error
 from comm.config import *
 
 
-# def homepage_input_box_details(driver, n):
-#     """
-#     详情页输入框
-#     :param driver:
-#     :param n:
-#     n = 1 : 输入框内输入：家的地址
-#     :return:
-#     """
-#     try:
-#         myconfig = MyConfig()
-#         place = myconfig.get_homepage_input(n)
-#         driver.find_element_by_id("details").send_key(place)
-#     except Exception as e:
-#         element_error(driver, e)
-
-
 def homepage_details_go_home_element(driver):
     """详情页回家"""
     driver.find_element_by_id("rl_home").click()

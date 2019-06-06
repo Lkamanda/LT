@@ -1,0 +1,80 @@
+2019-06-06 14:00:35,828 - Logger - DEBUG - test_1
+2019-06-06 14:00:35,836 - Logger - DEBUG - 当前用户退出
+2019-06-06 14:00:50,733 - Logger - DEBUG - mobile账号密码登录
+2019-06-06 14:00:54,765 - Logger - INFO - 进入登录页面成功
+2019-06-06 14:00:55,863 - Logger - INFO - 切换成账号密码登录
+2019-06-06 14:01:06,014 - Logger - INFO - 输入账号成功
+2019-06-06 14:01:11,018 - Logger - INFO - 输如密码成功
+2019-06-06 14:01:11,780 - Logger - INFO - 触发登录
+2019-06-06 14:01:14,385 - Logger - INFO - 进入消息界面成功
+2019-06-06 14:01:14,386 - Logger - INFO - mobile 登录成功
+2019-06-06 14:01:14,386 - Logger - DEBUG - test2_message
+2019-06-06 14:01:15,968 - Logger - INFO - 进入与第一个联系人交互界面
+2019-06-06 14:02:07,211 - Logger - INFO - 消息已发送
+2019-06-06 14:02:12,598 - Logger - DEBUG - test3_preview_send_photo
+2019-06-06 14:02:12,803 - Logger - INFO - 点击+号
+2019-06-06 14:02:33,601 - Logger - INFO - 点击进入相册界面
+2019-06-06 14:02:35,470 - Logger - INFO - 选择照片/视频成功
+2019-06-06 14:02:36,285 - Logger - INFO - 选择照片/视频成功
+2019-06-06 14:02:37,168 - Logger - INFO - 选择照片/视频成功
+2019-06-06 14:02:38,968 - Logger - INFO - 进入发送预览
+2019-06-06 14:02:42,237 - Logger - INFO - 照片上传成功
+2019-06-06 14:02:42,238 - Logger - DEBUG - test4_send_photo
+2019-06-06 14:02:45,413 - Logger - INFO - 点击+号
+2019-06-06 14:03:06,304 - Logger - INFO - 点击进入相册界面
+2019-06-06 14:03:08,455 - Logger - INFO - 选择照片/视频成功
+2019-06-06 14:03:09,340 - Logger - INFO - 选择照片/视频成功
+2019-06-06 14:03:10,148 - Logger - INFO - 选择照片/视频成功
+2019-06-06 14:03:14,669 - Logger - DEBUG - 拍照后勾选所拍照片发送
+2019-06-06 14:03:16,823 - Logger - INFO - 进入与第一个联系人交互界面
+2019-06-06 14:03:20,230 - Logger - INFO - 触发聊天成功
+2019-06-06 14:03:41,380 - Logger - INFO - 进入拍摄page
+2019-06-06 14:03:45,414 - Logger - INFO - 触发拍摄按钮
+2019-06-06 14:03:55,779 - Logger - DEBUG - 共享位置直接停止
+2019-06-06 14:04:30,578 - Logger - INFO - 停止按钮从页面消失，断言结果为True
+2019-06-06 14:04:31,751 - Logger - INFO - 进入与第一个联系人交互界面
+2019-06-06 14:04:31,752 - Logger - DEBUG - 共享位置返回聊天停止
+2019-06-06 14:05:01,800 - Logger - DEBUG - 发送button定位失败
+2019-06-06 14:05:02,547 - Logger - INFO - 位置共享结束,聊天终止
+2019-06-06 14:05:02,548 - Logger - DEBUG - 分享联系人
+2019-06-06 14:05:03,867 - Logger - INFO - add
+2019-06-06 14:05:24,343 - Logger - INFO - 进入contacts page
+2019-06-06 14:05:25,600 - Logger - INFO - 选择第一张contacts发送
+2019-06-06 14:05:27,145 - Logger - INFO - add
+2019-06-06 14:05:47,754 - Logger - INFO - 进入contacts page
+2019-06-06 14:05:49,515 - Logger - INFO - 选择第一张contacts发送
+2019-06-06 14:05:54,872 - Logger - DEBUG - 查询到指定联系人并分享查询的第一个
+2019-06-06 14:05:55,264 - Logger - INFO - add
+2019-06-06 14:06:16,013 - Logger - INFO - 进入contacts page
+2019-06-06 14:06:26,894 - Logger - INFO - 选择查询到的第一张contacts发送
+2019-06-06 14:06:28,961 - Logger - INFO - start reset place environment
+2019-06-06 14:06:30,058 - Logger - INFO - end reset place environment
+2019-06-06 14:06:49,556 - Logger - DEBUG - mobile账号密码登录
+2019-06-06 14:06:53,109 - Logger - INFO - 进入登录页面成功
+2019-06-06 14:06:58,187 - Logger - INFO - 通过搜索分享地点 start
+2019-06-06 14:06:59,018 - Logger - INFO - 进入与第一个联系人交互界面
+2019-06-06 14:07:23,128 - Logger - INFO - 进入place 界面
+2019-06-06 14:07:32,668 - Logger - INFO - 触发：输入框输入
+2019-06-06 14:07:33,899 - Logger - INFO - 选择地点类型为地点
+2019-06-06 14:07:39,054 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-06 14:07:41,523 - Logger - INFO - 位置信息发送
+2019-06-06 14:07:43,816 - Logger - INFO - start reset place environment
+2019-06-06 14:07:47,154 - Logger - INFO - end reset place environment
+2019-06-06 14:07:49,154 - Logger - DEBUG - 通过搜索分享街道 start
+2019-06-06 14:07:55,424 - Logger - DEBUG - 通过搜索分享城市 start
+2019-06-06 14:08:00,969 - Logger - DEBUG - 住宿下分享 start
+2019-06-06 14:08:06,287 - Logger - DEBUG - 美食下分享 start
+2019-06-06 14:08:11,601 - Logger - DEBUG - 游玩出行下分享 start
+2019-06-06 14:08:16,752 - Logger - DEBUG - 出行下分享 start
+2019-06-06 14:08:21,953 - Logger - DEBUG - 出行下分享 start
+2019-06-06 14:08:27,903 - Logger - DEBUG - 出行下分享 start
+2019-06-06 14:08:34,861 - Logger - DEBUG - 出行下分享 start
+2019-06-06 14:08:46,156 - Logger - INFO - 进入与第一个联系人交互界面
+2019-06-06 14:09:10,377 - Logger - INFO - 进入place 界面
+2019-06-06 14:09:17,539 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-06 14:09:19,847 - Logger - INFO - 分享位置触发
+2019-06-06 14:09:23,961 - Logger - INFO - start reset place environment
+2019-06-06 14:09:29,221 - Logger - DEBUG - 地图上发送默认地点 start
+2019-06-06 14:09:42,895 - Logger - INFO - 进入与第一个联系人交互界面
