@@ -15,14 +15,17 @@ class Message_zh(webDriver, unittest.TestCase):
     def test1_dl_mobile_number(self):
         """登录手机账号密码"""
         zh_login(self=self, driver=self.driver)
+        self.driver.implicitly_wait(10)
+        self.driver.press_keycode(4)
 
     def test2_message(self):
         """与聊天page下第一个联系人发起回话"""
         test_name = self._testMethodName
         mylogger.debug(test_name)
         self.driver.implicitly_wait(10)
-        # self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
+        self.driver.find_element_by_id('com.erlinyou.worldlist:id/chat_img').click()
         # self.driver.implicitly_wait(20)
+        # self.driver.find_element_by_android_uiautomator("new UiSelector.textContains('小测')").click()
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)
@@ -212,8 +215,8 @@ class Message_zh(webDriver, unittest.TestCase):
         chat_environment_reset(driver=self.driver)
 
     # # 应返回home page 页面在执行
-    # def test8_exit(self):
-    #     """当前用户退出"""
-    #     test_name = "当前用户退出"
-    #     mylogger.debug(test_name)
-    #     logout(self=self, driver=self.driver)
+    def test8_exit(self):
+        """当前用户退出"""
+        test_name = "当前用户退出"
+        mylogger.debug(test_name)
+        logout(self=self, driver=self.driver)

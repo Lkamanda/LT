@@ -61,3 +61,11 @@ def homepage_2d_3d(driver):
         driver.find_element_by_id("com.erlinyou.worldlist:id/ll_2d3dSwitch").click()
     except Exception as e:
         element_error(driver, e)
+
+
+def dynamic(driver):
+    """ 首页 动态"""
+    try:
+        driver.find_element_by_id("com.erlinyou.worldlist:id/iv_moments_icon").click()
+    except Exception as e:
+        element_error(driver, e)

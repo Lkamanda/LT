@@ -38,7 +38,7 @@ class Message_share(webDriver, unittest.TestCase):
         mainChat_element(self.driver)
         first_chat_element(self.driver)
         mylogger.info("进入与第一个联系人交互界面")
-        for i in range(1, 6):
+        for i in range(1, 5):
             if i == 1:
                 self.driver.implicitly_wait(5)
                 chat_img_more_element(self.driver)
@@ -53,6 +53,7 @@ class Message_share(webDriver, unittest.TestCase):
             self.driver.implicitly_wait(5)
             # 从文件管理中选取管理文件
             chat_send_file_type(self.driver, n=3)
+            self.driver.implicitly_wait(5)
             chat_send_file_choice_folder(driver=self.driver, x=4, y=4, z=i)
             mylogger.info("发送文件第%s" % i)
             screenShot(self.driver, test_name="%s发送第%s" % (str_nowTime(), i))
