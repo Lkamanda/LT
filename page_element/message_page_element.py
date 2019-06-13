@@ -236,3 +236,43 @@ def chat_send_voice_element(driver, t):
     action1 = TouchAction(driver)
     # duration 长按时间 1000 基数为 1s
     action1.long_press(el=send_voice_ele, duration=t).wait(10000).perform()
+
+
+def chat_emoji_element(driver):
+    try:
+        driver.find_element_by_id("com.erlinyou.worldlist:id/img_exp").click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_emoji(driver, n):
+    """
+    :param driver:
+    :param n: 第几个表情
+    :return:
+    """
+    try:
+        driver.find_element_by_xpath("//android.widget.GridView/android.widget.LinearLayout[%s]" % n).click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_type_emoji(driver, n):
+    """
+    表情类型
+    :param driver:
+    :param n: 第几种类型表情
+    :return:
+    """
+    try:
+        driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[%s]" % n).click()
+    except Exception as e:
+        element_error(driver, e)
+
+
+def chat_moving_emoji(driver, n):
+    """动图选择第n"""
+    try:
+        driver.find_element_by_xpath("//android.widget.LinearLayout[%s]/android.widget.ImageView" % n).click()
+    except Exception as e:
+        element_error(driver, e)

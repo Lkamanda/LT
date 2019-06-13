@@ -55,7 +55,7 @@ def logout(self, driver):
     driver.find_element_by_id("android:id/button1").click()
     mylogger.info("确认退出登录退出")
     time.sleep(3)
-    allmap_back_element(driver)
+    driver.press_keycode(4)
     mylogger.info("返回我的页面")
     # self.driver.implicitly_wait(10)
     driver.implicitly_wait(5)

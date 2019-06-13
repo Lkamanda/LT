@@ -423,9 +423,6 @@ class Test5(webDriver, unittest.TestCase):
     
 
 
-if __name__ == '__main__':
-    unittest.main()
-
 
 
 

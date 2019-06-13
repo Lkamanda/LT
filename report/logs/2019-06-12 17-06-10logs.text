@@ -1,0 +1,10 @@
+2019-06-12 17:06:30,431 - Logger - DEBUG - 点赞
+2019-06-12 17:06:41,359 - Logger - INFO - 13
+2019-06-12 17:06:43,631 - Logger - INFO - 进入动态详情页
+2019-06-12 17:06:46,704 - Logger - INFO - 13
+2019-06-12 17:06:46,704 - Logger - INFO - 动态页和动态详情页点赞数显示一致
+2019-06-12 17:06:47,042 - Logger - INFO - 对该动态进行点赞操作
+2019-06-12 17:06:48,346 - Logger - INFO - 进入点评界面
+2019-06-12 17:06:56,718 - Logger - INFO - 返回动态详情页
+2019-06-12 17:07:03,941 - Logger - INFO - Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource.
+

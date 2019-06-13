@@ -1,0 +1,7 @@
+2019-06-11 11:14:52,401 - Logger - INFO - 进入动态界面
+2019-06-11 11:15:09,394 - Logger - INFO - 启动照相机
+2019-06-11 11:15:12,887 - Logger - INFO - 添加拍摄照片完成
+2019-06-11 11:15:52,500 - Logger - INFO - 动态视频和图片添加完成
+2019-06-11 11:15:53,569 - Logger - INFO - 发布动态设置为部分可见
+2019-06-11 11:15:59,560 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

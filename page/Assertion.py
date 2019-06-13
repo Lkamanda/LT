@@ -162,3 +162,25 @@ def check_add_trip(driver):
         return True
     except:
         return False
+
+
+def check_create_dynamic_just_friend_see(driver):
+    """校验新建动态仅好友可见"""
+    try:
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("这是一条测试动态")').click()
+
+        return True
+    except Exception as e:
+        print("False")
+        mylogger.info(e)
+        return False
+
+
+def check_comments_successful(driver):
+    """校验评论成功"""
+    try:
+        driver.find_element_by_android_uiautomator('new UiSelector().textContains("这是一条评论测试")')
+        return True
+    except Exception as e:
+        mylogger.info(e)
+        return False
