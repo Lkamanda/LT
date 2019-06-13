@@ -58,9 +58,8 @@ def logout(self, driver):
     driver.press_keycode(4)
     mylogger.info("返回我的页面")
     # self.driver.implicitly_wait(10)
-    driver.implicitly_wait(5)
-    y = check_wx_logout(driver=self.driver, test_name=test_name)
-    self.assertEqual(True, y)
+    driver.implicitly_wait(10)
+    self.assertEqual(True, check_wx_logout(driver=self.driver, test_name=test_name))
     mylogger.info("登录退出成功")
 
 

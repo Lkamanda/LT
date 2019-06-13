@@ -29,7 +29,7 @@ class Message_zh(webDriver, unittest.TestCase):
         first_chat_element(driver=self.driver)
         mylogger.info("进入与第一个联系人交互界面")
         self.driver.implicitly_wait(5)
-        chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=2))
+        chat_send_keys_element(driver=self.driver, chat_str=myconfig.get_chat_str(n=1))
         time.sleep(3)
         chat_send_all_element(self.driver)
         mylogger.info("消息已发送")

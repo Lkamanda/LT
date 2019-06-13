@@ -1,0 +1,14 @@
+2019-06-13 15:32:42,990 - Logger - DEBUG - mobile账号密码登录
+2019-06-13 15:32:47,486 - Logger - INFO - 进入登录页面成功
+2019-06-13 15:32:48,712 - Logger - INFO - 切换成账号密码登录
+2019-06-13 15:32:59,083 - Logger - INFO - 输入账号成功
+2019-06-13 15:33:06,317 - Logger - INFO - 输如密码成功
+2019-06-13 15:33:07,616 - Logger - INFO - 触发登录
+2019-06-13 15:33:09,130 - Logger - INFO - 进入消息界面成功
+2019-06-13 15:33:09,131 - Logger - INFO - mobile 登录成功
+2019-06-13 15:33:10,616 - Logger - DEBUG - test2_message
+2019-06-13 15:33:12,620 - Logger - INFO - 进入与第一个联系人交互界面
+2019-06-13 15:34:43,259 - Logger - INFO - 消息已发送
+2019-06-13 15:34:48,909 - Logger - DEBUG - test3_preview_send_photo
+2019-06-13 15:34:54,384 - Logger - DEBUG - test4_send_photo
+2019-06-13 15:35:25,925 - Logger - DEBUG - 拍照后勾选所拍照片发送

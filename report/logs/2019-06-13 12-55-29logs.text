@@ -1,0 +1,7 @@
+2019-06-13 12:56:08,514 - Logger - INFO - 发送表情
+2019-06-13 12:57:36,597 - Logger - INFO - 发送动态表情
+2019-06-13 12:57:57,124 - Logger - DEBUG - 撤回，下拉刷新，看是否还显示撤回的消息
+2019-06-13 12:58:10,699 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:58:12,558 - Logger - INFO - get into mine home page
+2019-06-13 12:58:22,793 - Logger - INFO - 向上滑动屏幕

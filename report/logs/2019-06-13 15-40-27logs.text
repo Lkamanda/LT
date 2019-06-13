@@ -1,0 +1,5 @@
+2019-06-13 15:40:39,914 - Logger - DEBUG - mobile账号密码登录
+2019-06-13 15:40:44,652 - Logger - INFO - 进入登录页面成功
+2019-06-13 15:40:49,938 - Logger - DEBUG - test2_message
+2019-06-13 15:41:00,410 - Logger - DEBUG - test3_preview_send_photo
+2019-06-13 15:41:05,927 - Logger - DEBUG - test4_send_photo

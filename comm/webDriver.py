@@ -18,12 +18,12 @@ class webDriver:
         # 连接手机app，初始化一些东西
         desired_caps = {'platformName': 'Android',    # 手机类型
                         'platformVersion': '8.0.0',   # 被测试手机，   baa822b7
-                        'deviceName': 'a82ccd1d ',     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   设备名称， adb devices
+                        'deviceName': 'UEUNW16C29005125',     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   设备名称， adb devices
                         'appPackage': 'com.erlinyou.worldlist',
                         'appActivity': 'com.erlinyou.map.Erlinyou',
                         'unicodeKeyboard': True,     # appium 传输中使用自己的输入法，可以传输中文
                         'resetKeyboard': True,      # 程序结束时重置原来的输入法
-                        'noReset': True,             # 如果app存在则不重新安装
+                        'noReset': True,       # 如果app存在则不重新安装
                         # 'autoGrantPermissions': 'True'
                         # 'app': r"C:\Users\zhoujialin\PycharmProjects\aut_LT\LT\apps\boobuz.apk"
                         # desired_caps['autoGrantPermissions'] = 'True'
@@ -37,8 +37,6 @@ class webDriver:
             print(e)
 
     # 整个测试类结束执行
-
-
     # 每条测试用例开始都执行
     @staticmethod
     def setUp():

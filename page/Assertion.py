@@ -184,3 +184,13 @@ def check_comments_successful(driver):
     except Exception as e:
         mylogger.info(e)
         return False
+
+
+def check_withdrawn(driver):
+    """校验撤回"""
+    try:
+        driver.find_element_by_android_uiautomatot('new UiSelector().textContains("撤回测试")')
+        return False
+    except:
+        print(True)
+        return True

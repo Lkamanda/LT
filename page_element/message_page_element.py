@@ -273,6 +273,7 @@ def chat_type_emoji(driver, n):
 def chat_moving_emoji(driver, n):
     """动图选择第n"""
     try:
-        driver.find_element_by_xpath("//android.widget.LinearLayout[%s]/android.widget.ImageView" % n).click()
+        driver.find_element_by_xpath("//android.widget.GridView/android.widget.LinearLayout[1]/android.widget.ImageView").click()
+        # driver.find_element_by_xpath("//android.widget.LinearLayout[%s]/android.widget.ImageView" % n).click()
     except Exception as e:
         element_error(driver, e)

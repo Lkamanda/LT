@@ -8,13 +8,13 @@ myconfig = MyConfig()
 
 # 点击个人中心 登录/注册 button
 def dL_element(driver):
-    driver.find_element_by_id("user_name_tv").click()
+    driver.find_element_by_id("com.erlinyou.worldlist:id/user_name_tv").click()
 
 
 # 点击登录页面微信入口
 def wX_element(driver):
-    driver.find_element_by_id("iv_other_login").click()
 
+    driver.find_element_by_id("com.erlinyou.worldlist:id/iv_other_login").click()
 
 # 微信登录页面 输入账号
 def wxUser_element(driver, wx_username):

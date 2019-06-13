@@ -419,9 +419,15 @@ class Test5(webDriver, unittest.TestCase):
             self.driver.implicitly_wait(5)
             # chat_place_choice_Address(driver=self.driver, n=1)
             chat_place_choice_All(driver=self.driver, n=1)
+        self.driver.press_keycode(4)
+        time.sleep(2)
+        self.driver.press_keycode(4)
 
-    
-
+    def test9_a_1(self):
+        """当前用户退出"""
+        test_name = "当前用户退出"
+        mylogger.debug(test_name)
+        logout(self=self, driver=self.driver)
 
 
 

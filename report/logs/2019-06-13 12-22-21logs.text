@@ -1,0 +1,15 @@
+2019-06-13 12:22:40,611 - Logger - DEBUG - 点赞
+2019-06-13 12:22:53,891 - Logger - INFO - 20
+2019-06-13 12:22:56,200 - Logger - INFO - 进入动态详情页
+2019-06-13 12:22:58,762 - Logger - INFO - 20
+2019-06-13 12:22:58,762 - Logger - INFO - 动态页和动态详情页点赞数显示一致
+2019-06-13 12:22:59,868 - Logger - INFO - 对该动态进行点赞操作
+2019-06-13 12:23:00,388 - Logger - INFO - 进入点评界面
+2019-06-13 12:23:08,436 - Logger - INFO - 返回动态详情页
+2019-06-13 12:23:18,005 - Logger - INFO - 发送表情
+2019-06-13 12:24:33,453 - Logger - INFO - 发送动态表情
+2019-06-13 12:25:28,505 - Logger - DEBUG - 撤回，下拉刷新，看是否还显示撤回的消息
+2019-06-13 12:25:39,682 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:25:41,427 - Logger - INFO - get into mine home page
+2019-06-13 12:25:52,429 - Logger - INFO - 向上滑动屏幕

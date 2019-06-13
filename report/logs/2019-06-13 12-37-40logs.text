@@ -1,0 +1,65 @@
+2019-06-13 12:37:59,500 - Logger - DEBUG - mobile账号密码登录
+2019-06-13 12:38:03,985 - Logger - INFO - 进入登录页面成功
+2019-06-13 12:38:05,765 - Logger - INFO - 切换成账号密码登录
+2019-06-13 12:38:16,702 - Logger - INFO - 输入账号成功
+2019-06-13 12:38:22,732 - Logger - INFO - 输如密码成功
+2019-06-13 12:38:23,649 - Logger - INFO - 触发登录
+2019-06-13 12:38:27,128 - Logger - INFO - 进入消息界面成功
+2019-06-13 12:38:27,128 - Logger - INFO - mobile 登录成功
+2019-06-13 12:38:28,404 - Logger - INFO - 返回home page
+2019-06-13 12:38:28,405 - Logger - DEBUG - 发送动态 图片和视频 不发送位置 ，仅部分好友可见
+2019-06-13 12:38:29,624 - Logger - INFO - 进入动态界面
+2019-06-13 12:38:49,708 - Logger - INFO - 启动照相机
+2019-06-13 12:38:54,470 - Logger - INFO - 添加拍摄照片完成
+2019-06-13 12:39:35,888 - Logger - INFO - 动态视频和图片添加完成
+2019-06-13 12:39:36,938 - Logger - INFO - 发布动态设置为部分可见
+2019-06-13 12:39:42,132 - Logger - INFO - 进入校验流程
+2019-06-13 12:39:47,564 - Logger - INFO - 当前账号出现该动态，进入切换账号
+2019-06-13 12:39:50,126 - Logger - INFO - get into mine home page
+2019-06-13 12:39:59,991 - Logger - INFO - 向上滑动屏幕
+2019-06-13 12:40:02,018 - Logger - INFO - 触发退出登录按钮
+2019-06-13 12:40:03,469 - Logger - INFO - 确认退出登录退出
+2019-06-13 12:40:06,849 - Logger - INFO - 返回我的页面
+2019-06-13 12:40:06,851 - Logger - INFO - 进入退出验证
+2019-06-13 12:40:07,636 - Logger - INFO - True
+2019-06-13 12:40:07,637 - Logger - INFO - 登录退出成功
+2019-06-13 12:40:08,598 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-06-13 12:40:10,158 - Logger - INFO - 点击微信图标进行登录
+2019-06-13 12:40:13,686 - Logger - INFO - True
+2019-06-13 12:40:13,686 - Logger - INFO - 微信登录成功
+2019-06-13 12:40:14,735 - Logger - INFO - return my page success
+2019-06-13 12:40:15,597 - Logger - INFO - return home page success
+2019-06-13 12:40:21,970 - Logger - INFO - 验证通过，进入环境退出
+2019-06-13 12:40:23,249 - Logger - DEBUG - 点赞
+2019-06-13 12:40:39,260 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:41:19,102 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:41:21,530 - Logger - INFO - None
+2019-06-13 12:41:26,653 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:41:29,773 - Logger - INFO - 进入动态详情页
+2019-06-13 12:41:35,936 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:41:38,901 - Logger - INFO - None
+2019-06-13 12:41:38,901 - Logger - INFO - 动态页和动态详情页点赞数显示一致
+2019-06-13 12:41:43,996 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:41:46,441 - Logger - INFO - 对该动态进行点赞操作
+2019-06-13 12:41:52,842 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:41:55,331 - Logger - INFO - 进入点评界面
+2019-06-13 12:42:00,797 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:42:09,287 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:42:12,231 - Logger - INFO - 返回动态详情页
+2019-06-13 12:42:23,751 - Logger - INFO - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:42:23,757 - Logger - INFO - 发送表情
+2019-06-13 12:42:34,980 - Logger - INFO - 发送动态表情
+2019-06-13 12:42:40,259 - Logger - DEBUG - 撤回，下拉刷新，看是否还显示撤回的消息
+2019-06-13 12:42:50,557 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:42:52,362 - Logger - INFO - get into mine home page
+2019-06-13 12:43:02,636 - Logger - INFO - 向上滑动屏幕

@@ -1,0 +1,6 @@
+2019-06-13 12:32:05,644 - Logger - DEBUG - 撤回，下拉刷新，看是否还显示撤回的消息
+2019-06-13 12:32:32,772 - Logger - INFO - 触发长按
+2019-06-13 12:32:37,506 - Logger - INFO - 撤销消息成功
+2019-06-13 12:32:44,993 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 12:32:46,956 - Logger - INFO - get into mine home page

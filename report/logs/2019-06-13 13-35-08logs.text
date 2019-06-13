@@ -1,0 +1,12 @@
+2019-06-13 13:35:27,500 - Logger - DEBUG - mobile账号密码登录
+2019-06-13 13:35:33,561 - Logger - DEBUG - 发送动态 图片和视频 不发送位置 ，仅部分好友可见
+2019-06-13 13:35:34,398 - Logger - INFO - 进入动态界面
+2019-06-13 13:35:44,744 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 13:35:52,046 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 13:35:59,389 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-13 13:36:01,363 - Logger - INFO - 启动照相机
+2019-06-13 13:36:06,781 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

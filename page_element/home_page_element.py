@@ -5,7 +5,7 @@ from page.element_error import element_error
 def userAvatar_element(driver):
     """点击首页用户头像"""
     try:
-        driver.find_element_by_id('user_avatar_img').click()
+        driver.find_element_by_id('com.erlinyou.worldlist:id/user_avatar_img').click()
     except Exception as e:
         element_error(driver, e)
 
