@@ -5,11 +5,11 @@ from comm.webDriver import *
 
 
 class Test6(webDriver, unittest.TestCase):
-    def test_a_0(self):
-        """zh 登录"""
-        zh_login(self=self, driver=self.driver)
-        self.driver.press_keycode(4)
-        mylogger.info("返回home page")
+    # def test_a_0(self):
+    #     """zh 登录"""
+    #     zh_login(self=self, driver=self.driver)
+    #     self.driver.press_keycode(4)
+    #     mylogger.info("返回home page")
 
     def test_a_1(self):
         """发送动态 图片和视频 不发送位置 ，仅部分好友可见"""
@@ -211,7 +211,7 @@ class Test6(webDriver, unittest.TestCase):
         self.driver.press_keycode(4)
 
     def test_d_4(self):
-        logout(self, self.driver)
+        logout(self=self, driver=self.driver)
 
 
 

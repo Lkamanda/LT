@@ -1,0 +1,9 @@
+2019-06-14 10:44:57,851 - Logger - DEBUG - 当前用户退出
+2019-06-14 10:45:03,739 - Logger - INFO - get into mine home page
+2019-06-14 10:45:12,745 - Logger - INFO - 向上滑动屏幕
+2019-06-14 10:45:14,559 - Logger - INFO - 触发退出登录按钮
+2019-06-14 10:45:18,194 - Logger - INFO - 确认退出登录退出
+2019-06-14 10:45:21,231 - Logger - INFO - 返回我的页面
+2019-06-14 10:45:21,237 - Logger - INFO - 进入退出验证
+2019-06-14 10:45:32,675 - Logger - DEBUG - Message: An element could not be located on the page using the given search parameters.
+

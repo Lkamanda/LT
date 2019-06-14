@@ -8,7 +8,7 @@ from comm.usuallymodule import *
 
 
 class WX(webDriver, unittest.TestCase):
-    # @unittest.skip('not need')
+    @unittest.skip('not need')
     def test_1(self):
         """微信登录"""
         # 返回测试用例名称

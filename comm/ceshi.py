@@ -11,16 +11,21 @@ class webDriver:
 
     # 整个类开始和结束执行
     @classmethod
-    def setUpClass(cls):
+    def setUpClass(cls, serial, newPort, systemPort):
+        """
+
+        :param serial: udid  mobile_config[0][1]
+        :param newPort:
+        :param systemPort:
+        :return:
+        """
         global driver
-        # print('进入整个测试类')
-        # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
-        # 连接手机app，初始化一些东西
         mobile_config = [("UEUNW16C29005125", "8.0.0"), ("a82ccd1d", "8.0.0")]
         mobile_config = get_android_devices()
         desired_caps = {'platformName': 'Android',     # 手机类型
                         'platformVersion': mobile_config[0][1],   # 被测试手机，   baa822b7
-                        'deviceName': mobile_config[0][0],     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   设备名称， adb devices
+                        'deviceName': 'Android',
+                        'udid': mobile_config[0][0],
                         'appPackage': 'com.erlinyou.worldlist',
                         'appActivity': 'com.erlinyou.map.Erlinyou',
                         'unicodeKeyboard': True,     # appium 传输中使用自己的输入法，可以传输中文
@@ -32,7 +37,8 @@ class webDriver:
                         }
         time.sleep(3)
         try:
-            cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+            cls.driverc = webdriver.Remote('http://127.0.0.1;' + str(newPort) + '/wd/hub', desired_caps)
+            # cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
             # myLog.logger().info('driver加载成功 %s', cls.driver)
         except Exception as e:
             # myLog.logger().info('driver加载失败 %s', e)
@@ -48,3 +54,5 @@ class webDriver:
     @staticmethod
     def tearDown():
         print('test case end ')
+
+

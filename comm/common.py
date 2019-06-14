@@ -3,6 +3,7 @@
 """
 import time
 import os
+import re
 
 
 def screenShot(driver, test_name):
@@ -105,3 +106,34 @@ def check_clean_text(length):
     else:
         return False
 
+
+def get_android_devices():
+    android_devices_list = []
+    device_config = []
+    b = os.popen('adb devices')
+    device_text = b.read()
+    # 根据换行符对str进行切片
+
+    # print(type(device_text))
+    # print(device_text)
+    b.close()
+    # print(re.split(r'[\s]\s*', device_text))
+    device_list = re.split(r'[\n]\n*', device_text)[1:-1]
+    for i in device_list:
+        print(re.split(r'[\s]\s*', i)[0])
+        andoid_devices = re.split(r'[\s]\s*', i)[0]
+        android_devices_list.append(andoid_devices)
+    print(android_devices_list)
+    mobile_config = {
+                    "UEUNW16C29005125": "8.0.0",
+                     "a82ccd1d": "8.0.0"
+                     }
+    for i in android_devices_list:
+        if i in mobile_config.keys():
+            device_config.append((i, mobile_config[i]))
+    print(device_config)
+    return device_config
+
+
+if __name__ == '__main__':
+    get_android_devices()
