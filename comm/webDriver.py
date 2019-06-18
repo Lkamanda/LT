@@ -16,8 +16,9 @@ class webDriver:
         # print('进入整个测试类')
         # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
-        mobile_config = [("UEUNW16C29005125", "8.0.0"), ("a82ccd1d", "8.0.0")]
-        mobile_config = get_android_devices()
+        # mobile_config = [["UEUNW16C29005125", "8.0.0"], ["a82ccd1d", "8.0.0"]]
+        mobile_config, device_count = get_android_devices()
+        print(mobile_config, device_count)
         desired_caps = {'platformName': 'Android',     # 手机类型
                         'platformVersion': mobile_config[0][1],   # 被测试手机，   baa822b7
                         'deviceName': mobile_config[0][0],     # baa822b7  a82ccd1d Q8JNNNGUOF8L4PON   设备名称， adb devices

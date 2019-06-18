@@ -119,6 +119,8 @@ def get_android_devices():
     b.close()
     # print(re.split(r'[\s]\s*', device_text))
     device_list = re.split(r'[\n]\n*', device_text)[1:-1]
+    device_count = len(device_list)
+    print(device_count)
     for i in device_list:
         print(re.split(r'[\s]\s*', i)[0])
         andoid_devices = re.split(r'[\s]\s*', i)[0]
@@ -132,7 +134,7 @@ def get_android_devices():
         if i in mobile_config.keys():
             device_config.append((i, mobile_config[i]))
     print(device_config)
-    return device_config
+    return device_config, device_count
 
 
 if __name__ == '__main__':

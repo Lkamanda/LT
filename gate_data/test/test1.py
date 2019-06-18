@@ -9,7 +9,7 @@ def startServers(serial, port):
 
 
 class Test:
-    def seTUp(self, serial, newPort, systemPort):
+    def setUp(self, serial, newPort, systemPort):
         desired_caps = {}
         desired_caps['platformName'] = 'Android',
         desired_caps['platformVersion'] = '8.0',
@@ -36,17 +36,17 @@ if __name__ == '__main__':
     out = os.popen('adb devices')  # 输出设备信息
     a = 0
     for i in out.readlines():
-        if 'List of devicces' in i or "adb" in or 'daemon' in i or 'offline' in i or "unauthorized" in i or len(i) < 5:
+        if 'List of devicces' in i or "adb" in i or 'daemon' in i or 'offline' in i or "unauthorized" in i or len(i) < 5:
             pass
         else:
             serial = re.findall('(.*?) device', i)
-            newPort  = port + a
+            newPort = port + a
             systemPort = port + a + 4000
             test = Test()
             a = a + 1
             serial = re.findall('(.*?) device', i) # 设备序列号
             threads.append(threading.Thread(target=startServers, args=(serial[0], newPort),))
-            threads1.append(threading.Thread(target=test.setUp, args= (serial[0], newPort, systemPort,)))
+            threads1.append(threading.Thread(target=test.setUp, args=(serial[0], newPort, systemPort,)))
 
     for t in threads:
         t.start()
