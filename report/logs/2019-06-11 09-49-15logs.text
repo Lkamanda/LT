@@ -1,8 +1,0 @@
-2019-06-11 09:49:39,261 - Logger - INFO - 进入动态界面
-2019-06-11 09:49:53,600 - Logger - INFO - 启动照相机
-2019-06-11 09:49:58,291 - Logger - INFO - 添加拍摄照片完成
-2019-06-11 09:50:04,014 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
-
-2019-06-11 09:50:11,279 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
-
-2019-06-11 09:50:23,333 - Logger - ERROR - [WinError 10053] 您的主机中的软件中止了一个已建立的连接。

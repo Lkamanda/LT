@@ -1,8 +1,0 @@
-2019-06-12 09:50:12,207 - Logger - DEBUG - mobile账号密码登录
-2019-06-12 09:50:21,267 - Logger - INFO - 进入登录页面成功
-2019-06-12 09:50:22,796 - Logger - INFO - 切换成账号密码登录
-2019-06-12 09:50:32,975 - Logger - INFO - 输入账号成功
-2019-06-12 09:50:38,898 - Logger - INFO - 输如密码成功
-2019-06-12 09:50:39,998 - Logger - INFO - 触发登录
-2019-06-12 09:51:03,725 - Logger - DEBUG - Message: An element could not be located on the page using the given search parameters.
-

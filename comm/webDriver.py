@@ -2,6 +2,7 @@ from appium import webdriver
 import time
 from comm.common import *
 
+
 class webDriver:
     @classmethod
     def tearDownClass(cls):

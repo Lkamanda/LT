@@ -1,8 +1,0 @@
-2019-06-13 12:33:21,865 - Logger - INFO - 发送动态表情
-2019-06-13 12:33:57,759 - Logger - DEBUG - 撤回，下拉刷新，看是否还显示撤回的消息
-2019-06-13 12:34:16,595 - Logger - INFO - 触发长按
-2019-06-13 12:34:21,127 - Logger - INFO - 撤销消息成功
-2019-06-13 12:34:28,016 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
-
-2019-06-13 12:34:29,890 - Logger - INFO - get into mine home page
-2019-06-13 12:34:40,145 - Logger - INFO - 向上滑动屏幕
