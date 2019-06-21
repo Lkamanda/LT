@@ -42,6 +42,7 @@ def get_D():
         D["all_number"] = all_number
         db.close()
         print(D)
+        print(type(D))
         # for key in D:
         #     print(key, D[key])
         return D
