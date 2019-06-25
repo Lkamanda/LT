@@ -40,6 +40,8 @@ class webDriver:
             # myLog.logger().info('driver加载失败 %s', e)
             print(e)
 
+
+
     # 整个测试类结束执行
     # 每条测试用例开始都执行
     @staticmethod

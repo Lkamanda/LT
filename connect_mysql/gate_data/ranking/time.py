@@ -34,30 +34,31 @@ def get_start_time(x1, y1, z1):
     print(s)
     start_time = int(time.mktime(s.timetuple())) * 1000
     print(start_time)
-    return start_time
+    return start_time, s
 
 
 def get_end_time(x2, y2, z2):
     s = datetime.datetime(x2, y2, z2, 00, 00, 00)
-    print(s)
+    # print(s)
     end_time = int(time.mktime(s.timetuple())) * 1000
     print(end_time)
     return end_time
 
 
 # if __name__ == '__main__':
-
-    # get_start_time(x1=2019, y1=6, z1=19)
-    # # get_end_time()
-
-    # x1, y1, z1, x2, y2, z2 = input()
-    # a,b =input("")
-    # print(a,b)
-
-    # n, m, c = eval(input("4th enter:"))
-    # print(n,m,c)
-    #
-    # x1, y1, z1, x2, y2, z2 = eval(input("start_time 和 end_time 格式如（·）："))
-
-
-
+#
+#     # get_start_time(x1=2019, y1=6, z1=19)
+#     # # get_end_time()
+#
+#     # x1, y1, z1, x2, y2, z2 = input()
+#     # a,b =input("")
+#     # print(a,b)
+#
+#     # n, m, c = eval(input("4th enter:"))
+#     # print(n,m,c)
+#     #
+#     # x1, y1, z1, x2, y2, z2 = eval(input("start_time 和 end_time 格式如（·）："))
+#     x1 = int(2019)
+#     y1 = int(6)
+#     z1 = int(23)
+#     get_start_time(x1=x1, y1=y1, z1=z1)

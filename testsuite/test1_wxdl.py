@@ -8,11 +8,13 @@ from comm.usuallymodule import *
 
 
 class WX(webDriver, unittest.TestCase):
-    @unittest.skip('not need')
+    #@unittest.skip('not need')
+
     def test_1(self):
         """微信登录"""
         # 返回测试用例名称
         test_name = self._testMethodName
+        always_allow(driver=self.driver)
         mylogger.debug(test_name)
         self.driver.implicitly_wait(5)
         userAvatar_element(self.driver)

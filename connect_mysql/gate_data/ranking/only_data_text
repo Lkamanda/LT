@@ -1,0 +1,15 @@
+our track, %text_day%serial_number  %text_month situation:
+boobuz
+
+360: 0 - %D['360']
+Baidu: 0 - %D['Baidu']
+Huawei: 0 - %D['HUAWEI']
+Mi: 0 - %D['Mi']
+OPPO: 0 - %D['OPPO']
+Tencent: 0 - %D['Tencent']
+VIVO: 0 - %D['VIVO']
+WDJ: 0 - %D['WDJ']
+
+Apple: 0 - %D['App Store']
+
+total download: %D['all_number']

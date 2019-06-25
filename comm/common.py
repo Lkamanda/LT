@@ -4,6 +4,8 @@
 import time
 import os
 import re
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
 
 
 def screenShot(driver, test_name):
@@ -137,5 +139,23 @@ def get_android_devices():
     return device_config, device_count
 
 
-if __name__ == '__main__':
-    get_android_devices()
+def always_allow(driver, number=5):
+    """
+    对android的权限告警框进行处理
+    :param driver:
+    :param number:处理弹框的次数，默认5次
+    :return:
+    """
+    # for i in range(number):
+    #     loc = ("xpath", "//*[@text='允许']")
+    # try:
+    #     e = WebDriverWait(driver, 1, 0.5).until(EC.presence_of_element_located(loc))
+    #     e.click()
+    # except:
+    #     pass
+
+    for i in range(number):
+        try:
+            driver.find_element_by_xpath("//*[@text='允许']").click()
+        except:
+            pass

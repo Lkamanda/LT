@@ -1,0 +1,10 @@
+2019-06-24 20:18:35,472 - Logger - DEBUG - test_1
+2019-06-24 20:18:40,483 - Logger - INFO - 进入我的页面
+2019-06-24 20:18:41,221 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-06-24 20:18:44,991 - Logger - INFO - 点击微信图标进行登录
+2019-06-24 20:18:50,429 - Logger - DEBUG - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-24 20:18:53,190 - Logger - DEBUG - 当前用户退出
+2019-06-24 20:18:58,700 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-24 20:19:01,381 - Logger - INFO - get into mine home page
