@@ -1,0 +1,23 @@
+2019-06-25 14:36:30,169 - Logger - DEBUG - 发送动态 图片和视频 不发送位置 ，仅部分好友可见
+2019-06-25 14:36:35,598 - Logger - INFO - 进入动态界面
+2019-06-25 14:36:49,356 - Logger - INFO - 启动照相机
+2019-06-25 14:36:54,250 - Logger - INFO - 添加拍摄照片完成
+2019-06-25 14:37:21,836 - Logger - DEBUG - 点赞
+2019-06-25 14:37:27,594 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:37:35,722 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:37:38,333 - Logger - INFO - 获取好友列表平第一条动态点赞数
+2019-06-25 14:37:48,880 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:37:51,603 - Logger - INFO - None
+2019-06-25 14:37:53,577 - Logger - INFO - 进入动态详情页
+2019-06-25 14:37:58,898 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:38:01,673 - Logger - INFO - None
+2019-06-25 14:38:01,673 - Logger - INFO - 动态页和动态详情页点赞数显示一致
+2019-06-25 14:38:06,895 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:38:09,477 - Logger - INFO - 对该动态进行点赞操作
+2019-06-25 14:38:14,544 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

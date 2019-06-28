@@ -1,6 +1,6 @@
 from page.element_error import element_error
 
-
+import os
 def create_new_dynamic_element(driver):
     """新建动态按钮"""
     try:
@@ -14,6 +14,12 @@ def dynamic_input_box(driver):
     n = u"这是一条测试动态"
     try:
         driver.find_element_by_id("com.erlinyou.worldlist:id/text_edit").send_keys(n)
+        # adb1 = 'adb shell ime set com.sohu.inputmethod.sogou.xiaomi/.SogouIME'
+        # adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
+        # os.system(adb1)
+        # driver.implicitly_wait(5)
+        # driver.find_element_by_id("com.erlinyou.worldlist:id/text_edit").send_keys(n)
+        # os.system(adb3)
     except Exception as e:
         element_error(driver, e)
 

@@ -1,0 +1,13 @@
+2019-06-25 14:21:52,504 - Logger - DEBUG - 发送动态 图片和视频 不发送位置 ，仅部分好友可见
+2019-06-25 14:21:58,525 - Logger - INFO - 进入动态界面
+2019-06-25 14:22:11,889 - Logger - INFO - 启动照相机
+2019-06-25 14:22:20,114 - Logger - INFO - 添加拍摄照片完成
+2019-06-25 14:22:55,324 - Logger - INFO - 动态视频和图片添加完成
+2019-06-25 14:23:06,569 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:23:10,027 - Logger - INFO - 发布动态设置为部分可见
+2019-06-25 14:24:26,089 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:24:38,743 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-06-25 14:24:41,525 - Logger - INFO - 进入校验流程

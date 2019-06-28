@@ -44,6 +44,7 @@ def send_content(driver, content):
     # driver.find_element_by_id("com.erlinyou.worldlist:id/submit").click()
     driver.implicitly_wait(5)
     driver.find_element_by_id('chat_img').click()
+    time.sleep(1)
     driver.implicitly_wait(10)
     driver.find_element_by_android_uiautomator('new UiSelector().textContains("zhoujialin")').click()
     driver.find_element_by_id("et_msg").send_keys(content)
