@@ -1,16 +1,16 @@
 from appium import webdriver
 import time
 
-def swipeUP(driver):
+
+def swipeUP(driver, t):
     """获取屏幕尺寸，向下滑动"""
     x = driver.get_window_size()['width']
-    y = driver.get_window_size()['heigth']
+    y = driver.get_window_size()['height']
     x1 = int(x*0.5)
     y1 = int(y*0.5)
-    y2 = int(y)
+    y2 = int(y*0.75)
     time.sleep(3)
-
-    
+    driver.swipe(x1, y1, x1, y2, t)
 
 
 def connect_app():
@@ -41,6 +41,8 @@ def connect_app():
 def get_data_hw(driver):
     driver.implicitly_wait(5)
     driver.find_element_by_android_uiautomator('new UiSelector().textContains("分类")').click()
+    swipeUP(driver, t=5000)
+    driver.find_element_by_android_uiautomator('new UiSelector().textContains("出行导航")').click()
 
 
 if __name__ == '__main__':
