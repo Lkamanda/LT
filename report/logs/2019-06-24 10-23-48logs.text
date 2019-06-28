@@ -1,6 +1,0 @@
-2019-06-24 10:23:59,241 - Logger - DEBUG - test_1
-2019-06-24 10:24:04,414 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
-
-2019-06-24 10:24:09,942 - Logger - INFO - 进入我的页面
-2019-06-24 10:24:15,548 - Logger - DEBUG - 当前用户退出
-2019-06-24 10:24:15,983 - Logger - INFO - get into mine home page
