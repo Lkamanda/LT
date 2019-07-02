@@ -13,7 +13,7 @@ def swipeUP(driver, t):
     driver.swipe(x1, y1, x1, y2, t)
 
 
-def connect_app():
+def connect_app(appPackage, appActivity):
     desired_caps = {
         'platformName': 'Android',
         'platformVersion': '8.0.0',
@@ -43,6 +43,21 @@ def get_data_hw(driver):
     driver.find_element_by_android_uiautomator('new UiSelector().textContains("分类")').click()
     swipeUP(driver, t=5000)
     driver.find_element_by_android_uiautomator('new UiSelector().textContains("出行导航")').click()
+
+
+
+
+def run():
+    app_list = {
+        'huawei': ["com.huawei.appmarket", "com.huawei.appmarket.MainActivity"],
+    }
+    for i in app_list:
+        pass
+
+
+
+
+
 
 
 if __name__ == '__main__':
