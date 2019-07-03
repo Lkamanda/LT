@@ -7,3 +7,4 @@ def element_error(driver, e):
     mylogger.error(e)
     test_name = "定位失败"
     screenShot(driver, test_name)
+

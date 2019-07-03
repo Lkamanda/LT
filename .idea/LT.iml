@@ -5,6 +5,8 @@
     <orderEntry type="jdk" jdkName="Python 3.7 (rccode)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pythonjichu" />
+    <orderEntry type="module" module-name="ui_aut" />
+    <orderEntry type="module" module-name="pythonjichu" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

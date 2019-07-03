@@ -48,5 +48,3 @@ class Logger(object):
 
 
 mylogger = Logger(logger="Logger").get_log()
-
-
