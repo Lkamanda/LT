@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa31714-62c9-4709-88a0-b3b134f67296" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comm/mylog.py" beforeDir="false" afterPath="$PROJECT_DIR$/comm/mylog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comm/webDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/comm/webDriver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/element_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/element_error.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 10-18-20定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 10-18-36定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 10-20-02test2_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 10-24-04定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 10-26-43test_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 20-18-50test_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 20-18-58定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-24 20-21-36test2_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-23-06定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-24-26定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-24-38定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-25-08定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-25-20定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-25-29定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-25-38定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-27-15定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-27-33定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-27-46定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-29-23定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-35-22定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-37-27定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-37-35定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-37-48定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-37-58定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 14-38-06定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-00-43定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-00-51定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-00-58定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-01-07定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-01-15定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-01-43定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-01-51定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-03-43定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-03-52定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-04-04定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-06-10定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-06-18定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-06-25定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-06-33定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-09-05发送动态 图片和视频 不发送位置 ，仅部分好友可见.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-09-14定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-09-22定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-09-35定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-09-46定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-09-54定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-10-02定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-10-11定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-10-20定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-10-56定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-15-28定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-26-06mobile账号密码登录.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-26-29定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-26-38定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-26-46定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-26-55定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-27-04定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-27-19定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-27-27定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-27-41定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-27-54定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-28-01定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-28-09定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-28-16定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-28-24定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-28-56定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-46-40定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-46-48定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-46-57定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-47-05定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-47-13定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-47-21定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-48-07定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-48-15定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-52-36发送表情.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-53-42发送动态表情.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-54-36定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 15-57-20test2_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 16-00-51分享联系人.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 16-01-27查询到指定联系人并分享查询的第一个.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 16-07-44定位失败.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/img_result/2019-06-25 16-07-46通过搜索分享地点.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rccode/Tkinter/my_snake/mysnake.py" beforeDir="false" afterPath="$PROJECT_DIR$/../rccode/Tkinter/my_snake/mysnake.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,113 +11,125 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/log/log_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#27#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/log/log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#27#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#18#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comm/logs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comm/mylog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
-              <caret line="5" column="34" lean-forward="true" selection-end-line="50" />
-              <folding>
-                <element signature="e#27#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.72880256">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/log/log.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="104">
+                  <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/webdriver.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-591">
+                  <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/common.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-988">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <folding>
+                    <element signature="e#18#29#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/solve">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2101" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm_api.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="164">
+                  <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#15#43#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1508">
+                  <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="78">
+                  <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testsuite/test1_wxdl.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="26">
+                  <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/solve">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1327" />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -215,6 +137,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>press</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,13 +151,11 @@
       <list>
         <option value="$PROJECT_DIR$/run/runSet.py" />
         <option value="$PROJECT_DIR$/testsuite/test_1.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_element.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_element.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_element.py" />
         <option value="$PROJECT_DIR$/page/element_error.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/comm/element_error.py" />
         <option value="$PROJECT_DIR$/comm/webDriver.py" />
         <option value="$PROJECT_DIR$/comm/mylog.py" />
         <option value="$PROJECT_DIR$/../ui_aut/comm/comm.py" />
@@ -238,15 +163,21 @@
         <option value="$PROJECT_DIR$/../ui_aut/config/choice_config.py" />
         <option value="$PROJECT_DIR$/../ui_aut/testsuite/test3.py" />
         <option value="$PROJECT_DIR$/../ui_aut/testsuite/test4.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/comm/webdriver.py" />
         <option value="$PROJECT_DIR$/../ui_aut/log/log.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" />
         <option value="$PROJECT_DIR$/../ui_aut/testsuite/test2.py" />
+        <option value="$PROJECT_DIR$/../rccode/snake.py" />
+        <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_element.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/config/assert_config.py" />
         <option value="$PROJECT_DIR$/../ui_aut/run/runSet.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/comm/element_error.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/comm/webdriver.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-119" />
     <option name="y" value="321" />
     <option name="width" value="1453" />
@@ -267,6 +198,16 @@
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LT" type="462c0819:PsiDirectoryNode" />
+              <item name="page_element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LT" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,7 +218,12 @@
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="element_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
@@ -286,8 +232,7 @@
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -299,10 +244,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/git_clone/Mobile_UI-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui_aut/comm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut\comm" />
       <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut" />
     </key>
   </component>
@@ -318,8 +264,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runSet">
-    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in test1.py">
+    <configuration name="comm_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ui_aut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +273,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/comm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\zhoujialin\PycharmProjects\ui_aut\log\log_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,19 +286,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="runSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ui_aut" />
+    <configuration name="connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/run/runSet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,32 +307,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ui_aut" />
+    <configuration name="send_messsage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonjichu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rccode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rccode/snake.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ui_aut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/testsuite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../ui_aut/testsuite/test1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.runSet" />
-        <item itemvalue="Python.log" />
-        <item itemvalue="Python.test1" />
+        <item itemvalue="Python tests.Unittests in test1.py" />
+        <item itemvalue="Python.comm_api" />
+        <item itemvalue="Python.connect" />
+        <item itemvalue="Python.send_messsage" />
+        <item itemvalue="Python.snake" />
       </list>
     </recent_temporary>
   </component>
@@ -403,16 +386,45 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 25m 10s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 26m 06s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 27m 31s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 31m 35s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 33m 53s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 40m 12s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 43m 39s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 44m 31s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.04 at 17h 45m 48s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18598525" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18598525" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38678223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21885157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,10 +440,10 @@
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18598525" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18598525" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,36 +458,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testsuite/test_1.py" />
-    <entry file="file://$PROJECT_DIR$/page_element/login_page_element.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/mine_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-02 15-18-45logs.text">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run/runSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_element.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_name.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -493,18 +475,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/Assertion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_element.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/page_element/dynamic_element.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -528,83 +498,10 @@
     <entry file="file://$PROJECT_DIR$/base/method.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/element_error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/message_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/usuallymodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="90" column="30" lean-forward="true" selection-end-line="160" selection-end-column="16" />
-          <folding>
-            <element signature="e#18#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/comm/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="24" lean-forward="true" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/home_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/config/choice_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/config/myconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,27 +521,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testsuite/test1_wxdl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -687,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/log/log_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#27#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-03 17-56-36logs.text">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -713,39 +583,222 @@
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-03 17-58-09Test Report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/curses/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/log/log_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#4#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/log/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="702">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#27#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm.py">
+    <entry file="file://$PROJECT_DIR$/../rccode/snake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1196">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/all_home_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#19#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="84" column="35" selection-end-line="160" selection-end-column="16" />
+          <folding>
+            <element signature="e#18#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/home_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuite/test6_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/send_config.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/send_config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/Assertion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/usuallymodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/config/choice_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/config/assert_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/config/myconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/element_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/message_page_chat_place_element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/message_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="76" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="76" />
+          <folding>
+            <element signature="e#18#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/log/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2101" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuite/test1_wxdl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-988">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#18#29#0" expanded="true" />
@@ -753,10 +806,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="164">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
