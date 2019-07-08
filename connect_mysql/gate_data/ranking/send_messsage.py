@@ -1,8 +1,6 @@
 from appium import webdriver
-# "com.huawei.appmarket/.MarketActivity:"
 import time
 import os
-
 
 
 def connect_app():
@@ -12,8 +10,6 @@ def connect_app():
         'deviceName': "a82ccd1d",
         'appPackage': 'com.erlinyou.worldlist',
         'appActivity': 'com.erlinyou.map.Erlinyou',
-        # 'appPackage': 'com.huawei.appmarket',
-        # 'appActivity': "com.huawei.MarketActivity",
         'unicodeKeyboard': True,
         'resetKeyboard': True,
         'noReset': True,
@@ -47,12 +43,12 @@ def send_content(driver, content):
     time.sleep(1)
     driver.implicitly_wait(20)
     adb1 = 'adb shell ime set com.sohu.inputmethod.sogou.xiaomi/.SogouIME'
-    adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
+    #adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
     os.system(adb1)
     driver.find_element_by_android_uiautomator('new UiSelector().textContains("zhoujialin")').click()
     driver.find_element_by_id("et_msg").send_keys(content)
     time.sleep(3)
-    os.system(adb3)
+    #os.system(adb3)
     driver.find_element_by_id("com.erlinyou.worldlist:id/btnSend").click()
     # driver.press_keycode(4)
     # time.sleep(1)
@@ -85,5 +81,3 @@ def send_content(driver, content):
 # total download: 254
 # """
 
-if __name__ == '__main__':
-    send_content(driver=connect_app(),content=a)
