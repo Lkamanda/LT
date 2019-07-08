@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa31714-62c9-4709-88a0-b3b134f67296" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui_aut/comm/element_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/comm/element_error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,86 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comm/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2223">
-              <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-              <folding>
-                <element signature="e#18#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1109">
-              <caret line="116" column="73" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#68#164#0" />
-                <element signature="e#368#499#0" />
-                <element signature="e#337#1100#0" />
-                <marker date="1562577305120" expanded="true" signature="1531:1621" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1976801223/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="3680" column="8" selection-start-line="3680" selection-start-column="8" selection-end-line="3680" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solve">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="109" column="53" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="468">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -106,12 +34,99 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
+        <entry file="file://$PROJECT_DIR$/page_element/navigation_details_element.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="624">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1898">
+              <caret line="233" column="14" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#7#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#11#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_element/roam_page_element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="27" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_element/search_travel_page_element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="88" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +150,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ui_aut" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,21 +172,16 @@
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_element.py" />
         <option value="$PROJECT_DIR$/../ui_aut/config/assert_config.py" />
         <option value="$PROJECT_DIR$/../ui_aut/run/runSet.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/comm/element_error.py" />
         <option value="D:/git_clone/Mobile_UI-master/Mobile_UI/comm/webDriver.py" />
         <option value="D:/git_clone/Mobile_UI-master/Mobile_UI/comm/runSet.py" />
         <option value="$PROJECT_DIR$/../ui_aut/comm/webdriver.py" />
         <option value="$PROJECT_DIR$/../ui_aut/public_module/public_module.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_element.py" />
         <option value="$PROJECT_DIR$/comm/common.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py" />
         <option value="$PROJECT_DIR$/../ui_aut/comm/Assertion.py" />
         <option value="$PROJECT_DIR$/../ui_aut/config/choice_config.py" />
         <option value="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" />
         <option value="$PROJECT_DIR$/../ui_aut/public/public_module.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" />
         <option value="$PROJECT_DIR$/../ui_aut/testsuite/test2.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_elements.py" />
         <option value="$PROJECT_DIR$/../ui_aut/config/myconfig.py" />
@@ -179,6 +189,16 @@
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/1.py" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/comm/element_error.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" />
       </list>
     </option>
   </component>
@@ -199,26 +219,7 @@
           <expand>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LT" type="462c0819:PsiDirectoryNode" />
-              <item name="connect_mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="comm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
@@ -230,32 +231,6 @@
               <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
               <item name="element_api" type="462c0819:PsiDirectoryNode" />
               <item name="android_element" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="html_result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
@@ -272,15 +247,16 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/git_clone/Mobile_UI-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui_aut/element_api/android_element" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut\config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut\element_api\android_element" />
       <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut\comm" />
       <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhoujialin\PycharmProjects\ui_aut\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.installtion_connection">
+  <component name="RunManager" selected="Python tests.Unittests in test1.py">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,27 +306,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="home_page_elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ui_aut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/element_api/android_element" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,13 +356,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ui_aut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/testsuite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../ui_aut/testsuite/test1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test1.py" />
         <item itemvalue="Python.installtion_connection" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.connect" />
         <item itemvalue="Python.runSet" />
-        <item itemvalue="Python.home_page_elements" />
       </list>
     </recent_temporary>
   </component>
@@ -425,9 +394,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test1_py - 2019.07.05 at 15h 27m 42s.xml">
-      <configuration name="Unittests in test1.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test1_py - 2019.07.05 at 15h 30m 31s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
@@ -455,16 +421,20 @@
     <history-entry file="Unittests_in_test2_py - 2019.07.05 at 17h 05m 18s.xml">
       <configuration name="Unittests in test2.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2019.07.08 at 19h 09m 48s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18651211" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27555323" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.13109426" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.52112675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.037919827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,22 +448,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_element/navigation_details_element.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-03 17-58-09logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-04 16-54-19logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-04 17-26-06logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 11-18-18logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 11-20-50logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-46-25main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-42-44main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-42-29main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-42-13main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 10-46-00logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 11-13-22logs.text" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-47-09main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-48-26main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-48-51main_chat_element定位失败.png" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/img_result/2019-07-05 10-49-32main_chat_element定位失败.png" />
     <entry file="file://$PROJECT_DIR$/page/Assertion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -598,58 +564,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/config/myconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 17-05-13logs.text" />
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 16-46-36logs.text" />
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 16-45-27logs.text" />
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-05 10-39-24logs.text" />
     <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-05 17-41-20Test Report.html" />
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/log/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,23 +585,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="86" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,6 +656,209 @@
             <element signature="e#368#499#0" />
             <element signature="e#337#1100#0" />
             <marker date="1562577305120" expanded="true" signature="1531:1621" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/all_home_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="42" column="76" lean-forward="true" selection-end-line="43" />
+          <folding>
+            <element signature="e#19#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding>
+            <element signature="e#19#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/home_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/login_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#16#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#16#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/message_page_chat_place_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#40#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5694">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="e#40#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/message_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="279" selection-start-line="7" selection-end-line="279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/config/myconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/mine_leavemap_allmap_element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/mine_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#11#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/roam_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/search_travel_page_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="88" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1898">
+          <caret line="233" column="14" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
+          <folding>
+            <element signature="e#7#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/navigation_details_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
