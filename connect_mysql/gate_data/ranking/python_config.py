@@ -35,6 +35,7 @@ def generator_only_text_content(content, text_month, text_day, serial_number, D)
     content = content.replace("%D['WDJ']", str(D['WDJ']))
     content = content.replace("%D['App Store']", str(D['App Store']))
     content = content.replace("%D['all_number']", str(D['all_number']))
+    # content = content.replace("%D['hw']"), str(D['hw'])
     print(content)
     return content
 

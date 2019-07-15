@@ -96,9 +96,6 @@ def get_data_xm(driver, x, y):
     """获取小米应用市场旅图app排名"""
     pass
 
-
-
-
 def run():
     app_dict = {
         'huawei': ["com.huawei.appmarket", "com.huawei.appmarket.MainActivity"],
@@ -109,14 +106,13 @@ def run():
     for key in app_dict:
         print(key, app_dict[key])
         if key == "huawei":
-            pass
-            # driver = connect_app(appPackage=app_dict[key][0], appActivity=app_dict[key][1])
-            # x, y = get_size(driver)
-            # get_data_hw(driver=driver, x=x, y=y)
-        elif key == "xiaomi":
             driver = connect_app(appPackage=app_dict[key][0], appActivity=app_dict[key][1])
             x, y = get_size(driver)
-            get_data_xm(driver=driver, x=x, y=y)
+            get_data_hw(driver=driver, x=x, y=y)
+        # elif key == "xiaomi":
+        #     driver = connect_app(appPackage=app_dict[key][0], appActivity=app_dict[key][1])
+        #     x, y = get_size(driver)
+        #     get_data_xm(driver=driver, x=x, y=y)
 
 
 if __name__ == '__main__':

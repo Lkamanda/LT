@@ -16,6 +16,7 @@ def get_text_data_last(value):
 
 
 def get_serial_number(value):
+    # 待改进，获取日期的日是几位数，11,12,13这些是th
     if value == 1:
         serial = 'st'
         return serial
@@ -118,7 +119,6 @@ if __name__ == '__main__':
     # z = get_text_data_last(x)
     # serial_number = get_serial_number(z)
     # print(serial_number)
-
 
 
 
