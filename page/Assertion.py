@@ -125,7 +125,8 @@ def check_history_search(driver):
     """通过对搜索列表下第一条数据指定字段text的获取，校验生成历史数据成功"""
     try:
         ele = driver.find_element_by_xpath(
-            "//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView[1]").text
+            "//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]"
+            "/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView[1]").text
         print(ele)
         if ele == "奥林匹克公园":
             print('pass')

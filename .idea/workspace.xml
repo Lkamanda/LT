@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa31714-62c9-4709-88a0-b3b134f67296" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rccode/Web/JavaScript/EXE1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rccode/Web/JavaScript/note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rccode/Web/JavaScript/note1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/all_data_text" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/all_data_text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/method.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/python_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/python_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/comm/element_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/comm/element_error.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/report/logs/2019-07-08 19-09-07logs.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/report/logs/2019-07-08 19-17-11logs.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/testsuite/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/testsuite/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui_aut/testsuite/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ui_aut/testsuite/test4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect_mysql/gate_data/ranking/time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/Assertion.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/Assertion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solve" beforeDir="false" afterPath="$PROJECT_DIR$/solve" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,98 +20,157 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6058">
-              <caret line="233" column="14" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
-              <folding>
-                <element signature="e#7#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test4.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test3.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-15 14-34-06Test Report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1482">
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-624">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.8926297">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rccode/Web/JavaScript/note1">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="754">
+                  <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rccode/Web/JavaScript/note.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="17" selection-start-column="17" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../rccode/Web/JavaScript/EXE1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="494">
+                  <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="364">
+                  <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="676">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                  <folding>
+                    <element signature="e#19#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test4.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="78">
+                  <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/webdriver.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/public/public_module.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2860">
+                  <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#0#61#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="208">
+                  <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/solve">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="651">
+                  <caret line="106" selection-start-line="106" selection-end-line="106" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="731">
+                  <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm_api.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1586">
+                  <caret line="62" column="72" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="72" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../ui_aut/comm/common.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1508">
+                  <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -124,20 +180,17 @@
       <find>impli</find>
       <find>精彩</find>
       <find>旅图</find>
+      <find>et</find>
+      <find>et_ms</find>
+      <find>ms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ui_aut" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rccode" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/run/runSet.py" />
-        <option value="$PROJECT_DIR$/testsuite/test_1.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_element.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_element.py" />
         <option value="$PROJECT_DIR$/page/element_error.py" />
         <option value="$PROJECT_DIR$/comm/webDriver.py" />
         <option value="$PROJECT_DIR$/comm/mylog.py" />
@@ -154,37 +207,47 @@
         <option value="$PROJECT_DIR$/../ui_aut/public_module/public_module.py" />
         <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_element.py" />
         <option value="$PROJECT_DIR$/comm/common.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/comm/Assertion.py" />
         <option value="$PROJECT_DIR$/../ui_aut/config/choice_config.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/public/public_module.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/config/myconfig.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_elements.py" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/1.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/all_data_text" />
         <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/python_config.py" />
-        <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_elements.py" />
+        <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/time.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/comm/common.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/comm/Assertion.py" />
+        <option value="$PROJECT_DIR$/comm/usuallymodule.py" />
+        <option value="$PROJECT_DIR$/page/Assertion.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/public/assertion.py" />
+        <option value="$PROJECT_DIR$/base/method.py" />
         <option value="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" />
-        <option value="$PROJECT_DIR$/../ui_aut/testsuite/test4.py" />
+        <option value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" />
         <option value="$PROJECT_DIR$/../ui_aut/testsuite/test2.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/config/myconfig.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/testsuite/test4.py" />
         <option value="$PROJECT_DIR$/../ui_aut/comm/element_error.py" />
         <option value="$PROJECT_DIR$/../ui_aut/testsuite/test1.py" />
+        <option value="$PROJECT_DIR$/../ui_aut/public/public_module.py" />
+        <option value="$PROJECT_DIR$/solve" />
+        <option value="$PROJECT_DIR$/../rccode/Web/JavaScript/note.js" />
+        <option value="$PROJECT_DIR$/../rccode/Web/JavaScript/note1" />
+        <option value="$PROJECT_DIR$/../rccode/Web/JavaScript/EXE1.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="387" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="128" />
+    <option name="y" value="2" />
     <option name="width" value="1453" />
     <option name="height" value="965" />
   </component>
@@ -199,33 +262,22 @@
           <expand>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
+              <item name="LT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="element_api" type="462c0819:PsiDirectoryNode" />
+              <item name="rccode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="element_api" type="462c0819:PsiDirectoryNode" />
-              <item name="android_element" type="462c0819:PsiDirectoryNode" />
+              <item name="rccode" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui_aut" type="462c0819:PsiDirectoryNode" />
-              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="rccode" type="462c0819:PsiDirectoryNode" />
+              <item name="Web" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,6 +288,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui_aut/element_api/android_element" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -262,62 +315,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runSet">
-    <configuration name="comm_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ui_aut" />
+  <component name="RunManager" selected="Python.connect">
+    <configuration name="connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/comm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/comm/comm_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="element_error" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ui_aut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/comm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/comm/element_error.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ui_aut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ui_aut/run/runSet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,6 +358,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_mysql/gate_data/ranking/time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test1.Test1.test2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ui_aut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ui_aut/testsuite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test1.Test1.test2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ui_aut" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -363,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.runSet" />
+        <item itemvalue="Python.connect" />
         <item itemvalue="Python tests.Unittests in test1.py" />
-        <item itemvalue="Python.element_error" />
         <item itemvalue="Python.test4" />
-        <item itemvalue="Python.comm_api" />
+        <item itemvalue="Python tests.Unittests for test1.Test1.test2" />
+        <item itemvalue="Python.time" />
       </list>
     </recent_temporary>
   </component>
@@ -385,47 +431,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 12h 45m 11s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 03m 16s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 12h 46m 21s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 06m 10s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 12h 54m 38s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 16m 31s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 13h 14m 34s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 22m 19s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 13h 19m 49s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 28m 23s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 13h 20m 50s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 33m 12s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 13h 21m 19s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 34m 16s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 13h 28m 56s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 35m 04s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 14h 04m 59s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 39m 25s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2019.07.15 at 14h 07m 10s.xml">
+    <history-entry file="Unittests_in_test1_py - 2019.07.16 at 18h 48m 02s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1019" y="12" width="1453" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.28029504" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.09893993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.25027084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.1923077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60455036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,10 +487,10 @@
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.12012645" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16596417" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.44203684" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.3575298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60455036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,110 +516,42 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-15 14-34-06Test Report.html" />
+    <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-15 14-50-56Test Report.html" />
+    <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/1.py" />
-    <entry file="file://$PROJECT_DIR$/page_element/all_home_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="42" column="76" lean-forward="true" selection-end-line="43" />
+        <state relative-caret-position="884">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="e#19#63#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py">
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        <state relative-caret-position="1690">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
-            <element signature="e#19#63#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/home_page_element.py">
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ceshi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="82">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/login_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#16#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#16#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/message_page_chat_place_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#40#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5694">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="e#40#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/message_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="279" selection-start-line="7" selection-end-line="279" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/mine_leavemap_allmap_element.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/mine_page_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/moments_page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="261">
+          <caret line="186" column="30" lean-forward="true" selection-start-line="186" selection-start-column="30" selection-end-line="186" selection-end-column="30" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
@@ -582,256 +560,334 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/navigation_details_element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#11#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1295">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/roam_page_element.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/place_page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
+        <state relative-caret-position="639">
+          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#40#84#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/navigation_details_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/search_travel_page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="509">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/all_data_text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/search_travel_page_element.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/Assertion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="88" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/installtion_connection.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/log/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="-259" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/Assertion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1562722315294" expanded="true" signature="1531:1621" ph="..." />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/only_data_text">
+    <entry file="file://$PROJECT_DIR$/base/method.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/python_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/vi/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py">
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/vi/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/vi/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/vi/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state>
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/views_exercise/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/usuallymodule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="259" column="8" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="8" />
+        <state relative-caret-position="821">
+          <caret line="63" selection-start-line="42" selection-start-column="3" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuite/test1_wxdl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/views_exercise/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/views_exercise/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Django/views_exercise/views_exercise/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/login_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#16#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/helico_page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="416">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solve">
+    <entry file="file://$PROJECT_DIR$/testsuite/test2_zh_chat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="25" />
+        <state relative-caret-position="2299">
+          <caret line="209" column="21" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/config/myconfig.py">
+    <entry file="file://$PROJECT_DIR$/comm/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="2704">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/webdriver.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/appium/webdriver/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1781">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/config/choice_config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/config/assert_config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm_api.py">
+    <entry file="file://$PROJECT_DIR$/testsuite/test3_chat_place.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="1059" column="49" selection-start-line="1059" selection-start-column="7" selection-end-line="1059" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-15 13-28-23logs.text">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-15 13-20-50logs.text">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/logs/2019-07-15 13-19-49logs.text">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15444" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-          <folding>
-            <element signature="e#22#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1976801223/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-15 14-11-10Test Report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run/runSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-15 14-17-19Test Report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/run/runSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1198">
+          <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/report/html_result/2019-07-15 14-34-06Test Report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1482">
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/mine_page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="78">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/public/assertion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/all_data_text">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/chat_page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6058">
-          <caret line="233" column="14" selection-start-line="233" selection-start-column="14" selection-end-line="233" selection-end-column="14" />
+        <state relative-caret-position="936">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="e#7#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/config/myconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/element_api/android_element/home_page_details_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#19#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/public/public_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/element_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/comm_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="62" column="72" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/comm/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_mysql/gate_data/ranking/send_messsage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ui_aut/testsuite/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Web/JavaScript/note1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Web/JavaScript/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rccode/Web/JavaScript/EXE1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>

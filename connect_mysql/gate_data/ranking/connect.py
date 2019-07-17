@@ -10,25 +10,45 @@ month_list = ["January", "February", "March", "April", "May", "June", "July", "A
               "October", "November", "December"]
 
 
-def get_text_data_last(value):
+def getLength(number):
+    length = 0
+    while number != 0:
+        length += 1
+        number = number // 10
+    return length
+
+
+def get_text_data_last(value, length):
     """获取数字的最后一位"""
-    return list(map(int, str(value)))[-1]
+    if length == 1:
+        first_number = 0
+        last_number = list(map(int, str(value)))[-1]
+        return first_number, last_number
+    elif length == 2:
+        last_number = list(map(int, str(value)))[-1]
+        first_number = list(map(int, str(value)))[-2]
+        return first_number, last_number
 
 
-def get_serial_number(value):
+
+def get_serial_number(first_number, last_number):
     # 待改进，获取日期的日是几位数，11,12,13这些是th
-    if value == 1:
-        serial = 'st'
-        return serial
-    elif value == 2:
-        serial = 'nd'
-        return serial
-    elif value == 3:
-        serial = "rd"
-        return serial
-    elif value in [0, 4, 5, 6, 7, 8, 9]:
+    if first_number == 1:
         serial = "th"
         return serial
+    elif first_number == 2:
+        if last_number == 1:
+            serial = 'st'
+            return serial
+        elif last_number == 2:
+            serial = 'nd'
+            return serial
+        elif last_number == 3:
+            serial = "rd"
+            return serial
+        elif last_number in [0, 4, 5, 6, 7, 8, 9]:
+            serial = "th"
+            return serial
 
 
 def get_D(start_time, end_time):
@@ -78,8 +98,9 @@ def run():
     x1, y1, z1, x2, y2, z2 = eval(input("start_time 和 end_time 格式如（2019,6,19,2019,6,20）："))
     text_month = month_list[int(y1)-1]                           # 日期 ： 月
     text_day = int(z1)
-    text_last_one = get_text_data_last(value=text_day)           # 日期 ： 日 最后一位数字
-    serial_number = get_serial_number(text_last_one)             # 日期序号： 1st, 2nd, 3rd others th
+    length = getLength(text_day)       # 日期 ： 日 最后一位数字
+    first_number, last_number = get_text_data_last(value=text_day, length=length)
+    serial_number = get_serial_number(first_number, last_number)             # 日期序号： 1st, 2nd, 3rd others th
     start_time, s = get_start_time(x1, y1, z1)
     end_time = get_end_time(x2, y2, z2)
     week_day = get_week_day(date=s)

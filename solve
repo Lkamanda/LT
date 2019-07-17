@@ -99,3 +99,8 @@ action1.long_press(el=send_voice_ele, duration=t).wait(10000).perform()
 
 10.通过text 定位页面元素   android
 driver.find_element_by_android_uiautomator('new UiSelector().textContains("望京SOHO")').click()
+
+11.app性能测试监控参数
+固定频率
+ios 覆盖率较低，无法跨进程
+
