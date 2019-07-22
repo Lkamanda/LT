@@ -104,3 +104,9 @@ driver.find_element_by_android_uiautomator('new UiSelector().textContains("望�
 固定频率
 ios 覆盖率较低，无法跨进程
 
+12.函数内部获取函数名称
+def a():
+    a.__name__
+self._testMethodName         在unnittest框架中
+import sys
+sys._getframe().f_code.co_name
