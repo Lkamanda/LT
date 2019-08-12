@@ -45,7 +45,9 @@ def send_content(driver, content):
     adb1 = 'adb shell ime set com.sohu.inputmethod.sogou.xiaomi/.SogouIME'
     #adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
     os.system(adb1)
-    driver.find_element_by_android_uiautomator('new UiSelector().textContains("zhoujialin")').click()
+    driver.implicitly_wait(10)
+    driver.find_element_by_android_uiautomator('new UiSelector().textContains("zhoujia")').click()
+    driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.TextView[1]").click()
     driver.find_element_by_id("et_msg").send_keys(content)
     time.sleep(3)
     #os.system(adb3)

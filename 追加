@@ -1,0 +1,20 @@
+1.求一个数的开方数
+math.sqrt()
+2.标准的输出方法
+console.log()
+传输到控制台
+3.switch case
+
+        var n = 3;
+        switch(n){
+            case 1:
+                console.log("a");
+            case 2:
+                console.log('b');
+            case 3:
+                console.log("c");
+        }
+把switch（）中的内容与case 后的内容相比对，从那个case 开始执行。
+一般和break 连用
+
+4.
