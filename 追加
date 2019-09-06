@@ -17,4 +17,3 @@ console.log()
 把switch（）中的内容与case 后的内容相比对，从那个case 开始执行。
 一般和break 连用
 
-4.

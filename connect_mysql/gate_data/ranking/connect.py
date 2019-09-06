@@ -142,6 +142,18 @@ if __name__ == '__main__':
     # print(serial_number)
 
 
+#  APP  177
 
+# our track, 13th  August situation:
+# boobuz
+#
+# 360:0 - 27 - 258th
+# Baidu:0 - 11 - no
+# Huawei:0 - 33 - 47th
+# Mi:0 - 0 - 57th
+# OPPO:0 - 9 - 113th
+# Tencent:0 - 40 - no
+# VIVO:0 - 27 - no
+# WDJ:0 - 1 - no
+# apple 194
 
-#  APP  170

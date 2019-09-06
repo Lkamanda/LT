@@ -24,7 +24,6 @@ def connect_app():
         # myLog.logger().info('driver加载失败 %s', e)
         print(e)
 
-
 def send_content(driver, content):
     # driver.implicitly_wait(5)
     # driver.find_element_by_id("chat_img").click()
@@ -40,14 +39,11 @@ def send_content(driver, content):
     # driver.find_element_by_id("com.erlinyou.worldlist:id/submit").click()
     driver.implicitly_wait(5)
     driver.find_element_by_id('chat_img').click()
-    time.sleep(1)
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(5)
+    driver.find_element_by_android_uiautomator('new UiSelector().textContains("zhoujialin")').click()
     adb1 = 'adb shell ime set com.sohu.inputmethod.sogou.xiaomi/.SogouIME'
-    #adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
+    # adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
     os.system(adb1)
-    driver.implicitly_wait(10)
-    driver.find_element_by_android_uiautomator('new UiSelector().textContains("zhoujia")').click()
-    driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.TextView[1]").click()
     driver.find_element_by_id("et_msg").send_keys(content)
     time.sleep(3)
     #os.system(adb3)
@@ -64,22 +60,5 @@ def send_content(driver, content):
     # y2 = int(x * 0.25)  # 终点y坐标
     # time.sleep(3)
     # driver.swipe(x1, y1, x1, y2, t)
-#
-# a = u"""
-# our track, 30th  June situation:
-# boobuz
-#
-# 360:0 - 51 - 258th
-# Baidu:0 - 7 - no
-# Huawei:0 - 39 -40th
-# Mi:0 - 35 - 36th
-# OPPO:0 - 6 - 113th
-# Tencent:0 - 27 - no
-# VIVO:0 - 44 - no
-# WDJ:0 - 10 - no
-#
-# Apple:0 - 35- 169th
-#
-# total download: 254
-# """
+
 
